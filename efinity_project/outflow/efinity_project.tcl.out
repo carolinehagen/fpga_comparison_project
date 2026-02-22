@@ -1,0 +1,2 @@
+INFO     : Reading project database "/home/hagen/school/fpga_comparison_project/efinity_project/efinity_project.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 10 [FlowMsg::MaxThreads]
