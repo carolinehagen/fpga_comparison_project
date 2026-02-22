@@ -1,0 +1,16 @@
+Project Name: libero_project
+Location: /home/hagen/school/fpga_comparison_project/libero_project/libero_project
+Description: 
+Preferred HDL Type: Verilog
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : RT4G150L-FCG1657M
+Family         : RTG4
+Die            : RT4G150L
+Package        : 1657 FCG
+Speed          : STD
+Core Voltage   : 1.2
+Range          : MIL
