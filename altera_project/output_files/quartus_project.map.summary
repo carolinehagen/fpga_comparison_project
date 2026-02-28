@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Sat Feb 28 07:52:31 2026
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : quartus_project
+Top-level Entity Name : up_counter
+Family : MAX 10
+Total logic elements : 12
+    Total combinational functions : 12
+    Dedicated logic registers : 8
+Total registers : 8
+Total pins : 12
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0
