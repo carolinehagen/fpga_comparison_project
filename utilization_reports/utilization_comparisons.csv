@@ -1,0 +1,27 @@
+Down Counter ,LUTs,LUTs (adjusted),FFs,Max Clock Frequency 
+Artix 7,,,,
+Max 10,,,,
+RTG4,,,,
+Efinix ,,,,
+Titanium Ti135,,,,
+,,,,
+Up Counter ,LUTs,LUTs (adjusted),FFs,Max Clock Frequency 
+Artix 7,,,,
+Max 10,,,,
+RTG4,,,,
+Efinix ,,,,
+Titanium Ti135,,,,
+,,,,
+SPI Controller,LUTs,LUTs (adjusted),FFs,Max Clock Frequency 
+Artix 7,,,,
+Max 10,,,,
+RTG4,,,,
+Efinix ,,,,
+Titanium Ti135,,,,
+,,,,
+TMR SPI Controller,LUTs,LUTs (adjusted),FFs,Max Clock Frequency 
+Artix 7,,,,
+Max 10,,,,
+RTG4,,,,
+Efinix ,,,,
+Titanium Ti135,,,,
