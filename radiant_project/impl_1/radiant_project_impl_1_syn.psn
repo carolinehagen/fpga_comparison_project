@@ -1,0 +1,10 @@
+POSTSYN: Post Synthesis Process Radiant Software (64-bit) 2025.2.0.48.0
+Command Line: postsyn -a LFD2NX -p LFD2NX-25 -t CABGA256 -sp 9_High-Performance_1.0V -oc Commercial -top -w -o radiant_project_impl_1_syn.udb -ldc radiant_project_impl_1.ldc -gui -msgset C:/Users/carol/repos/fpga_comparison_project/radiant_project/promote.xml radiant_project_impl_1.vm 
+   Architecture:     LFD2NX
+   Device:           LFD2NX-25
+   Package:          CABGA256
+   Performance:      9_High-Performance_1.0V
+Reading input file 'radiant_project_impl_1.vm' ...
+ERROR - A fatal error occurred. The process will now exit.
+INTERNAL CODE : cm:bascmmodelmgr.c:532:1.0
+For support, contact Lattice Semiconductor technical support at 1-800-LATTICE, or 503-268-8001, or techsupport@latticesemi.com.

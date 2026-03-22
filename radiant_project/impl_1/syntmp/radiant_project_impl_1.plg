@@ -1,0 +1,12 @@
+@P:  Worst Slack : 2.340
+@P:  spi_controller|clk - Estimated Frequency : 375.9 MHz
+@P:  spi_controller|clk - Requested Frequency : 200.0 MHz
+@P:  spi_controller|clk - Estimated Period : 2.660
+@P:  spi_controller|clk - Requested Period : 5.000
+@P:  spi_controller|clk - Slack : 2.340
+@P:  System - Estimated Frequency : 928.5 MHz
+@P:  System - Requested Frequency : 200.0 MHz
+@P:  System - Estimated Period : 1.077
+@P:  System - Requested Period : 5.000
+@P:  System - Slack : 3.923
+@P:  CPU Time : 0h:00m:03s

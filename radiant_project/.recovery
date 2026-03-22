@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RadiantProject version="4.2" radiant="2025.2.0.48.0" title="radiant_project" device="LFD2NX-25-9BG256C" performance_grade="9_High-Performance_1.0V" family_int="jd5s00" device_int="nx5f25" package_int="CABGA256" operation_int="COM" speed_int="12" default_implementation="impl_1">
+    <Options/>
+    <Implementation title="impl_1" dir="impl_1" description="impl_1" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="up_counter" top="spi_controller"/>
+        <Source name="../down_counter.sv" type="Verilog" type_short="Verilog">
+            <Options VerilogStandard="System Verilog"/>
+        </Source>
+        <Source name="../spi_controller.sv" type="Verilog" type_short="Verilog">
+            <Options VerilogStandard="System Verilog" top_module="spi_controller"/>
+        </Source>
+        <Source name="../spi_controller_tmr.sv" type="Verilog" type_short="Verilog">
+            <Options VerilogStandard="System Verilog"/>
+        </Source>
+        <Source name="../up_counter.sv" type="Verilog" type_short="Verilog">
+            <Options VerilogStandard="System Verilog"/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="radiant_project1.sty"/>
+</RadiantProject>

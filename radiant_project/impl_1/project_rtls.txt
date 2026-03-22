@@ -1,0 +1,8 @@
+"C:\lscc\radiant\2025.2\ip\pmi\pmi_lfd2nx1.vhd"
+"C:\lscc\radiant\2025.2\synpbase\lib\lucent\lfd2nx1.v"
+"C:\lscc\radiant\2025.2\synpbase\lib\lucent\pmi_def.v"
+"C:\lscc\radiant\2025.2\ip\pmi\pmi_lfd2nx1.v"
+"C:\Users\carol\repos\fpga_comparison_project\down_counter.sv"
+"C:\Users\carol\repos\fpga_comparison_project\spi_controller.sv"
+"C:\Users\carol\repos\fpga_comparison_project\spi_controller_tmr.sv"
+"C:\Users\carol\repos\fpga_comparison_project\up_counter.sv"

@@ -1,0 +1,18 @@
+@N: CG364 :"C:\Users\carol\repos\fpga_comparison_project\spi_controller.sv":5:7:5:20|Synthesizing module spi_controller in library work.
+Running optimization stage 1 on spi_controller .......
+@A: CL282 :"C:\Users\carol\repos\fpga_comparison_project\spi_controller.sv":74:4:74:12|Feedback mux created for signal rx_data[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+Finished optimization stage 1 on spi_controller (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 195MB)
+Running optimization stage 2 on spi_controller .......
+@N: CL201 :"C:\Users\carol\repos\fpga_comparison_project\spi_controller.sv":74:4:74:12|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+Finished optimization stage 2 on spi_controller (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 196MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: C:\Users\carol\repos\fpga_comparison_project\radiant_project\impl_1\synwork\layer0.duruntime
+
+

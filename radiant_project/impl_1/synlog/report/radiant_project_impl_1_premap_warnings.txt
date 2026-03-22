@@ -1,0 +1,1 @@
+@W: MT530 :"c:\users\carol\repos\fpga_comparison_project\spi_controller.sv":74:4:74:12|Found inferred clock spi_controller|clk which controls 35 sequential elements including state[1]. This clock has no specified timing constraint which may adversely impact design performance. 
