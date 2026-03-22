@@ -1,0 +1,601 @@
+#Build: Synplify Pro (R) W-2025.03M-SP1-1, Build 108R, Nov 18 2025
+#install: /home/hagen/microchip/Libero_SoC_2025.2/Libero_SoC/Synplify_Pro
+#OS: Linux 
+#Hostname: 9YN89W3
+
+# Sun Mar 22 10:56:02 2026
+
+#Implementation: synthesis
+
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: W-2025.03M-SP1-1
+Install: /home/hagen/microchip/Libero_SoC_2025.2/Libero_SoC/Synplify_Pro
+OS: Ubuntu 24.04.4 LTS
+Hostname: 9YN89W3
+max virtual memory: unlimited (bytes)
+max user processes: 125189
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys HDL Compiler, Version comp202503synp2, Build 108R, Built Nov 18 2025 07:05:42, @6340609
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: W-2025.03M-SP1-1
+Install: /home/hagen/microchip/Libero_SoC_2025.2/Libero_SoC/Synplify_Pro
+OS: Ubuntu 24.04.4 LTS
+Hostname: 9YN89W3
+max virtual memory: unlimited (bytes)
+max user processes: 125189
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys Verilog Compiler, Version comp202503synp2, Build 108R, Built Nov 18 2025 07:05:42, @6340609
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@I::"/home/hagen/microchip/Libero_SoC_2025.2/Libero_SoC/Synplify_Pro/lib/generic/rtg4.v" (library work)
+@I::"/home/hagen/microchip/Libero_SoC_2025.2/Libero_SoC/Synplify_Pro/lib/vlog/hypermods.v" (library __hyper__lib__)
+@I::"/home/hagen/school/fpga_comparison_project/libero_project/libero_project/component/syn_comps.v" (library work)
+@W: CG100 :"/home/hagen/school/fpga_comparison_project/libero_project/libero_project/component/syn_comps.v":4:13:4:25|User defined pragma syn_black_box detected
+
+@I::"/home/hagen/school/fpga_comparison_project/libero_project/libero_project/hdl/up_counter.sv" (library work)
+@N|stack limit increased to max
+Verilog syntax check successful!
+Selecting top level module up_counter
+@N: CG364 :"/home/hagen/school/fpga_comparison_project/libero_project/libero_project/hdl/up_counter.sv":1:7:1:16|Synthesizing module up_counter in library work.
+Running optimization stage 1 on up_counter .......
+Finished optimization stage 1 on up_counter (CPU Time 0h:00m:00s, Memory Used current: 243MB peak: 244MB)
+Running optimization stage 2 on up_counter .......
+Finished optimization stage 2 on up_counter (CPU Time 0h:00m:00s, Memory Used current: 244MB peak: 244MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: /home/hagen/school/fpga_comparison_project/libero_project/libero_project/synthesis/synwork/layer0.duruntime
+
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 244MB peak: 244MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Mar 22 10:56:02 2026
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: W-2025.03M-SP1-1
+Install: /home/hagen/microchip/Libero_SoC_2025.2/Libero_SoC/Synplify_Pro
+OS: Ubuntu 24.04.4 LTS
+Hostname: 9YN89W3
+max virtual memory: unlimited (bytes)
+max user processes: 125189
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202503synp2, Build 108R, Built Nov 18 2025 07:05:42, @6340609
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 255MB peak: 255MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Mar 22 10:56:02 2026
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: /home/hagen/school/fpga_comparison_project/libero_project/libero_project/synthesis/synwork/up_counter_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 97MB peak: 97MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Mar 22 10:56:02 2026
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: W-2025.03M-SP1-1
+Install: /home/hagen/microchip/Libero_SoC_2025.2/Libero_SoC/Synplify_Pro
+OS: Ubuntu 24.04.4 LTS
+Hostname: 9YN89W3
+max virtual memory: unlimited (bytes)
+max user processes: 125189
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202503synp2, Build 108R, Built Nov 18 2025 07:05:42, @6340609
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 255MB peak: 256MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Mar 22 10:56:03 2026
+
+###########################################################]
+Premap Report
+
+# Sun Mar 22 10:56:04 2026
+
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: W-2025.03M-SP1-1
+Install: /home/hagen/microchip/Libero_SoC_2025.2/Libero_SoC/Synplify_Pro
+OS: Ubuntu 24.04.4 LTS
+Hostname: 9YN89W3
+max virtual memory: unlimited (bytes)
+max user processes: 125189
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys Microchip Technology Pre-mapping, Version map202503actsp1, Build 108R, Built Nov 18 2025 07:06:56, @6340609
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 344MB peak: 344MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 359MB peak: 360MB)
+
+Reading constraint file: /home/hagen/school/fpga_comparison_project/libero_project/libero_project/designer/up_counter/synthesis.fdc
+@L: /home/hagen/school/fpga_comparison_project/libero_project/libero_project/synthesis/up_counter_scck.rpt 
+See clock summary report "/home/hagen/school/fpga_comparison_project/libero_project/libero_project/synthesis/up_counter_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 368MB peak: 369MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 368MB peak: 369MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 368MB peak: 369MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 368MB peak: 369MB)
+
+NConnInternalConnection caching is on
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 430MB peak: 430MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 430MB peak: 430MB)
+
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 430MB peak: 430MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 430MB peak: 430MB)
+
+@N: FX1184 |Applying syn_allowed_resources blockrams=209 on top level netlist up_counter 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 430MB peak: 430MB)
+
+
+
+Clock Summary
+******************
+
+          Start              Requested     Requested     Clock        Clock                                          Clock
+Level     Clock              Frequency     Period        Type         Group                                          Load 
+--------------------------------------------------------------------------------------------------------------------------
+0 -       up_counter|clk     100.0 MHz     10.000        inferred     Inferred_clkgroup_0, Inferred_clkgroup_0_1     8    
+==========================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                   Clock     Source        Clock Pin        Non-clock Pin     Non-clock Pin
+Clock              Load      Pin           Seq Example      Seq Example       Comb Example 
+-------------------------------------------------------------------------------------------
+up_counter|clk     8         clk(port)     count[7:0].C     -                 -            
+===========================================================================================
+
+@W: MT530 :"/home/hagen/school/fpga_comparison_project/libero_project/libero_project/hdl/up_counter.sv":13:4:13:12|Found inferred clock up_counter|clk which controls 8 sequential elements including count[7:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file /home/hagen/school/fpga_comparison_project/libero_project/libero_project/synthesis/up_counter.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 430MB peak: 430MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 430MB peak: 430MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 430MB peak: 430MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 341MB peak: 430MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Mar 22 10:56:04 2026
+
+###########################################################]
+Map & Optimize Report
+
+# Sun Mar 22 10:56:04 2026
+
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: W-2025.03M-SP1-1
+Install: /home/hagen/microchip/Libero_SoC_2025.2/Libero_SoC/Synplify_Pro
+OS: Ubuntu 24.04.4 LTS
+Hostname: 9YN89W3
+max virtual memory: unlimited (bytes)
+max user processes: 125189
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202503actsp1, Build 108R, Built Nov 18 2025 07:06:56, @6340609
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 344MB peak: 344MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 359MB peak: 360MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 359MB peak: 360MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 359MB peak: 360MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 368MB peak: 368MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 428MB peak: 428MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 429MB peak: 429MB)
+
+
+Starting area decomp  (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 429MB peak: 429MB)
+
+@N: MO231 :"/home/hagen/school/fpga_comparison_project/libero_project/libero_project/hdl/up_counter.sv":13:4:13:12|Found counter in view:work.up_counter(verilog) instance count[7:0] 
+
+Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
+
+Finished area decomp  (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 429MB peak: 429MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 429MB peak: 429MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 429MB peak: 429MB)
+
+NConnInternalConnection caching is on
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 429MB peak: 429MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 429MB peak: 429MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 429MB peak: 429MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 429MB peak: 429MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 429MB peak: 429MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 429MB peak: 429MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		     7.49ns		  13 /         8
+@N: FP130 |Promoting Net clk_c on CLKINT  I_1 
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 429MB peak: 429MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 429MB peak: 429MB)
+
+
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 429MB peak: 429MB)
+
+
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 429MB peak: 429MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 429MB peak: 429MB)
+
+Writing Analyst data base /home/hagen/school/fpga_comparison_project/libero_project/libero_project/synthesis/synwork/up_counter_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 429MB peak: 429MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 429MB peak: 429MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 429MB peak: 429MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 429MB peak: 429MB)
+
+@W: MT420 |Found inferred clock up_counter|clk with period 10.00ns. Please declare a user-defined clock on port clk.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Sun Mar 22 10:56:06 2026
+#
+
+
+Top view:               up_counter
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    /home/hagen/school/fpga_comparison_project/libero_project/libero_project/designer/up_counter/synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 6.330
+
+                   Requested     Estimated     Requested     Estimated               Clock        Clock                                     
+Starting Clock     Frequency     Frequency     Period        Period        Slack     Type         Group                                     
+--------------------------------------------------------------------------------------------------------------------------------------------
+up_counter|clk     100.0 MHz     272.5 MHz     10.000        3.670         6.330     inferred     Inferred_clkgroup_0, Inferred_clkgroup_0_1
+============================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                          |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------
+Starting        Ending          |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------
+up_counter|clk  up_counter|clk  |  10.000      6.330  |  No paths    -      |  No paths    -      |  No paths    -    
+======================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: up_counter|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+             Starting                                           Arrival          
+Instance     Reference          Type     Pin     Net            Time        Slack
+             Clock                                                               
+---------------------------------------------------------------------------------
+count[0]     up_counter|clk     SLE      Q       count_c[0]     0.207       6.330
+count[1]     up_counter|clk     SLE      Q       count_c[1]     0.207       6.346
+count[2]     up_counter|clk     SLE      Q       count_c[2]     0.207       6.363
+count[3]     up_counter|clk     SLE      Q       count_c[3]     0.207       6.379
+count[4]     up_counter|clk     SLE      Q       count_c[4]     0.207       6.395
+count[5]     up_counter|clk     SLE      Q       count_c[5]     0.207       6.412
+count[6]     up_counter|clk     SLE      Q       count_c[6]     0.207       6.428
+count[7]     up_counter|clk     SLE      Q       count_c[7]     0.207       7.032
+=================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+             Starting                                           Required          
+Instance     Reference          Type     Pin     Net            Time         Slack
+             Clock                                                                
+----------------------------------------------------------------------------------
+count[7]     up_counter|clk     SLE      D       count_s[7]     8.686        6.330
+count[6]     up_counter|clk     SLE      D       count_s[6]     8.686        6.346
+count[5]     up_counter|clk     SLE      D       count_s[5]     8.686        6.363
+count[4]     up_counter|clk     SLE      D       count_s[4]     8.686        6.379
+count[3]     up_counter|clk     SLE      D       count_s[3]     8.686        6.395
+count[2]     up_counter|clk     SLE      D       count_s[2]     8.686        6.412
+count[1]     up_counter|clk     SLE      D       count_s[1]     8.686        6.428
+count[0]     up_counter|clk     SLE      D       count_s[0]     8.686        7.032
+==================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            1.314
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         8.686
+
+    - Propagation time:                      2.356
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     6.330
+
+    Number of logic level(s):                8
+    Starting point:                          count[0] / Q
+    Ending point:                            count[7] / D
+    The start point is clocked by            up_counter|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            up_counter|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net              Pin      Pin               Arrival     No. of    
+Name               Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------
+count[0]           SLE      Q        Out     0.207     0.207 f     -         
+count_c[0]         Net      -        -       0.792     -           3         
+count_cry[0]       ARI1     B        In      -         1.000 f     -         
+count_cry[0]       ARI1     FCO      Out     0.608     1.608 f     -         
+count_cry[0]       Net      -        -       0.000     -           1         
+count_cry[1]       ARI1     FCI      In      -         1.608 f     -         
+count_cry[1]       ARI1     FCO      Out     0.016     1.624 f     -         
+count_cry[1]       Net      -        -       0.000     -           1         
+count_cry[2]       ARI1     FCI      In      -         1.624 f     -         
+count_cry[2]       ARI1     FCO      Out     0.016     1.641 f     -         
+count_cry[2]       Net      -        -       0.000     -           1         
+count_cry[3]       ARI1     FCI      In      -         1.641 f     -         
+count_cry[3]       ARI1     FCO      Out     0.016     1.657 f     -         
+count_cry[3]       Net      -        -       0.000     -           1         
+count_cry[4]       ARI1     FCI      In      -         1.657 f     -         
+count_cry[4]       ARI1     FCO      Out     0.016     1.673 f     -         
+count_cry[4]       Net      -        -       0.000     -           1         
+count_cry[5]       ARI1     FCI      In      -         1.673 f     -         
+count_cry[5]       ARI1     FCO      Out     0.016     1.690 f     -         
+count_cry[5]       Net      -        -       0.000     -           1         
+count_cry[6]       ARI1     FCI      In      -         1.690 f     -         
+count_cry[6]       ARI1     FCO      Out     0.016     1.706 f     -         
+count_cry[6]       Net      -        -       0.000     -           1         
+count_s[7]         ARI1     FCI      In      -         1.706 f     -         
+count_s[7]         ARI1     S        Out     0.562     2.268 f     -         
+count_s[7]         Net      -        -       0.088     -           1         
+count[7]           SLE      D        In      -         2.356 f     -         
+=============================================================================
+Total path delay (propagation time + setup) of 3.670 is 2.790(76.0%) logic and 0.880(24.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 429MB peak: 429MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 429MB peak: 429MB)
+
+---------------------------------------
+Resource Usage Report for up_counter 
+
+Mapping to part: rt4g150cg1657std
+Cell usage:
+CLKINT          1 use
+CFG2           2 uses
+CFG4           2 uses
+
+Carry cells:
+ARI1            9 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            8 uses
+
+DSP Blocks:    0 of 462 (0%)
+
+I/O ports: 12
+I/O primitives: 12
+INBUF          3 uses
+OUTBUF         9 uses
+
+
+Global Clock Buffers: 1
+
+Total LUTs:    13
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18_RT Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18_RT  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  8 + 0 + 0 + 0 = 8;
+Total number of LUTs after P&R:  13 + 0 + 0 + 0 = 13;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 341MB peak: 429MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Mar 22 10:56:06 2026
+
+###########################################################]

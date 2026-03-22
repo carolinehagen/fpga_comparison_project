@@ -1,0 +1,36 @@
+Resource Usage Report for down_counter 
+
+Mapping to part: rt4g150cg1657std
+Cell usage:
+CLKINT          1 use
+CFG2           2 uses
+CFG4           2 uses
+
+Carry cells:
+ARI1            9 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            8 uses
+
+DSP Blocks:    0 of 462 (0%)
+
+I/O ports: 12
+I/O primitives: 12
+INBUF          3 uses
+OUTBUF         9 uses
+
+
+Global Clock Buffers: 1
+
+Total LUTs:    13
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18_RT Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18_RT  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  8 + 0 + 0 + 0 = 8;
+Total number of LUTs after P&R:  13 + 0 + 0 + 0 = 13;
+

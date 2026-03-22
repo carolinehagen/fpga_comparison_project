@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>spi_controller_tmr</design>
+	<target_verilog>/home/hagen/school/fpga_comparison_project/libero_project/libero_project/synthesis/spi_controller_tmr.vm</target_verilog>
+</SynplifyOutput>

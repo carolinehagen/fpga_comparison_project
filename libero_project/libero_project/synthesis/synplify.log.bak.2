@@ -1,0 +1,109 @@
+Option definition override for: enable_hydra_infer_clocks_from_latch_data
+
+                               Synplify Pro (R) 
+
+              Version W-2025.03M-SP1-1 for linux64 - Nov 18, 2025 
+
+                    Copyright (c) 1988 - 2025 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Starting:    /home/hagen/microchip/Libero_SoC_2025.2/Libero_SoC/Synplify_Pro/linux_a_64/mbin/synbatch
+Install:     /home/hagen/microchip/Libero_SoC_2025.2/Libero_SoC/Synplify_Pro
+Hostname:    9YN89W3
+Date:        Sun Mar 22 10:56:02 2026
+Version:     W-2025.03M-SP1-1
+
+Arguments:   -product synplify_base -licensetype synplifypro_actel -batch -log synplify.log up_counter_syn.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel from server corp-flexnet-00 
+Licensed Vendor: actel
+License Option: actel_oem
+
+Running in Vendor Mode
+
+
+
+
+"automatic_compile_point" is unrecognized option for current device
+Implementation not found: synthesis
+log file: "/home/hagen/school/fpga_comparison_project/libero_project/libero_project/synthesis/up_counter.srr"
+Running: synthesis in foreground
+
+Running up_counter_syn|synthesis
+
+Running Flow: compile (Compile) on up_counter_syn|synthesis
+# Sun Mar 22 10:56:02 2026
+
+Running Flow: compile_flow (Compile Process) on up_counter_syn|synthesis
+# Sun Mar 22 10:56:02 2026
+
+Running: compiler (Compile Input) on up_counter_syn|synthesis
+# Sun Mar 22 10:56:02 2026
+Process ID: 70789
+Copied /home/hagen/school/fpga_comparison_project/libero_project/libero_project/synthesis/synwork/up_counter_comp.srs to /home/hagen/school/fpga_comparison_project/libero_project/libero_project/synthesis/up_counter.srs
+
+compiler completed
+# Sun Mar 22 10:56:03 2026
+
+Return Code: 0
+Run Time:00h:00m:00s
+
+Running: multi_srs_gen (Multi-srs Generator) on up_counter_syn|synthesis
+# Sun Mar 22 10:56:03 2026
+Process ID: 70838
+
+multi_srs_gen completed
+# Sun Mar 22 10:56:04 2026
+
+Return Code: 0
+Run Time:00h:00m:01s
+Copied /home/hagen/school/fpga_comparison_project/libero_project/libero_project/synthesis/synwork/up_counter_mult.srs to /home/hagen/school/fpga_comparison_project/libero_project/libero_project/synthesis/up_counter.srs
+Complete: Compile Process on up_counter_syn|synthesis
+
+Running: premap (Premap) on up_counter_syn|synthesis
+# Sun Mar 22 10:56:04 2026
+Process ID: 70854
+
+premap completed with warnings
+# Sun Mar 22 10:56:04 2026
+
+Return Code: 1
+Run Time:00h:00m:00s
+Complete: Compile on up_counter_syn|synthesis
+
+Running Flow: map (Map) on up_counter_syn|synthesis
+# Sun Mar 22 10:56:04 2026
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on up_counter_syn|synthesis
+# Sun Mar 22 10:56:04 2026
+Process ID: 70869
+Copied /home/hagen/school/fpga_comparison_project/libero_project/libero_project/synthesis/synwork/up_counter_m.srm to /home/hagen/school/fpga_comparison_project/libero_project/libero_project/synthesis/up_counter.srm
+
+fpga_mapper completed with warnings
+# Sun Mar 22 10:56:06 2026
+
+Return Code: 1
+Run Time:00h:00m:02s
+Complete: Map on up_counter_syn|synthesis
+Complete: Logic Synthesis on up_counter_syn|synthesis
+Copied /home/hagen/school/fpga_comparison_project/libero_project/libero_project/synthesis/up_counter.srr to /home/hagen/school/fpga_comparison_project/libero_project/libero_project/synthesis/backup/up_counter.srr
+TCL script complete: "up_counter_syn.tcl"
+exit status=0
+exit status=0
+License checkin: synplifypro_actel

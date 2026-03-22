@@ -1,0 +1,11 @@
+@P:  Worst Slack : 4.994
+@P:  spi_controller|clk - Estimated Frequency : 199.8 MHz
+@P:  spi_controller|clk - Requested Frequency : 100.0 MHz
+@P:  spi_controller|clk - Estimated Period : 5.006
+@P:  spi_controller|clk - Requested Period : 10.000
+@P:  spi_controller|clk - Slack : 4.994
+@P: spi_controller Part : rt4g150cg1657std
+@P: spi_controller Register bits  : 38 
+@P: spi_controller DSP Blocks  : 0
+@P: spi_controller I/O primitives : 25
+@P:  CPU Time : 0h:00m:01s

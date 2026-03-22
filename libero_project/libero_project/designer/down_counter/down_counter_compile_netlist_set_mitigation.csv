@@ -1,0 +1,21 @@
+SET Mitigation Report
+Microchip Technology Inc. - Microchip Libero Software Release 2025.2 (Version 2025.2.0.14)
+"Date: Sun Mar 22 11:01:33 2026
+"
+"TopCell: down_counter
+"
+Device Selection
+
+Family,RTG4
+Device,RT4G150L
+Package,1657 FCG
+SET Mitigation Instances
+Mitigated,Name
+No,count_Z[0]
+No,count_Z[1]
+No,count_Z[2]
+No,count_Z[3]
+No,count_Z[4]
+No,count_Z[5]
+No,count_Z[6]
+No,count_Z[7]

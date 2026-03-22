@@ -1,0 +1,335 @@
+# Sun Mar 22 11:13:14 2026
+
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: W-2025.03M-SP1-1
+Install: /home/hagen/microchip/Libero_SoC_2025.2/Libero_SoC/Synplify_Pro
+OS: Ubuntu 24.04.4 LTS
+Hostname: 9YN89W3
+max virtual memory: unlimited (bytes)
+max user processes: 125189
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202503actsp1, Build 108R, Built Nov 18 2025 07:06:56, @6340609
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 344MB peak: 344MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 359MB peak: 360MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 359MB peak: 360MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 359MB peak: 360MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 368MB peak: 368MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 429MB peak: 429MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 430MB peak: 430MB)
+
+
+Starting area decomp  (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 430MB peak: 430MB)
+
+Encoding state machine shift_reg_rx_0[5:0] (in view: work.spi_controller_8s_4s_0_0(verilog))
+original code -> new code
+   000 -> 000001
+   001 -> 000010
+   010 -> 000100
+   011 -> 001000
+   100 -> 010000
+   101 -> 100000
+
+Finished area decomp  (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 430MB peak: 430MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 430MB peak: 430MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 430MB peak: 430MB)
+
+NConnInternalConnection caching is on
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 430MB peak: 430MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 430MB peak: 430MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 430MB peak: 430MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 430MB peak: 430MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 430MB peak: 430MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 430MB peak: 430MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		     4.75ns		  40 /        38
+@N: FP130 |Promoting Net clk_c on CLKINT  I_14 
+@N: FP130 |Promoting Net rst_n_arst on CLKINT  I_15 
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 430MB peak: 430MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 430MB peak: 430MB)
+
+
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 431MB peak: 431MB)
+
+
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 431MB peak: 431MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 431MB peak: 431MB)
+
+Writing Analyst data base /home/hagen/school/fpga_comparison_project/libero_project/libero_project/synthesis/synwork/spi_controller_tmr_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 431MB peak: 431MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 431MB peak: 431MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 431MB peak: 431MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 431MB peak: 431MB)
+
+@W: MT420 |Found inferred clock spi_controller_tmr|clk with period 10.00ns. Please declare a user-defined clock on port clk.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Sun Mar 22 11:13:15 2026
+#
+
+
+Top view:               spi_controller_tmr
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    /home/hagen/school/fpga_comparison_project/libero_project/libero_project/designer/spi_controller_tmr/synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 4.994
+
+                           Requested     Estimated     Requested     Estimated               Clock        Clock                                     
+Starting Clock             Frequency     Frequency     Period        Period        Slack     Type         Group                                     
+----------------------------------------------------------------------------------------------------------------------------------------------------
+spi_controller_tmr|clk     100.0 MHz     199.8 MHz     10.000        5.006         4.994     inferred     Inferred_clkgroup_0, Inferred_clkgroup_0_1
+====================================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                          |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------------------------------------
+Starting                Ending                  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------------------------------------
+spi_controller_tmr|clk  spi_controller_tmr|clk  |  10.000      4.994  |  No paths    -      |  No paths    -      |  No paths    -    
+======================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: spi_controller_tmr|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                            Starting                                                          Arrival          
+Instance                                    Reference                  Type     Pin     Net                   Time        Slack
+                                            Clock                                                                              
+-------------------------------------------------------------------------------------------------------------------------------
+gen_cores\[0\]\.u_spi.clk_cnt[0]            spi_controller_tmr|clk     SLE      Q       CO0_0                 0.202       4.994
+gen_cores\[0\]\.u_spi.shift_reg_rx_0[3]     spi_controller_tmr|clk     SLE      Q       shift_reg_rx_0[3]     0.202       5.136
+gen_cores\[0\]\.u_spi.clk_cnt[1]            spi_controller_tmr|clk     SLE      Q       clk_cnt[1]            0.202       5.162
+gen_cores\[0\]\.u_spi.sclk_r                spi_controller_tmr|clk     SLE      Q       sclk_c                0.202       5.291
+gen_cores\[0\]\.u_spi.shift_reg_rx_0[2]     spi_controller_tmr|clk     SLE      Q       shift_reg_rx_0[2]     0.202       5.508
+gen_cores\[0\]\.u_spi.bit_cnt[2]            spi_controller_tmr|clk     SLE      Q       bit_cnt[2]            0.207       5.817
+gen_cores\[0\]\.u_spi.bit_cnt[1]            spi_controller_tmr|clk     SLE      Q       bit_cnt[1]            0.207       5.828
+gen_cores\[0\]\.u_spi.bit_cnt[0]            spi_controller_tmr|clk     SLE      Q       bit_cnt[0]            0.207       6.145
+gen_cores\[0\]\.u_spi.shift_reg_rx_0[0]     spi_controller_tmr|clk     SLE      Q       shift_reg_rx_0[0]     0.207       6.179
+gen_cores\[0\]\.u_spi.shift_reg_rx_0[1]     spi_controller_tmr|clk     SLE      Q       shift_reg_rx_0[1]     0.207       6.189
+===============================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                            Starting                                                             Required          
+Instance                                    Reference                  Type     Pin     Net                      Time         Slack
+                                            Clock                                                                                  
+-----------------------------------------------------------------------------------------------------------------------------------
+gen_cores\[0\]\.u_spi.bit_cnt[1]            spi_controller_tmr|clk     SLE      D       bit_cnt_5[1]             8.686        4.994
+gen_cores\[0\]\.u_spi.bit_cnt[2]            spi_controller_tmr|clk     SLE      D       bit_cnt_5[2]             8.686        4.994
+gen_cores\[0\]\.u_spi.shift_reg_rx_0[4]     spi_controller_tmr|clk     SLE      D       shift_reg_rx_0_ns[4]     8.686        5.130
+gen_cores\[0\]\.u_spi.shift_reg_rx_0[5]     spi_controller_tmr|clk     SLE      D       shift_reg_rx_0_ns[5]     8.686        5.130
+gen_cores\[0\]\.u_spi.bit_cnt[0]            spi_controller_tmr|clk     SLE      D       bit_cnt_5[0]             8.686        5.265
+gen_cores\[0\]\.u_spi.shift_reg_rx_0[2]     spi_controller_tmr|clk     SLE      D       N_75_i                   8.686        5.520
+gen_cores\[0\]\.u_spi.shift_reg_rx_0[3]     spi_controller_tmr|clk     SLE      D       N_77_i                   8.686        5.520
+gen_cores\[0\]\.u_spi.shift_reg_rx_1[0]     spi_controller_tmr|clk     SLE      EN      N_96_i                   8.896        5.574
+gen_cores\[0\]\.u_spi.shift_reg_rx_2[0]     spi_controller_tmr|clk     SLE      EN      N_96_i                   8.896        5.574
+gen_cores\[0\]\.u_spi.shift_reg_rx_3[0]     spi_controller_tmr|clk     SLE      EN      N_96_i                   8.896        5.574
+===================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            1.314
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         8.686
+
+    - Propagation time:                      3.692
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     4.994
+
+    Number of logic level(s):                3
+    Starting point:                          gen_cores\[0\]\.u_spi.clk_cnt[0] / Q
+    Ending point:                            gen_cores\[0\]\.u_spi.bit_cnt[1] / D
+    The start point is clocked by            spi_controller_tmr|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            spi_controller_tmr|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                                     Pin      Pin               Arrival     No. of    
+Name                                                      Type     Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------
+gen_cores\[0\]\.u_spi.clk_cnt[0]                          SLE      Q        Out     0.202     0.202 r     -         
+CO0_0                                                     Net      -        -       0.889     -           7         
+gen_cores\[0\]\.u_spi.shift_reg_rx_0_sqmuxa_i_o2_0_o3     CFG3     C        In      -         1.091 r     -         
+gen_cores\[0\]\.u_spi.shift_reg_rx_0_sqmuxa_i_o2_0_o3     CFG3     Y        Out     0.310     1.401 f     -         
+N_50                                                      Net      -        -       0.857     -           6         
+gen_cores\[0\]\.u_spi.bit_cnt_5_0_o3[1]                   CFG3     A        In      -         2.258 f     -         
+gen_cores\[0\]\.u_spi.bit_cnt_5_0_o3[1]                   CFG3     Y        Out     0.093     2.351 f     -         
+N_52                                                      Net      -        -       0.809     -           5         
+gen_cores\[0\]\.u_spi.bit_cnt_5_0[1]                      CFG4     D        In      -         3.160 f     -         
+gen_cores\[0\]\.u_spi.bit_cnt_5_0[1]                      CFG4     Y        Out     0.443     3.603 f     -         
+bit_cnt_5[1]                                              Net      -        -       0.088     -           1         
+gen_cores\[0\]\.u_spi.bit_cnt[1]                          SLE      D        In      -         3.692 f     -         
+====================================================================================================================
+Total path delay (propagation time + setup) of 5.006 is 2.363(47.2%) logic and 2.642(52.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 431MB peak: 431MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 431MB peak: 431MB)
+
+---------------------------------------
+Resource Usage Report for spi_controller_tmr 
+
+Mapping to part: rt4g150cg1657std
+Cell usage:
+CLKINT          2 uses
+CFG2           8 uses
+CFG3           14 uses
+CFG4           12 uses
+
+Carry cells:
+ARI1            0 uses - used for arithmetic functions
+ARI1            5 uses - used for Wide-Mux implementation
+Total ARI1      5 uses
+
+
+Sequential Cells: 
+SLE            38 uses
+
+DSP Blocks:    0 of 462 (0%)
+
+I/O ports: 28
+I/O primitives: 28
+INBUF          12 uses
+OUTBUF         16 uses
+
+
+Global Clock Buffers: 2
+
+Total LUTs:    39
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18_RT Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18_RT  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  38 + 0 + 0 + 0 = 38;
+Total number of LUTs after P&R:  39 + 0 + 0 + 0 = 39;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 342MB peak: 431MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Mar 22 11:13:15 2026
+
+###########################################################]

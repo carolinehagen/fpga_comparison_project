@@ -1,0 +1,116 @@
+# Sun Mar 22 11:05:54 2026
+
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: W-2025.03M-SP1-1
+Install: /home/hagen/microchip/Libero_SoC_2025.2/Libero_SoC/Synplify_Pro
+OS: Ubuntu 24.04.4 LTS
+Hostname: 9YN89W3
+max virtual memory: unlimited (bytes)
+max user processes: 125189
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys Microchip Technology Pre-mapping, Version map202503actsp1, Build 108R, Built Nov 18 2025 07:06:56, @6340609
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 344MB peak: 344MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 359MB peak: 360MB)
+
+Reading constraint file: /home/hagen/school/fpga_comparison_project/libero_project/libero_project/designer/spi_controller/synthesis.fdc
+@L: /home/hagen/school/fpga_comparison_project/libero_project/libero_project/synthesis/spi_controller_scck.rpt 
+See clock summary report "/home/hagen/school/fpga_comparison_project/libero_project/libero_project/synthesis/spi_controller_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 368MB peak: 369MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 368MB peak: 369MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 368MB peak: 369MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 368MB peak: 369MB)
+
+NConnInternalConnection caching is on
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 430MB peak: 430MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 430MB peak: 430MB)
+
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 430MB peak: 430MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 430MB peak: 430MB)
+
+@N: FX1184 |Applying syn_allowed_resources blockrams=209 on top level netlist spi_controller 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 430MB peak: 430MB)
+
+
+
+Clock Summary
+******************
+
+          Start                  Requested     Requested     Clock        Clock                                          Clock
+Level     Clock                  Frequency     Period        Type         Group                                          Load 
+------------------------------------------------------------------------------------------------------------------------------
+0 -       spi_controller|clk     100.0 MHz     10.000        inferred     Inferred_clkgroup_0, Inferred_clkgroup_0_1     38   
+==============================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                       Clock     Source        Clock Pin       Non-clock Pin     Non-clock Pin
+Clock                  Load      Pin           Seq Example     Seq Example       Comb Example 
+----------------------------------------------------------------------------------------------
+spi_controller|clk     38        clk(port)     done.C          -                 -            
+==============================================================================================
+
+@W: MT530 :"/home/hagen/school/fpga_comparison_project/libero_project/libero_project/hdl/spi_controller.sv":74:4:74:12|Found inferred clock spi_controller|clk which controls 38 sequential elements including shift_reg_rx_0[5:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file /home/hagen/school/fpga_comparison_project/libero_project/libero_project/synthesis/spi_controller.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 430MB peak: 430MB)
+
+Encoding state machine shift_reg_rx_0[5:0] (in view: work.spi_controller(verilog))
+original code -> new code
+   000 -> 000001
+   001 -> 000010
+   010 -> 000100
+   011 -> 001000
+   100 -> 010000
+   101 -> 100000
+
+Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 430MB peak: 430MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 431MB peak: 431MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 342MB peak: 431MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Mar 22 11:05:54 2026
+
+###########################################################]

@@ -1,0 +1,2 @@
+@W: CG100 :"/home/hagen/school/fpga_comparison_project/libero_project/libero_project/component/syn_comps.v":4:13:4:25|User defined pragma syn_black_box detected
+

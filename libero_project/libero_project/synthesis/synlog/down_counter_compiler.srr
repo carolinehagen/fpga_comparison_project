@@ -1,0 +1,118 @@
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: W-2025.03M-SP1-1
+Install: /home/hagen/microchip/Libero_SoC_2025.2/Libero_SoC/Synplify_Pro
+OS: Ubuntu 24.04.4 LTS
+Hostname: 9YN89W3
+max virtual memory: unlimited (bytes)
+max user processes: 125189
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys HDL Compiler, Version comp202503synp2, Build 108R, Built Nov 18 2025 07:05:42, @6340609
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: W-2025.03M-SP1-1
+Install: /home/hagen/microchip/Libero_SoC_2025.2/Libero_SoC/Synplify_Pro
+OS: Ubuntu 24.04.4 LTS
+Hostname: 9YN89W3
+max virtual memory: unlimited (bytes)
+max user processes: 125189
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys Verilog Compiler, Version comp202503synp2, Build 108R, Built Nov 18 2025 07:05:42, @6340609
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@I::"/home/hagen/microchip/Libero_SoC_2025.2/Libero_SoC/Synplify_Pro/lib/generic/rtg4.v" (library work)
+@I::"/home/hagen/microchip/Libero_SoC_2025.2/Libero_SoC/Synplify_Pro/lib/vlog/hypermods.v" (library __hyper__lib__)
+@I::"/home/hagen/school/fpga_comparison_project/libero_project/libero_project/component/syn_comps.v" (library work)
+@W: CG100 :"/home/hagen/school/fpga_comparison_project/libero_project/libero_project/component/syn_comps.v":4:13:4:25|User defined pragma syn_black_box detected
+
+@I::"/home/hagen/school/fpga_comparison_project/libero_project/libero_project/hdl/down_counter.sv" (library work)
+@N|stack limit increased to max
+Verilog syntax check successful!
+Options changed - recompiling
+Selecting top level module down_counter
+@N: CG364 :"/home/hagen/school/fpga_comparison_project/libero_project/libero_project/hdl/down_counter.sv":1:7:1:18|Synthesizing module down_counter in library work.
+Running optimization stage 1 on down_counter .......
+Finished optimization stage 1 on down_counter (CPU Time 0h:00m:00s, Memory Used current: 243MB peak: 244MB)
+Running optimization stage 2 on down_counter .......
+Finished optimization stage 2 on down_counter (CPU Time 0h:00m:00s, Memory Used current: 244MB peak: 244MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: /home/hagen/school/fpga_comparison_project/libero_project/libero_project/synthesis/synwork/layer0.duruntime
+
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 244MB peak: 244MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Mar 22 11:01:27 2026
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: W-2025.03M-SP1-1
+Install: /home/hagen/microchip/Libero_SoC_2025.2/Libero_SoC/Synplify_Pro
+OS: Ubuntu 24.04.4 LTS
+Hostname: 9YN89W3
+max virtual memory: unlimited (bytes)
+max user processes: 125189
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202503synp2, Build 108R, Built Nov 18 2025 07:05:42, @6340609
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 255MB peak: 255MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Mar 22 11:01:27 2026
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: /home/hagen/school/fpga_comparison_project/libero_project/libero_project/synthesis/synwork/down_counter_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 97MB peak: 97MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Mar 22 11:01:27 2026
+
+###########################################################]

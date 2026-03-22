@@ -1,0 +1,369 @@
+//
+// Written by Synplify Pro 
+// Product Version "W-2025.03M-SP1-1"
+// Program "Synplify Pro", Mapper "map202503actsp1, Build 108R"
+// Sun Mar 22 11:01:30 2026
+//
+// Source file index table:
+// Object locations will have the form <file>:<line>
+// file 0 "\/home/hagen/microchip/Libero_SoC_2025.2/Libero_SoC/Synplify_Pro/lib/generic/rtg4.v "
+// file 1 "\/home/hagen/microchip/Libero_SoC_2025.2/Libero_SoC/Synplify_Pro/lib/vlog/hypermods.v "
+// file 2 "\/home/hagen/microchip/Libero_SoC_2025.2/Libero_SoC/Synplify_Pro/lib/vlog/umr_capim.v "
+// file 3 "\/home/hagen/microchip/Libero_SoC_2025.2/Libero_SoC/Synplify_Pro/lib/vlog/scemi_objects.v "
+// file 4 "\/home/hagen/microchip/Libero_SoC_2025.2/Libero_SoC/Synplify_Pro/lib/vlog/scemi_pipes.svh "
+// file 5 "\/home/hagen/school/fpga_comparison_project/libero_project/libero_project/component/syn_comps.v "
+// file 6 "\/home/hagen/school/fpga_comparison_project/libero_project/libero_project/hdl/down_counter.sv "
+// file 7 "\/home/hagen/microchip/Libero_SoC_2025.2/Libero_SoC/Synplify_Pro/lib/nlconst.dat "
+// file 8 "\/home/hagen/school/fpga_comparison_project/libero_project/libero_project/designer/down_counter/synthesis.fdc "
+
+`timescale 100 ps/100 ps
+module down_counter (
+  clk,
+  rst,
+  en,
+  count,
+  count_up
+)
+;
+
+/*  Synopsys
+.origName=down_counter
+.langParams="WIDTH"
+WIDTH=8
+ */
+input clk ;
+input rst ;
+input en ;
+output [7:0] count ;
+output count_up ;
+wire clk ;
+wire rst ;
+wire en ;
+wire count_up ;
+wire [7:0] count_c;
+wire [6:0] count_cry_Z;
+wire [6:0] count_s;
+wire [7:7] count_s_Z;
+wire [6:0] count_cry_Y;
+wire [7:7] count_s_FCO;
+wire [7:7] count_s_Y;
+wire GND ;
+wire VCC ;
+wire counte ;
+wire clk_c ;
+wire count_scalar ;
+wire en_c ;
+wire count_up_c ;
+wire count_up_3_Z ;
+wire count_up_4_Z ;
+wire count_s_6_FCO ;
+wire count_s_6_S ;
+wire count_s_6_Y ;
+wire clk_ibuf_Z ;
+  CLKINT clk_ibuf_RNIVTI21 (
+	.Y(clk_c),
+	.A(clk_ibuf_Z)
+);
+// @6:11
+  SLE \count_Z[7]  (
+	.Q(count_c[7]),
+	.ADn(VCC),
+	.ALn(VCC),
+	.CLK(clk_c),
+	.D(count_s_Z[7]),
+	.EN(counte),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @6:11
+  SLE \count_Z[6]  (
+	.Q(count_c[6]),
+	.ADn(VCC),
+	.ALn(VCC),
+	.CLK(clk_c),
+	.D(count_s[6]),
+	.EN(counte),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @6:11
+  SLE \count_Z[5]  (
+	.Q(count_c[5]),
+	.ADn(VCC),
+	.ALn(VCC),
+	.CLK(clk_c),
+	.D(count_s[5]),
+	.EN(counte),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @6:11
+  SLE \count_Z[4]  (
+	.Q(count_c[4]),
+	.ADn(VCC),
+	.ALn(VCC),
+	.CLK(clk_c),
+	.D(count_s[4]),
+	.EN(counte),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @6:11
+  SLE \count_Z[3]  (
+	.Q(count_c[3]),
+	.ADn(VCC),
+	.ALn(VCC),
+	.CLK(clk_c),
+	.D(count_s[3]),
+	.EN(counte),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @6:11
+  SLE \count_Z[2]  (
+	.Q(count_c[2]),
+	.ADn(VCC),
+	.ALn(VCC),
+	.CLK(clk_c),
+	.D(count_s[2]),
+	.EN(counte),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @6:11
+  SLE \count_Z[1]  (
+	.Q(count_c[1]),
+	.ADn(VCC),
+	.ALn(VCC),
+	.CLK(clk_c),
+	.D(count_s[1]),
+	.EN(counte),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @6:11
+  SLE \count_Z[0]  (
+	.Q(count_c[0]),
+	.ADn(VCC),
+	.ALn(VCC),
+	.CLK(clk_c),
+	.D(count_s[0]),
+	.EN(counte),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @6:4
+  INBUF clk_ibuf (
+	.Y(clk_ibuf_Z),
+	.PAD(clk)
+);
+// @6:5
+  INBUF rst_ibuf (
+	.Y(count_scalar),
+	.PAD(rst)
+);
+// @6:6
+  INBUF en_ibuf (
+	.Y(en_c),
+	.PAD(en)
+);
+// @6:7
+  OUTBUF \count_obuf[0]  (
+	.PAD(count[0]),
+	.D(count_c[0])
+);
+// @6:7
+  OUTBUF \count_obuf[1]  (
+	.PAD(count[1]),
+	.D(count_c[1])
+);
+// @6:7
+  OUTBUF \count_obuf[2]  (
+	.PAD(count[2]),
+	.D(count_c[2])
+);
+// @6:7
+  OUTBUF \count_obuf[3]  (
+	.PAD(count[3]),
+	.D(count_c[3])
+);
+// @6:7
+  OUTBUF \count_obuf[4]  (
+	.PAD(count[4]),
+	.D(count_c[4])
+);
+// @6:7
+  OUTBUF \count_obuf[5]  (
+	.PAD(count[5]),
+	.D(count_c[5])
+);
+// @6:7
+  OUTBUF \count_obuf[6]  (
+	.PAD(count[6]),
+	.D(count_c[6])
+);
+// @6:7
+  OUTBUF \count_obuf[7]  (
+	.PAD(count[7]),
+	.D(count_c[7])
+);
+// @6:8
+  OUTBUF count_up_obuf (
+	.PAD(count_up),
+	.D(count_up_c)
+);
+// @6:11
+  ARI1 count_s_6 (
+	.FCO(count_s_6_FCO),
+	.S(count_s_6_S),
+	.Y(count_s_6_Y),
+	.B(count_scalar),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(VCC)
+);
+defparam count_s_6.INIT=20'h4AA00;
+// @6:11
+  ARI1 \count_cry[0]  (
+	.FCO(count_cry_Z[0]),
+	.S(count_s[0]),
+	.Y(count_cry_Y[0]),
+	.B(count_scalar),
+	.C(count_c[0]),
+	.D(GND),
+	.A(VCC),
+	.FCI(count_s_6_FCO)
+);
+defparam \count_cry[0] .INIT=20'h6BB00;
+// @6:11
+  ARI1 \count_cry[1]  (
+	.FCO(count_cry_Z[1]),
+	.S(count_s[1]),
+	.Y(count_cry_Y[1]),
+	.B(count_scalar),
+	.C(count_c[1]),
+	.D(GND),
+	.A(VCC),
+	.FCI(count_cry_Z[0])
+);
+defparam \count_cry[1] .INIT=20'h6BB00;
+// @6:11
+  ARI1 \count_cry[2]  (
+	.FCO(count_cry_Z[2]),
+	.S(count_s[2]),
+	.Y(count_cry_Y[2]),
+	.B(count_scalar),
+	.C(count_c[2]),
+	.D(GND),
+	.A(VCC),
+	.FCI(count_cry_Z[1])
+);
+defparam \count_cry[2] .INIT=20'h6BB00;
+// @6:11
+  ARI1 \count_cry[3]  (
+	.FCO(count_cry_Z[3]),
+	.S(count_s[3]),
+	.Y(count_cry_Y[3]),
+	.B(count_scalar),
+	.C(count_c[3]),
+	.D(GND),
+	.A(VCC),
+	.FCI(count_cry_Z[2])
+);
+defparam \count_cry[3] .INIT=20'h6BB00;
+// @6:11
+  ARI1 \count_cry[4]  (
+	.FCO(count_cry_Z[4]),
+	.S(count_s[4]),
+	.Y(count_cry_Y[4]),
+	.B(count_scalar),
+	.C(count_c[4]),
+	.D(GND),
+	.A(VCC),
+	.FCI(count_cry_Z[3])
+);
+defparam \count_cry[4] .INIT=20'h6BB00;
+// @6:11
+  ARI1 \count_cry[5]  (
+	.FCO(count_cry_Z[5]),
+	.S(count_s[5]),
+	.Y(count_cry_Y[5]),
+	.B(count_scalar),
+	.C(count_c[5]),
+	.D(GND),
+	.A(VCC),
+	.FCI(count_cry_Z[4])
+);
+defparam \count_cry[5] .INIT=20'h6BB00;
+// @6:11
+  ARI1 \count_s[7]  (
+	.FCO(count_s_FCO[7]),
+	.S(count_s_Z[7]),
+	.Y(count_s_Y[7]),
+	.B(count_scalar),
+	.C(count_c[7]),
+	.D(GND),
+	.A(VCC),
+	.FCI(count_cry_Z[6])
+);
+defparam \count_s[7] .INIT=20'h4BB00;
+// @6:11
+  ARI1 \count_cry[6]  (
+	.FCO(count_cry_Z[6]),
+	.S(count_s[6]),
+	.Y(count_cry_Y[6]),
+	.B(count_scalar),
+	.C(count_c[6]),
+	.D(GND),
+	.A(VCC),
+	.FCI(count_cry_Z[5])
+);
+defparam \count_cry[6] .INIT=20'h6BB00;
+// @6:13
+  CFG2 count_up_3 (
+	.A(count_c[6]),
+	.B(count_c[7]),
+	.Y(count_up_3_Z)
+);
+defparam count_up_3.INIT=4'h1;
+  CFG2 en_ibuf_RNIM99D8 (
+	.A(count_scalar),
+	.B(en_c),
+	.Y(counte)
+);
+defparam en_ibuf_RNIM99D8.INIT=4'hE;
+// @6:13
+  CFG4 count_up_4 (
+	.A(count_c[3]),
+	.B(count_c[2]),
+	.C(count_c[1]),
+	.D(count_c[0]),
+	.Y(count_up_4_Z)
+);
+defparam count_up_4.INIT=16'h0001;
+// @6:13
+  CFG4 count_up_cZ (
+	.A(count_up_4_Z),
+	.B(count_up_3_Z),
+	.C(count_c[5]),
+	.D(count_c[4]),
+	.Y(count_up_c)
+);
+defparam count_up_cZ.INIT=16'h0008;
+  GND GND_Z (
+	.Y(GND)
+);
+  VCC VCC_Z (
+	.Y(VCC)
+);
+endmodule /* down_counter */
+

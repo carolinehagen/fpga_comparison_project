@@ -1,0 +1,165 @@
+Resource Report
+Microchip Technology Inc. - Microchip Libero Software Release 2025.2 (Version 2025.2.0.14)
+Date: Sun Mar 22 11:05:58 2026
+
+Device Selection
++------------------------+----------------+
+| Family                 | RTG4           |
+| Device                 | RT4G150L       |
+| Package                | 1657 FCG       |
+| Speed Grade            | STD            |
+| Temp                   | -55:25:125     |
+| Voltage                | 1.26:1.20:1.14 |
+| Core Voltage           | 1.2V           |
+| Ramp Rate              |                |
+| Default I/O technology | LVCMOS 2.5V    |
+| Restrict Probe Pins    | No             |
+| Restrict SPI Pins      | No             |
++------------------------+----------------+
+
+Source Files
++---------+------------------------------------------------------------------------------------------------------+
+| Topcell | spi_controller                                                                                       |
+| Format  | Verilog                                                                                              |
+| Source  | /home/hagen/school/fpga_comparison_project/libero_project/libero_project/synthesis/spi_controller.vm |
++---------+------------------------------------------------------------------------------------------------------+
+
+Options
++----------------------------------------------------+-------+
+| Enable Single Event Transient mitigation           | false |
+| Enable Design Separation Methodology               | false |
+| Limit the number of high fanout nets to display to | 10    |
++----------------------------------------------------+-------+
+
+Resource Usage
++---------------------------+------+--------+------------+
+| Type                      | Used | Total  | Percentage |
++---------------------------+------+--------+------------+
+| 4LUT                      | 41   | 151824 | 0.03       |
+| DFF                       | 38   | 151824 | 0.03       |
+| I/O Register              | 0    | 2160   | 0.00       |
+| User I/O                  | 25   | 720    | 3.47       |
+| -- Single-ended I/O       | 25   | 720    | 3.47       |
+| -- Differential I/O Pairs | 0    | 360    | 0.00       |
+| RAM64x18                  | 0    | 210    | 0.00       |
+| RAM1K18                   | 0    | 209    | 0.00       |
+| MACC                      | 0    | 462    | 0.00       |
+| H-Chip Globals            | 1    | 48     | 2.08       |
+| CCC                       | 0    | 8      | 0.00       |
+| RCOSC_50MHZ               | 0    | 1      | 0.00       |
+| SERDESIF Blocks           | 0    | 6      | 0.00       |
+| FDDR                      | 0    | 2      | 0.00       |
+| GRESET                    | 1    | 1      | 100.00     |
++---------------------------+------+--------+------------+
+
+Detailed Logic Resource Usage
++--------------------------+------+-----+
+| Type                     | 4LUT | DFF |
++--------------------------+------+-----+
+| Fabric Logic             | 41   | 38  |
+| RAM64x18 Interface Logic | 0    | 0   |
+| RAM1K18 Interface Logic  | 0    | 0   |
+| MACC Interface Logic     | 0    | 0   |
+| Total Used               | 41   | 38  |
++--------------------------+------+-----+
+
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 5      | 1    |
+| Total  | 1    |
++--------+------+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 12           | 0           | 0               |
+| Output I/O                    | 13           | 0           | 0               |
+| Bidirectional I/O             | 0            | 0           | 0               |
+| Differential Input I/O Pairs  | 0            | 0           | 0               |
+| Differential Output I/O Pairs | 0            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+I/O Technology
++--------------+--------+------+-------+--------+---------------+
+| I/O Standard | Vddi   | Vref | Input | Output | Bidirectional |
++--------------+--------+------+-------+--------+---------------+
+| LVCMOS25     |  2.50v |  N/A |  12   |  13    |  0            |
++--------------+--------+------+-------+--------+---------------+
+
+Nets assigned to chip global resources
++--------+---------+-----------------------------------+
+| Fanout | Type    | Name                              |
++--------+---------+-----------------------------------+
+| 38     | INT_NET | Net   : clk_c                     |
+|        |         | Driver: clk_ibuf_RNIVTI21/U0_RGB1 |
+|        |         | Source: NETLIST                   |
++--------+---------+-----------------------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+------------------------------------+
+| Fanout | Type    | Name                               |
++--------+---------+------------------------------------+
+| 12     | INT_NET | Net   : N_49_i                     |
+|        |         | Driver: shift_reg_rx_0_RNIREBDB[2] |
+| 8      | INT_NET | Net   : rx_data_1_sqmuxa_Z         |
+|        |         | Driver: rx_data_1_sqmuxa           |
+| 8      | INT_NET | Net   : cs_n_1_i                   |
+|        |         | Driver: cs_n_1_0_0_0_i             |
+| 7      | INT_NET | Net   : bit_cnt_Z[1]               |
+|        |         | Driver: bit_cnt[1]                 |
+| 7      | INT_NET | Net   : CO0_0                      |
+|        |         | Driver: clk_cnt[0]                 |
+| 7      | INT_NET | Net   : N_54_i                     |
+|        |         | Driver: bit_cnt_5_0_o2[1]          |
+| 7      | INT_NET | Net   : N_96_i                     |
+|        |         | Driver: sclk_r_RNI6QNR01           |
+| 6      | INT_NET | Net   : clk_cnt_Z[1]               |
+|        |         | Driver: clk_cnt[1]                 |
+| 6      | INT_NET | Net   : shift_reg_rx_0_Z[1]        |
+|        |         | Driver: shift_reg_rx_0[1]          |
+| 6      | INT_NET | Net   : start_c                    |
+|        |         | Driver: start_ibuf                 |
++--------+---------+------------------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+------------------------------------+
+| Fanout | Type    | Name                               |
++--------+---------+------------------------------------+
+| 12     | INT_NET | Net   : N_49_i                     |
+|        |         | Driver: shift_reg_rx_0_RNIREBDB[2] |
+| 8      | INT_NET | Net   : rx_data_1_sqmuxa_Z         |
+|        |         | Driver: rx_data_1_sqmuxa           |
+| 8      | INT_NET | Net   : cs_n_1_i                   |
+|        |         | Driver: cs_n_1_0_0_0_i             |
+| 7      | INT_NET | Net   : bit_cnt_Z[1]               |
+|        |         | Driver: bit_cnt[1]                 |
+| 7      | INT_NET | Net   : CO0_0                      |
+|        |         | Driver: clk_cnt[0]                 |
+| 7      | INT_NET | Net   : N_54_i                     |
+|        |         | Driver: bit_cnt_5_0_o2[1]          |
+| 7      | INT_NET | Net   : N_96_i                     |
+|        |         | Driver: sclk_r_RNI6QNR01           |
+| 6      | INT_NET | Net   : clk_cnt_Z[1]               |
+|        |         | Driver: clk_cnt[1]                 |
+| 6      | INT_NET | Net   : shift_reg_rx_0_Z[1]        |
+|        |         | Driver: shift_reg_rx_0[1]          |
+| 6      | INT_NET | Net   : start_c                    |
+|        |         | Driver: start_ibuf                 |
++--------+---------+------------------------------------+
+
+Async Global Reset net fanout
++--------+-----------+-------------------------------------+
+| Fanout | Type      | Name                                |
++--------+-----------+-------------------------------------+
+| 30     | RESET_NET | Net   : rst_n_c                     |
+|        |           | Driver: rst_n_ibuf/U0/U_IOIN_greset |
++--------+-----------+-------------------------------------+
+

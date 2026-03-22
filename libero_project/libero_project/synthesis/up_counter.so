@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>up_counter</design>
+	<target_verilog>/home/hagen/school/fpga_comparison_project/libero_project/libero_project/synthesis/up_counter.vm</target_verilog>
+</SynplifyOutput>

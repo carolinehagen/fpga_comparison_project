@@ -1,0 +1,1 @@
+@W: MT530 :"/home/hagen/school/fpga_comparison_project/libero_project/libero_project/hdl/up_counter.sv":13:4:13:12|Found inferred clock up_counter|clk which controls 8 sequential elements including count[7:0]. This clock has no specified timing constraint which may adversely impact design performance. 

@@ -1,0 +1,34 @@
+Selecting top level module spi_controller_tmr
+@N: CG364 :"/home/hagen/school/fpga_comparison_project/libero_project/libero_project/hdl/spi_controller_tmr.sv":6:7:6:24|Synthesizing module spi_controller_tmr in library work.
+@N: CG364 :"/home/hagen/school/fpga_comparison_project/libero_project/libero_project/hdl/spi_controller.sv":5:7:5:20|Synthesizing module spi_controller in library work.
+
+	DATA_WIDTH=32'b00000000000000000000000000001000
+	CLK_DIV=32'b00000000000000000000000000000100
+	CPOL=1'b0
+	CPHA=1'b0
+   Generated name = spi_controller_8s_4s_0_0
+Running optimization stage 1 on spi_controller_8s_4s_0_0 .......
+@A: CL282 :"/home/hagen/school/fpga_comparison_project/libero_project/libero_project/hdl/spi_controller.sv":74:4:74:12|Feedback mux created for signal rx_data[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+Finished optimization stage 1 on spi_controller_8s_4s_0_0 (CPU Time 0h:00m:00s, Memory Used current: 244MB peak: 244MB)
+Running optimization stage 1 on spi_controller_tmr .......
+Finished optimization stage 1 on spi_controller_tmr (CPU Time 0h:00m:00s, Memory Used current: 244MB peak: 244MB)
+Running optimization stage 2 on spi_controller_8s_4s_0_0 .......
+@N: CL162 :"/home/hagen/school/fpga_comparison_project/libero_project/libero_project/hdl/spi_controller.sv":74:4:74:12|Found a potential sequential shift shift_reg_rx with address depth of 8 words and data bit width of 1.
+@N: CL201 :"/home/hagen/school/fpga_comparison_project/libero_project/libero_project/hdl/spi_controller.sv":74:4:74:12|Trying to extract state machine for register shift_reg_rx_0.
+Extracted state machine for register shift_reg_rx_0
+State machine has 6 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+Finished optimization stage 2 on spi_controller_8s_4s_0_0 (CPU Time 0h:00m:00s, Memory Used current: 245MB peak: 246MB)
+Running optimization stage 2 on spi_controller_tmr .......
+Finished optimization stage 2 on spi_controller_tmr (CPU Time 0h:00m:00s, Memory Used current: 245MB peak: 246MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: /home/hagen/school/fpga_comparison_project/libero_project/libero_project/synthesis/synwork/layer0.duruntime
+
+

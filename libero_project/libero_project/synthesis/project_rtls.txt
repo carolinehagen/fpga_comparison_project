@@ -1,0 +1,4 @@
+"/home/hagen/microchip/Libero_SoC_2025.2/Libero_SoC/Synplify_Pro/lib/generic/rtg4.v"
+"/home/hagen/school/fpga_comparison_project/libero_project/libero_project/component/syn_comps.v"
+"/home/hagen/school/fpga_comparison_project/libero_project/libero_project/hdl/spi_controller.sv"
+"/home/hagen/school/fpga_comparison_project/libero_project/libero_project/hdl/spi_controller_tmr.sv"

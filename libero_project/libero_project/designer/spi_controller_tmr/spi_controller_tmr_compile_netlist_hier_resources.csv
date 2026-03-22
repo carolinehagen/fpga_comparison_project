@@ -1,0 +1,5 @@
+Detailed Resource Usage
+Module Name,Fabric 4LUT,Fabric DFF,Single-Ended I/O,Chip Globals,Global Asynchronous Reset
+Primitives/Primitives,2,0,28,1,0
+gen_cores[0].u_spi/Primitives,39,38,0,0,0
+rst_n_ibuf/U0/Primitives,0,0,0,0,1

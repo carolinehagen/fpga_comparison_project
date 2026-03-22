@@ -1,0 +1,57 @@
+SET Mitigation Report
+Microchip Technology Inc. - Microchip Libero Software Release 2025.2 (Version 2025.2.0.14)
+Date: Sun Mar 22 11:13:18 2026
+
+TopCell: spi_controller_tmr
+
+Device Selection
++---------+----------+
+| Family  | RTG4     |
+| Device  | RT4G150L |
+| Package | 1657 FCG |
++---------+----------+
+
+SET Mitigation Instances
++-----------+--------------------------------------+
+| Mitigated | Name                                 |
++-----------+--------------------------------------+
+| No        | gen_cores[0].u_spi/bit_cnt[0]        |
+| No        | gen_cores[0].u_spi/bit_cnt[1]        |
+| No        | gen_cores[0].u_spi/bit_cnt[2]        |
+| No        | gen_cores[0].u_spi/clk_cnt[0]        |
+| No        | gen_cores[0].u_spi/clk_cnt[1]        |
+| No        | gen_cores[0].u_spi/cs_n              |
+| No        | gen_cores[0].u_spi/done              |
+| No        | gen_cores[0].u_spi/mosi              |
+| No        | gen_cores[0].u_spi/rx_data[0]        |
+| No        | gen_cores[0].u_spi/rx_data[1]        |
+| No        | gen_cores[0].u_spi/rx_data[2]        |
+| No        | gen_cores[0].u_spi/rx_data[3]        |
+| No        | gen_cores[0].u_spi/rx_data[4]        |
+| No        | gen_cores[0].u_spi/rx_data[5]        |
+| No        | gen_cores[0].u_spi/rx_data[6]        |
+| No        | gen_cores[0].u_spi/rx_data[7]        |
+| No        | gen_cores[0].u_spi/sclk_r            |
+| No        | gen_cores[0].u_spi/shift_reg_rx_0[0] |
+| No        | gen_cores[0].u_spi/shift_reg_rx_0[1] |
+| No        | gen_cores[0].u_spi/shift_reg_rx_0[2] |
+| No        | gen_cores[0].u_spi/shift_reg_rx_0[3] |
+| No        | gen_cores[0].u_spi/shift_reg_rx_0[4] |
+| No        | gen_cores[0].u_spi/shift_reg_rx_0[5] |
+| No        | gen_cores[0].u_spi/shift_reg_rx_1[0] |
+| No        | gen_cores[0].u_spi/shift_reg_rx_2[0] |
+| No        | gen_cores[0].u_spi/shift_reg_rx_3[0] |
+| No        | gen_cores[0].u_spi/shift_reg_rx_4[0] |
+| No        | gen_cores[0].u_spi/shift_reg_rx_5[0] |
+| No        | gen_cores[0].u_spi/shift_reg_rx_6[0] |
+| No        | gen_cores[0].u_spi/shift_reg_rx_7[0] |
+| No        | gen_cores[0].u_spi/shift_reg_tx[0]   |
+| No        | gen_cores[0].u_spi/shift_reg_tx[1]   |
+| No        | gen_cores[0].u_spi/shift_reg_tx[2]   |
+| No        | gen_cores[0].u_spi/shift_reg_tx[3]   |
+| No        | gen_cores[0].u_spi/shift_reg_tx[4]   |
+| No        | gen_cores[0].u_spi/shift_reg_tx[5]   |
+| No        | gen_cores[0].u_spi/shift_reg_tx[6]   |
+| No        | gen_cores[0].u_spi/shift_reg_tx[7]   |
++-----------+--------------------------------------+
+

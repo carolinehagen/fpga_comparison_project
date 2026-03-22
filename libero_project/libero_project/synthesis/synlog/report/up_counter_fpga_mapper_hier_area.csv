@@ -1,0 +1,3 @@
+
+. Module name, SLE, CFG, ARI1, BUFFER, MACC, RAM1K18_RT, RAM64X18_RT, GLOBAL, IO
+. up_counter, 8, 4, 9, 0, 0, 0, 0, 1, 12

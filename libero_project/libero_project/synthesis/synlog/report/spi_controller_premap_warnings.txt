@@ -1,0 +1,1 @@
+@W: MT530 :"/home/hagen/school/fpga_comparison_project/libero_project/libero_project/hdl/spi_controller.sv":74:4:74:12|Found inferred clock spi_controller|clk which controls 38 sequential elements including shift_reg_rx_0[5:0]. This clock has no specified timing constraint which may adversely impact design performance. 

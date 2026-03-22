@@ -1,0 +1,11 @@
+@P:  Worst Slack : 6.154
+@P:  down_counter|clk - Estimated Frequency : 260.0 MHz
+@P:  down_counter|clk - Requested Frequency : 100.0 MHz
+@P:  down_counter|clk - Estimated Period : 3.846
+@P:  down_counter|clk - Requested Period : 10.000
+@P:  down_counter|clk - Slack : 6.154
+@P: down_counter Part : rt4g150cg1657std
+@P: down_counter Register bits  : 8 
+@P: down_counter DSP Blocks  : 0
+@P: down_counter I/O primitives : 12
+@P:  CPU Time : 0h:00m:01s

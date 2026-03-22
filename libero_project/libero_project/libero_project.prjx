@@ -14,11 +14,15 @@ KEY VendorTechnology_Package "fcg1657"
 KEY VendorTechnology_Speed "STD"
 KEY VendorTechnology_DieVoltage "1.2"
 KEY VendorTechnology_PART_RANGE "MIL"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE ""
 KEY VendorTechnology_IO_DEFT_STD "LVCMOS25"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY ""
 KEY VendorTechnology_RAD_EXPOSURE "0"
 KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
 KEY VendorTechnology_RESTRICTPROBEPINS "0"
 KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE ""
 KEY VendorTechnology_TARGETDEVICESFORMIGRATION "PA4RT12000L"
 KEY VendorTechnology_TEMPR "MIL"
 KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
@@ -124,8 +128,8 @@ NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
 LOCATION="/home/hagen/microchip/Libero_SoC_2025.2/Libero_SoC/Synplify_Pro/bin/synplify_pro"
-PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
-BATCH=1
+PARAM=""
+BATCH=0
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -162,10 +166,8 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
-Reports;Reports;0
-ReportsCurrentItem;Project Summary:libero_project.log
 StartPage;StartPage;0
-ACTIVEVIEW;Reports
+ACTIVEVIEW;StartPage
 ENDLIST
 LIST ModuleSubBlockList
 ENDLIST

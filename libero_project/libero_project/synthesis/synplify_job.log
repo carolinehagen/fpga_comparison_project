@@ -1,0 +1,93 @@
+{
+"Synplify Pro (R) Job Log" : {
+	"Date" : "11:13:15    22-Mar-2026",
+	"Working Directory" : "/home/hagen/school/fpga_comparison_project/libero_project/libero_project/synthesis",
+	"CDPL Log file" : "-",
+	"Install" : "/home/hagen/microchip/Libero_SoC_2025.2/Libero_SoC/Synplify_Pro"
+},
+"synthesis" :{
+   "Job Flow" : "Sequential",
+   "Start Time" : "11:13:11",
+   "Runtime" : "04s",
+   "Executable Run Time" : "02s",
+   "synthesis" : {
+      "Job Flow" : "Sequential",
+      "Start Time" : "11:13:11",
+      "Runtime" : "04s",
+      "Executable Run Time" : "02s",
+      "compile" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "11:13:11",
+         "Runtime" : "02s",
+         "Executable Run Time" : "01s",
+         "compile_flow" : {
+            "Job Flow" : "Sequential",
+            "Start Time" : "11:13:11",
+            "Runtime" : "02s",
+            "Executable Run Time" : "01s",
+            "compiler" : {
+               "executable" : "bin/c_hdl",
+               "Run Directory" : "/home/hagen/school/fpga_comparison_project/libero_project/libero_project/synthesis",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Run Success" : "yes",
+               "Run Start Time" : "11:13:11",
+               "Run Time" : "02s",
+               "Exe Run Time" : "01s",
+               "max_parallel_jobs" : "4",
+               "Memory Usage" : "8.448000",
+               "CDPL" : "off",
+               "Up-to-date (run skipped)" : "no"
+            },
+            "multi_srs_gen" : {
+               "executable" : "bin/syn_nfilter",
+               "Run Directory" : "/home/hagen/school/fpga_comparison_project/libero_project/libero_project/synthesis",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Run Success" : "yes",
+               "Run Start Time" : "11:13:13",
+               "Run Time" : "00s",
+               "Exe Run Time" : "00s",
+               "Memory Usage" : "8.448000",
+               "CDPL" : "off",
+               "Up-to-date (run skipped)" : "no"
+            }
+         },
+         "premap" : {
+            "executable" : "bin/m_generic",
+            "Run Directory" : "/home/hagen/school/fpga_comparison_project/libero_project/libero_project/synthesis",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Run Success" : "yes",
+            "Run Start Time" : "11:13:13",
+            "Run Time" : "00s",
+            "Exe Run Time" : "00s",
+            "max_parallel_jobs" : "4",
+            "Memory Usage" : "8.452000",
+            "CDPL" : "off",
+            "Up-to-date (run skipped)" : "no"
+         }
+      },
+      "map" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "11:13:14",
+         "Runtime" : "01s",
+         "Executable Run Time" : "01s",
+         "fpga_mapper" : {
+            "executable" : "bin/m_generic",
+            "Run Directory" : "/home/hagen/school/fpga_comparison_project/libero_project/libero_project/synthesis",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Run Success" : "yes",
+            "Run Start Time" : "11:13:14",
+            "Run Time" : "01s",
+            "Exe Run Time" : "01s",
+            "max_parallel_jobs" : "4",
+            "Memory Usage" : "8.452000",
+            "CDPL" : "off",
+            "Up-to-date (run skipped)" : "no"
+         }
+      }
+   }
+}
+}

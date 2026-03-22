@@ -1,0 +1,37 @@
+# Microchip Physical design constraints file
+
+# Version: 2025.2 2025.2.0.14
+
+# Design Name:  
+
+# Input Netlist Format: EDIF 
+
+# Family: RTG4 , Die: RT4G150L , Package: 1657 FCG , Speed grade: STD 
+
+# Date generated: Sun Mar 22 11:13:18 2026 
+
+
+#
+# IO banks setting
+#
+
+
+#
+# Local clock constraints
+#
+
+
+#
+# Region constraints
+#
+
+
+#
+# I/O constraints
+#
+
+
+#
+# Core cell constraints
+#
+

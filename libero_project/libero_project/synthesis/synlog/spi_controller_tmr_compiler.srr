@@ -1,0 +1,141 @@
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: W-2025.03M-SP1-1
+Install: /home/hagen/microchip/Libero_SoC_2025.2/Libero_SoC/Synplify_Pro
+OS: Ubuntu 24.04.4 LTS
+Hostname: 9YN89W3
+max virtual memory: unlimited (bytes)
+max user processes: 125189
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys HDL Compiler, Version comp202503synp2, Build 108R, Built Nov 18 2025 07:05:42, @6340609
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: W-2025.03M-SP1-1
+Install: /home/hagen/microchip/Libero_SoC_2025.2/Libero_SoC/Synplify_Pro
+OS: Ubuntu 24.04.4 LTS
+Hostname: 9YN89W3
+max virtual memory: unlimited (bytes)
+max user processes: 125189
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys Verilog Compiler, Version comp202503synp2, Build 108R, Built Nov 18 2025 07:05:42, @6340609
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@I::"/home/hagen/microchip/Libero_SoC_2025.2/Libero_SoC/Synplify_Pro/lib/generic/rtg4.v" (library work)
+@I::"/home/hagen/microchip/Libero_SoC_2025.2/Libero_SoC/Synplify_Pro/lib/vlog/hypermods.v" (library __hyper__lib__)
+@I::"/home/hagen/school/fpga_comparison_project/libero_project/libero_project/component/syn_comps.v" (library work)
+@W: CG100 :"/home/hagen/school/fpga_comparison_project/libero_project/libero_project/component/syn_comps.v":4:13:4:25|User defined pragma syn_black_box detected
+
+@I::"/home/hagen/school/fpga_comparison_project/libero_project/libero_project/hdl/spi_controller.sv" (library work)
+@I::"/home/hagen/school/fpga_comparison_project/libero_project/libero_project/hdl/spi_controller_tmr.sv" (library work)
+@N|stack limit increased to max
+Verilog syntax check successful!
+Options changed - recompiling
+Selecting top level module spi_controller_tmr
+@N: CG364 :"/home/hagen/school/fpga_comparison_project/libero_project/libero_project/hdl/spi_controller_tmr.sv":6:7:6:24|Synthesizing module spi_controller_tmr in library work.
+@N: CG364 :"/home/hagen/school/fpga_comparison_project/libero_project/libero_project/hdl/spi_controller.sv":5:7:5:20|Synthesizing module spi_controller in library work.
+
+	DATA_WIDTH=32'b00000000000000000000000000001000
+	CLK_DIV=32'b00000000000000000000000000000100
+	CPOL=1'b0
+	CPHA=1'b0
+   Generated name = spi_controller_8s_4s_0_0
+Running optimization stage 1 on spi_controller_8s_4s_0_0 .......
+@A: CL282 :"/home/hagen/school/fpga_comparison_project/libero_project/libero_project/hdl/spi_controller.sv":74:4:74:12|Feedback mux created for signal rx_data[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+Finished optimization stage 1 on spi_controller_8s_4s_0_0 (CPU Time 0h:00m:00s, Memory Used current: 244MB peak: 244MB)
+Running optimization stage 1 on spi_controller_tmr .......
+Finished optimization stage 1 on spi_controller_tmr (CPU Time 0h:00m:00s, Memory Used current: 244MB peak: 244MB)
+Running optimization stage 2 on spi_controller_8s_4s_0_0 .......
+@N: CL162 :"/home/hagen/school/fpga_comparison_project/libero_project/libero_project/hdl/spi_controller.sv":74:4:74:12|Found a potential sequential shift shift_reg_rx with address depth of 8 words and data bit width of 1.
+@N: CL201 :"/home/hagen/school/fpga_comparison_project/libero_project/libero_project/hdl/spi_controller.sv":74:4:74:12|Trying to extract state machine for register shift_reg_rx_0.
+Extracted state machine for register shift_reg_rx_0
+State machine has 6 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+Finished optimization stage 2 on spi_controller_8s_4s_0_0 (CPU Time 0h:00m:00s, Memory Used current: 245MB peak: 246MB)
+Running optimization stage 2 on spi_controller_tmr .......
+Finished optimization stage 2 on spi_controller_tmr (CPU Time 0h:00m:00s, Memory Used current: 245MB peak: 246MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: /home/hagen/school/fpga_comparison_project/libero_project/libero_project/synthesis/synwork/layer0.duruntime
+
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 245MB peak: 246MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Mar 22 11:13:11 2026
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: W-2025.03M-SP1-1
+Install: /home/hagen/microchip/Libero_SoC_2025.2/Libero_SoC/Synplify_Pro
+OS: Ubuntu 24.04.4 LTS
+Hostname: 9YN89W3
+max virtual memory: unlimited (bytes)
+max user processes: 125189
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202503synp2, Build 108R, Built Nov 18 2025 07:05:42, @6340609
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 256MB peak: 256MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Mar 22 11:13:12 2026
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: /home/hagen/school/fpga_comparison_project/libero_project/libero_project/synthesis/synwork/spi_controller_tmr_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 97MB peak: 97MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Mar 22 11:13:12 2026
+
+###########################################################]
