@@ -1,0 +1,28 @@
+INFO     : Efinix FPGA Bitstream Generator.
+INFO     : Version: 2025.2.288.2.10 
+INFO     : Copyright (C) 2013 - 2025 Efinix, Inc. All rights reserved.
+INFO     : Compiled: Dec 18 2025.
+INFO     : Using source file "/home/hagen/school/fpga_comparison_project/efinity_project/down_counter/work_pnr/down_counter.lbf"
+INFO     : Generating HEX programming file for device "Ti60F225", family "Titanium"
+INFO     : Using periphery source file "/home/hagen/school/fpga_comparison_project/efinity_project/down_counter/outflow/down_counter.lpf"
+INFO     : Generating bit file: "/home/hagen/school/fpga_comparison_project/efinity_project/down_counter/outflow/down_counter.bit"
+INFO     : HEX Generation Options Summary:
+INFO     : 	Listing options specified to bitstream generation:
+INFO     : 	bitstream_compression                    = on
+INFO     : 	oscillator_clock_divider                 = DIV8
+INFO     : 	enable_external_master_clock             = off
+INFO     : 	spi_low_power_mode                       = on
+INFO     : 	active_capture_clk_edge                  = posedge
+INFO     : 	enable_remote_update                     = off
+INFO     : 	release_tri_then_reset                   = on
+INFO     : 	enable_seu_crc_check                     = off
+INFO     : 	seu_mode                                 = automatic
+INFO     : 	seu_wait_interval                        = 0xFFFFFF
+INFO     : 	jtag_usercode                            = 0xFFFFFFFF
+INFO     : 	io_weak_pullup                           = on
+INFO     : Finished generating "/home/hagen/school/fpga_comparison_project/efinity_project/down_counter/outflow/down_counter.hex"
+INFO     : Efinix Bitstream Generator took 1.331641535 seconds [FlowMsg::StageDuration]
+INFO     :     Efinix Bitstream Generator took 1.22 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Efinix Bitstream Generator virtual memory usage: begin = 35.716 MB, end = 165.9 MB, delta = 130.184 MB [FlowMsg::VMUsage]
+INFO     : Efinix Bitstream Generator resident set memory usage: begin = 15.368 MB, end = 150.384 MB, delta = 135.016 MB [FlowMsg::RSSUsage]
+INFO     :     Efinix Bitstream Generator peak resident set memory usage = 299.44 MB [FlowMsg::RSSUsage::Peak]

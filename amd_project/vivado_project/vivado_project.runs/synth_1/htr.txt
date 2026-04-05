@@ -7,4 +7,4 @@
 # Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 #
 
-vivado -log down_counter.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source down_counter.tcl
+vivado -log spi_controller_tmr.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source spi_controller_tmr.tcl

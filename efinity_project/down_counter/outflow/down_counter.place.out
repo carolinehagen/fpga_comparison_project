@@ -1,0 +1,105 @@
+           
+           Efinix FPGA Placement and Routing.
+           Version: 2025.2.288.2.10 
+           Compiled: Dec 18 2025.
+           
+           Copyright (C) 2013 - 2025 Efinix, Inc. All rights reserved.
+
+           
+           The Tool Is Based on VPR of University of Toronto,
+           a free open source code under MIT license.
+           
+INFO     : Reading core interface constraints file "/home/hagen/school/fpga_comparison_project/efinity_project/down_counter/outflow/down_counter.interface.csv" [DBMsg::CoreInterfaceConstraintsFileReading]
+INFO     : Successfully read core interface constraints file "/home/hagen/school/fpga_comparison_project/efinity_project/down_counter/outflow/down_counter.interface.csv" [DBMsg::CoreInterfaceConstraintsFileLoadSuccess]
+INFO     : Packed 10 lut->ffs and 0 ff->luts out of 10 (0 were lonely) [PackerMsg::CellPackingStatistics]
+INFO     : XLR count after merging: 14
+INFO     : Netlist has 5 luts, 10 ffs and 9 adders [PackerMsg::NetlistStatistics]
+INFO     : Packed into 14 clusters with 1.9285715(1.5) inputs(outputs) per cluster for a total of 27(21) inputs(outputs) [PackerMsg::ClusterPackingStatistics]
+INFO     : Packed into 14 xlrs with 1.9285715(1.5) inputs(outputs) per xlr for a total of 27(21) inputs(outputs) [PackerMsg::XLRPackingStatistics]
+INFO     : Packed 0 fracturable DSPs into 0 clusters [PackerMsg::DSPPackingStatistics]
+INFO     : Packing took 0.201508538 seconds [FlowMsg::StageDuration]
+INFO     :     Packing took 0.18 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Packing virtual memory usage: begin = 191.436 MB, end = 234.936 MB, delta = 43.5 MB [FlowMsg::VMUsage]
+INFO     : Packing resident set memory usage: begin = 108.74 MB, end = 116.288 MB, delta = 7.548 MB [FlowMsg::RSSUsage]
+INFO     :     Packing peak resident set memory usage = 299.44 MB [FlowMsg::RSSUsage::Peak]
+INFO     : No SDC file found.  Using default timing constraint of 1 ns.
+INFO     : NOTE:  Use --sdc_file <SDC_FILE> to override this behavior.
+INFO     : Creating clock 'clk' with 1 sources
+INFO     : Reading core interface constraints file "/home/hagen/school/fpga_comparison_project/efinity_project/down_counter/outflow/down_counter.interface.csv" [DBMsg::CoreInterfaceConstraintsFileReading]
+INFO     : Successfully read core interface constraints file "/home/hagen/school/fpga_comparison_project/efinity_project/down_counter/outflow/down_counter.interface.csv" [DBMsg::CoreInterfaceConstraintsFileLoadSuccess]
+WARNING  : IO cell "clk" has no assigned placement; it will be placed randomly
+WARNING  : IO cell "en" has no assigned placement; it will be placed randomly
+WARNING  : IO cell "count[7]" has no assigned placement; it will be placed randomly
+WARNING  : IO cell "count[0]" has no assigned placement; it will be placed randomly
+WARNING  : IO cell "rst" has no assigned placement; it will be placed randomly
+WARNING  : IO cell "count[6]" has no assigned placement; it will be placed randomly
+WARNING  : IO cell "count[5]" has no assigned placement; it will be placed randomly
+WARNING  : IO cell "count[4]" has no assigned placement; it will be placed randomly
+WARNING  : IO cell "count[3]" has no assigned placement; it will be placed randomly
+WARNING  : IO cell "count[2]" has no assigned placement; it will be placed randomly
+WARNING  : IO cell "count[1]" has no assigned placement; it will be placed randomly
+WARNING  : IO cell "count_up" has no assigned placement; it will be placed randomly
+INFO     : 12 IO cells will have random placement
+INFO     : Counting 1 clocks that are not assigned to clock resources as global clocks.
+INFO     : Reading core interface constraints file "/home/hagen/school/fpga_comparison_project/efinity_project/down_counter/outflow/down_counter.interface.csv" [DBMsg::CoreInterfaceConstraintsFileReading]
+INFO     : Successfully read core interface constraints file "/home/hagen/school/fpga_comparison_project/efinity_project/down_counter/outflow/down_counter.interface.csv" [DBMsg::CoreInterfaceConstraintsFileLoadSuccess]
+INFO     : Counting 1 clocks that are not assigned to clock resources as global clocks.
+INFO     : Starting Global Placer with 10 threads ...
+            ----------     -------  --------------     -------
+             Iteration       WHPWL Worst Slack (ps) Convergence
+            ----------     -------  --------------     -------
+INFO     :           1        1526             252        95.7%
+INFO     :           2        1534             252        95.7%
+INFO     :           3        1501             202        98.4%
+INFO     :           4        1490             252        99.2%
+INFO     :           5        1488             252        99.3%
+INFO     :           6        1489             202        99.3%
+INFO     :           7        1488             202        99.3%
+INFO     :           8        1471             252        99.6%
+INFO     :           9        1471             252        99.6%
+INFO     :          10        1471             252        99.6%
+INFO     :          11        1471             252        99.6%
+INFO     :          12        1471             252        99.7%
+INFO     :          13        1471             252       100.0%
+INFO     :          14        1471             182       100.0%
+INFO     : Starting Annealer
+            ----------     -------  --------------     -------
+             Iteration       WHPWL  Delay Max (ps)     R Limit
+            ----------     -------  --------------     -------
+INFO     :           0           8             709        30.0
+INFO     :           1           7             662        30.0
+INFO     :           2           7             662        30.0
+INFO     :           3           7             662        30.0
+INFO     :           4           7             662        30.0
+INFO     :           5           7             662        30.0
+INFO     :           6           7             662        30.0
+INFO     :           7           7             662        30.0
+INFO     :           8           7             662        30.0
+INFO     :           9           7             662        30.0
+INFO     :          10           7             662        30.0
+INFO     :          11           7             662        30.0
+INFO     :          12           7             662        30.0
+INFO     :          13           7             662        30.0
+INFO     :          14           7             662        30.0
+INFO     :          15           7             662        30.0
+INFO     :          16           7             662        30.0
+INFO     :          17           7             662        30.0
+INFO     :          18           7             662        30.0
+INFO     :          19           7             662        30.0
+INFO     :          20           7             662        30.0
+INFO     :          21           7             662        30.0
+INFO     :          22           7             662        30.0
+INFO     :          23           7             662        30.0
+INFO     :          24           7             662        30.0
+INFO     : Placement successful: 14 cells are placed
+INFO     : Peak congestion smeared over 4x4 of the chip is 0.0406889 at 147,89
+INFO     : Peak congestion smeared over 1/16 of the chip is 0.00841259 at 131,82
+INFO     : Peak congestion smeared over 1/4 of the chip is 0.0023193 at 198,139
+INFO     : Congestion-weighted HPWL per net: 45.8233
+INFO     : Placement took 2.127755945 seconds [FlowMsg::StageDuration]
+INFO     :     Placement took 2.96 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Placement virtual memory usage: begin = 315.864 MB, end = 329.18 MB, delta = 13.316 MB [FlowMsg::VMUsage]
+INFO     : Placement resident set memory usage: begin = 185.94 MB, end = 154.032 MB, delta = -31.908 MB [FlowMsg::RSSUsage]
+INFO     :     Placement peak resident set memory usage = 299.44 MB [FlowMsg::RSSUsage::Peak]
+INFO     : Post-placement cluster-level checks is successful
+INFO     : Post-placement primitive-level checks is successful

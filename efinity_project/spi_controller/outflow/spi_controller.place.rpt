@@ -1,0 +1,75 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2025.2.288.2.10 
+Date: Sun Apr  5 12:50:34 2026
+
+Copyright (C) 2013 - 2025 Efinix, Inc. All rights reserved.
+ 
+Family: Titanium 
+Device: Ti60F225
+Top-level Entity Name: spi_controller
+
+---------- Module Resource Usage Distribution Estimates (begin) ----------
+
+'Module Resource Usage Distribution Estimates' table printed in: /home/hagen/school/fpga_comparison_project/efinity_project/spi_controller/outflow/spi_controller-hierarchical_stats.rpt
+
+----------- Module Resource Usage Distribution Estimates (end) ----------
+
+Elapsed time for packing: 0 hours 0 minutes 0 seconds
+
+---------- IO Placement Summary (begin) ----------
+
++----------------------+--------------+
+| Unassigned Core Pins | Input/Output |
++----------------------+--------------+
+|         clk          |    Input     |
+|        rst_n         |    Input     |
+|        start         |    Input     |
+|      tx_data[7]      |    Input     |
+|      tx_data[6]      |    Input     |
+|      tx_data[5]      |    Input     |
+|      tx_data[4]      |    Input     |
+|      tx_data[3]      |    Input     |
+|      tx_data[2]      |    Input     |
+|      tx_data[1]      |    Input     |
+|      tx_data[0]      |    Input     |
+|      rx_data[7]      |    Output    |
+|      rx_data[6]      |    Output    |
+|      rx_data[5]      |    Output    |
+|      rx_data[4]      |    Output    |
+|      rx_data[3]      |    Output    |
+|      rx_data[2]      |    Output    |
+|      rx_data[1]      |    Output    |
+|      rx_data[0]      |    Output    |
+|         busy         |    Output    |
+|         done         |    Output    |
+|         sclk         |    Output    |
+|         mosi         |    Output    |
+|         miso         |    Input     |
+|         cs_n         |    Output    |
++----------------------+--------------+
+
+----------- IO Placement Summary (end) ----------
+
+---------- Resource Summary (begin) ----------
+Inputs: 12 / 1703 (0.70%)
+Outputs: 13 / 2267 (0.57%)
+Global Clocks (GBUF): 1 / 32 (3.12%)
+Regional Clocks (RBUF): 0 / 32 (0.00%)
+	RBUF: Core: 0 / 16 (0.00%)
+	RBUF: Periphery: 0 / 8 (0.00%)
+	RBUF: Multi-Region: 0 / 8 (0.00%)
+XLRs: 56 / 60800 (0.09%)
+	XLRs needed for Logic: 21 / 60800 (0.03%)
+	XLRs needed for Logic + FF: 19 / 60800 (0.03%)
+	XLRs needed for Adder: 0 / 60800 (0.00%)
+	XLRs needed for Adder + FF: 0 / 60800 (0.00%)
+	XLRs needed for FF: 16 / 60800 (0.03%)
+	XLRs needed for SRL8: 0 / 14720 (0.00%)
+	XLRs needed for SRL8 + FF: 0 / 14720 (0.00%)
+	XLRs needed for Routing: 0 / 60800 (0.00%)
+Memory Blocks: 0 / 256 (0.00%)
+DSP Blocks: 0 / 160 (0.00%)
+---------- Resource Summary (end) ----------
+
+Elapsed time for placement: 0 hours 0 minutes 5 seconds

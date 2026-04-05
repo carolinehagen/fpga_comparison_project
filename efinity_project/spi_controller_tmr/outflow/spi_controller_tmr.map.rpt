@@ -1,0 +1,91 @@
+Efinity Synthesis report for project spi_controller_tmr
+Version: 2025.2.288.2.10
+Generated at: Apr 05, 2026 13:06:38
+Copyright (C) 2013 - 2025  All rights reserved.
+
+Top-level Entity Name : spi_controller_tmr
+
+family : Titanium
+device : Ti60F225
+project : spi_controller_tmr
+root : spi_controller_tmr
+I,include : /home/hagen/school/fpga_comparison_project/efinity_project/spi_controller_tmr
+binary-db : /home/hagen/school/fpga_comparison_project/efinity_project/spi_controller_tmr/outflow/spi_controller_tmr.vdb
+insert-ios : 0
+insert-gclk : 0
+max-carry-cascade : 320
+max-dsp-cascade : 16
+max_mult : -1
+max_ram : -1
+mode : speed
+num_srl : -1
+output-dir : /home/hagen/school/fpga_comparison_project/efinity_project/spi_controller_tmr/outflow
+project : spi_controller_tmr
+project-xml : /home/hagen/school/fpga_comparison_project/efinity_project/spi_controller_tmr/spi_controller_tmr.xml
+root : spi_controller_tmr
+work-dir : /home/hagen/school/fpga_comparison_project/efinity_project/spi_controller_tmr/work_syn
+write-efx-verilog : /home/hagen/school/fpga_comparison_project/efinity_project/spi_controller_tmr/outflow/spi_controller_tmr.map.v
+write-premap-module : /home/hagen/school/fpga_comparison_project/efinity_project/spi_controller_tmr/outflow/spi_controller_tmr.elab.vdb
+
+File List:
+
+/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv
+/home/hagen/school/fpga_comparison_project/spi_controller.sv
+
+### ### Report Section Start ### ###
+
+"MOD|OPT-0673" : Instance 'gen_cores[1].u_spi' is equivalent to 'gen_cores[0].u_spi', it will be optimized. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:49)
+"MOD|OPT-0673" : Instance 'gen_cores[2].u_spi' is equivalent to 'gen_cores[0].u_spi', it will be optimized. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:49)
+
+### ### EFX_FF CE enables (begin) ### ### ###
+Total number of enable signals: 8
+Total number of FFs with enable signals: 32
+CE signal <ceg_net10>, number of controlling flip flops: 3
+CE signal <ceg_net21>, number of controlling flip flops: 1
+CE signal <gen_cores[0].u_spi/state[0]>, number of controlling flip flops: 1
+CE signal <~gen_cores[0].u_spi/n405>, number of controlling flip flops: 8
+CE signal <gen_cores[0].u_spi/n431>, number of controlling flip flops: 8
+CE signal <ceg_net20>, number of controlling flip flops: 2
+CE signal <gen_cores[0].u_spi/n385>, number of controlling flip flops: 8
+CE signal <~gen_cores[0].u_spi/n211>, number of controlling flip flops: 1
+### ### EFX_FF CE enables (end) ### ### ###
+
+### ### EFX_FF SR set/reset (begin) ### ### ###
+Total number of set/reset signals: 1
+Total number of FFs with set/reset signals: 27
+SR signal <rst_n>, number of controlling flip flops: 27
+### ### EFX_FF SR set/reset (end) ### ### ###
+
+### ### Module Resource Usage Distribution Estimates (begin) ### ###
+
+**Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module                                        FFs      SRLs      ADDs      LUTs    COMB4s      RAMs DSP/MULTs
+---------------------------------------       ---      ----      ----      ----      ----      ---- ---------
+spi_controller_tmr:spi_controller_tmr       35(0)      0(0)      0(0)     30(0)      0(0)      0(0)      0(0)
+ +gen_cores[0].u_spi:spi_controller        35(35)      0(0)      0(0)    30(30)      0(0)      0(0)      0(0)
+
+### ### Module Resource Usage Distribution Estimates (end) ### ###
+
+
+### ### Clock Load Distribution Report (begin) ### ###
+
+ Clock      Flip-Flops      Shift-Regs    Memory PortsMultipliers/DSPs
+ -----      ----------      ----------    ----------------------------
+   clk              35               0               0               0
+
+### ### Clock Load Distribution Report (end) ### ###
+
+### ### Resource Summary (begin) ### ### ### 
+INPUT  PORTS    : 	12
+OUTPUT PORTS    : 	16
+
+EFX_LUT4        : 	30
+   1-2  Inputs  : 	10
+   3    Inputs  : 	13
+   4    Inputs  : 	7
+EFX_FF          : 	35
+### ### Resource Summary (end) ### ### ###
+
+Plain synthesis (without verilog dump and post-map checks) time : 0s
+Elapsed synthesis time : 1s

@@ -1,0 +1,27 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2025.2.288.2.10 
+Date: Sun Apr  5 13:06:52 2026
+
+Copyright (C) 2013 - 2025 Efinix, Inc. All rights reserved.
+ 
+Family: Titanium 
+Device: Ti60F225
+Top-level Entity Name: spi_controller_tmr
+Elapsed time for routing: 0 hours 0 minutes 2 seconds
+
+
+---------- GBUFCE Assignments (begin) ----------
+
+
++-----------+----------+----------+
+| Clock Net | GBUFCE_X | GBUFCE_Y |
++-----------+----------+----------+
+|    clk    |   111    |    1     |
++-----------+----------+----------+
+
+
+----------- GBUFCE Assignments (end) ----------
+
+
+Elapsed time for Latest PnR Run: 0 hours 0 minutes 14 seconds

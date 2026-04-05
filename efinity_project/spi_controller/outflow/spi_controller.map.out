@@ -1,0 +1,135 @@
+INFO     : Efinix FPGA Synthesis.
+INFO     : Version: 2025.2.288.2.10
+INFO     : Compiled: Dec 18 2025.
+INFO     : 
+INFO     : Copyright (C) 2013 - 2025 Efinix, Inc. All rights reserved.
+
+INFO     : Reading project database "/home/hagen/school/fpga_comparison_project/efinity_project/spi_controller/spi_controller.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Analyzing Verilog file '/home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_peri_lib.v' [VERI-1482]
+INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(8): compiling module 'EFX_IBUF' [VERI-1018]
+INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(16): compiling module 'EFX_OBUF' [VERI-1018]
+INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(23): compiling module 'EFX_IO_BUF' [VERI-1018]
+INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(33): compiling module 'EFX_CLKOUT' [VERI-1018]
+INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(41): compiling module 'EFX_IREG' [VERI-1018]
+INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(51): compiling module 'EFX_OREG' [VERI-1018]
+INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(60): compiling module 'EFX_IOREG' [VERI-1018]
+INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(75): compiling module 'EFX_IDDIO' [VERI-1018]
+INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(87): compiling module 'EFX_ODDIO' [VERI-1018]
+INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(99): compiling module 'EFX_GPIO_V1' [VERI-1018]
+INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(124): compiling module 'EFX_GPIO_V2' [VERI-1018]
+INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(149): compiling module 'EFX_GPIO_V3' [VERI-1018]
+INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(186): compiling module 'EFX_PLL_V1' [VERI-1018]
+INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(205): compiling module 'EFX_PLL_V2' [VERI-1018]
+INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(231): compiling module 'EFX_PLL_V3' [VERI-1018]
+INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(279): compiling module 'EFX_OSC_V1' [VERI-1018]
+INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(285): compiling module 'EFX_OSC_V3' [VERI-1018]
+INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(294): compiling module 'EFX_FPLL_V1' [VERI-1018]
+INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(348): compiling module 'EFX_JTAG_V1' [VERI-1018]
+INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(357): compiling module 'EFX_JTAG_CTRL' [VERI-1018]
+INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(364): compiling module 'EFX_LVDS_RX_V1' [VERI-1018]
+INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(381): compiling module 'EFX_LVDS_TX_V1' [VERI-1018]
+INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(399): compiling module 'EFX_LVDS_RX_V2' [VERI-1018]
+INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(426): compiling module 'EFX_LVDS_TX_V2' [VERI-1018]
+INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(446): compiling module 'EFX_LVDS_BIDIR_V2' [VERI-1018]
+INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(485): compiling module 'EFX_MIPI_TX_LN_V1' [VERI-1018]
+INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(508): compiling module 'EFX_MIPI_RX_LN_V1' [VERI-1018]
+INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(543): compiling module 'EFX_MIPI_RX_CLK_LN_V1' [VERI-1018]
+INFO     : Reading project database "/home/hagen/school/fpga_comparison_project/efinity_project/spi_controller/spi_controller.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : ***** Beginning Analysis ... *****
+INFO     : default VHDL library search path is now "/home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/vhdl/packages/vhdl_2008" [VHDL-1504]
+INFO     : Analyzing Verilog file '/home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_maplib.v' [VERI-1482]
+INFO     : Analyzing Verilog file '/home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_peri_lib.v' [VERI-1482]
+INFO     : Analyzing Verilog file '/home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_maplib.v' [VERI-1482]
+INFO     : Analyzing Verilog file '/home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_peri_lib.v' [VERI-1482]
+INFO     : Analyzing Verilog file '/home/hagen/school/fpga_comparison_project/spi_controller.sv' [VERI-1482]
+INFO     : Analysis took 0.016776046 seconds [FlowMsg::StageDuration]
+INFO     :     Analysis took 0.02 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Analysis virtual memory usage: begin = 130.636 MB, end = 131.66 MB, delta = 1.024 MB [FlowMsg::VMUsage]
+INFO     : Analysis resident set memory usage: begin = 74.416 MB, end = 75.796 MB, delta = 1.38 MB [FlowMsg::RSSUsage]
+INFO     :     Analysis peak resident set memory usage = 302.068 MB [FlowMsg::RSSUsage::Peak]
+INFO     : ***** Ending Analysis ... *****
+INFO     : ***** Beginning Elaboration ... *****
+INFO     : /home/hagen/school/fpga_comparison_project/spi_controller.sv(5): compiling module 'spi_controller' [VERI-1018]
+INFO     : Elaboration took 0.005586302 seconds [FlowMsg::StageDuration]
+INFO     :     Elaboration took 0 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Elaboration virtual memory usage: begin = 131.66 MB, end = 131.66 MB, delta = 0 MB [FlowMsg::VMUsage]
+INFO     : Elaboration resident set memory usage: begin = 75.924 MB, end = 76.624 MB, delta = 0.7 MB [FlowMsg::RSSUsage]
+INFO     :     Elaboration peak resident set memory usage = 302.068 MB [FlowMsg::RSSUsage::Peak]
+INFO     : ***** Ending Elaboration ... *****
+INFO     : ... Setting Synthesis Option: mode=speed
+INFO     : ***** Beginning Reading Mapping Library ... *****
+INFO     : Analyzing Verilog file '/home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_maplib.v' [VERI-1482]
+INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_maplib.v(8): compiling module 'EFX_ADD' [VERI-1018]
+INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_maplib.v(21): compiling module 'EFX_FF' [VERI-1018]
+INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_maplib.v(38): compiling module 'EFX_COMB4' [VERI-1018]
+INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_maplib.v(48): compiling module 'EFX_GBUFCE' [VERI-1018]
+INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_maplib.v(57): compiling module 'EFX_LUT4' [VERI-1018]
+INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_maplib.v(65): compiling module 'EFX_MULT' [VERI-1018]
+INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_maplib.v(100): compiling module 'EFX_DSP48' [VERI-1018]
+INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_maplib.v(156): compiling module 'EFX_DSP24' [VERI-1018]
+INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_maplib.v(209): compiling module 'EFX_DSP12' [VERI-1018]
+INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_maplib.v(262): compiling module 'EFX_RAM_4K' [VERI-1018]
+INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_maplib.v(322): compiling module 'EFX_RAM_5K' [VERI-1018]
+INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_maplib.v(394): compiling module 'EFX_DPRAM_5K' [VERI-1018]
+INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_maplib.v(499): compiling module 'RAMB5' [VERI-1018]
+INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_maplib.v(561): compiling module 'EFX_RAM_10K' [VERI-1018]
+INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_maplib.v(653): compiling module 'EFX_RAM10' [VERI-1018]
+INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_maplib.v(754): compiling module 'EFX_DPRAM10' [VERI-1018]
+INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_maplib.v(884): compiling module 'EFX_SRL8' [VERI-1018]
+INFO     : Reading Mapping Library took 0.011434353 seconds [FlowMsg::StageDuration]
+INFO     :     Reading Mapping Library took 0.01 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Reading Mapping Library virtual memory usage: begin = 136.26 MB, end = 136.26 MB, delta = 0 MB [FlowMsg::VMUsage]
+INFO     : Reading Mapping Library resident set memory usage: begin = 78.872 MB, end = 78.872 MB, delta = 0 MB [FlowMsg::RSSUsage]
+INFO     :     Reading Mapping Library peak resident set memory usage = 302.068 MB [FlowMsg::RSSUsage::Peak]
+INFO     : ***** Ending Reading Mapping Library ... *****
+INFO     : ... Pre-synthesis checks begin
+INFO     : ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 302068KB)
+INFO     : ... NameSpace init begin
+INFO     : ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 302068KB)
+INFO     : ... Mapping design "spi_controller"
+INFO     : ... Hierarchical pre-synthesis "spi_controller" begin
+INFO     : ... Clock Enable Synthesis Performed on 37 flops.
+INFO     : ... Hierarchical pre-synthesis "spi_controller" end (Real time : 1s CPU user time : 0s CPU sys time : 0s MEM : 302068KB)
+INFO     : ... Flat optimizations begin
+INFO     : ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 302068KB)
+INFO     : ... Flat synthesis begin
+INFO     : ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 302068KB)
+INFO     : ... Flat optimizations begin
+INFO     : ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 302068KB)
+INFO     : ... Check and break combinational loops begin
+INFO     : ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 302068KB)
+INFO     : ... Sequential Optimization begin
+INFO     : ... Clock Network 'clk' with 35 loads will be considered for sequential optimization.
+INFO     : ... Sequential Optimization deduced 4 equivalent points.
+INFO     : ... Sequential Optimization end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 302068KB)
+INFO     : ... Setup for logic synthesis begin
+INFO     : ... Setup for logic synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 302068KB)
+INFO     : ... LUT mapping begin
+INFO     : ... LS, strategy: 3, nd: 37, ed: 108, lv: 3, pw: 92.71
+INFO     : ... LUT mapping end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 302068KB)
+INFO     : ... Post-synthesis Verific netlist creation begin
+INFO     : ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 302068KB)
+INFO     : ... Postmap Retiming Optimization begin
+INFO     : ... Clock Network 'clk~clk' with 35 loads will be considered for retiming optimization.
+INFO     : ... Performed 0 retime moves.
+INFO     : ... Postmap Retiming Optimization end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 302068KB)
+INFO     : ***** Beginning VDB Netlist Checker ... *****
+INFO     : VDB Netlist Checker took 0.000365572 seconds [FlowMsg::StageDuration]
+INFO     :     VDB Netlist Checker took 0 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : VDB Netlist Checker virtual memory usage: begin = 253.344 MB, end = 253.344 MB, delta = 0 MB [FlowMsg::VMUsage]
+INFO     : VDB Netlist Checker resident set memory usage: begin = 93.076 MB, end = 93.076 MB, delta = 0 MB [FlowMsg::RSSUsage]
+INFO     :     VDB Netlist Checker peak resident set memory usage = 302.068 MB [FlowMsg::RSSUsage::Peak]
+INFO     : ***** Ending VDB Netlist Checker ... *****
+INFO     : Resource Summary 
+INFO     : =============================== 
+INFO     : EFX_LUT4        : 	38
+INFO     : EFX_FF          : 	35
+INFO     : =============================== 
+INFO     : ... Post-Map Verilog Writer begin
+INFO     : Writing netlist 'spi_controller' to Verilog file '/home/hagen/school/fpga_comparison_project/efinity_project/spi_controller/outflow/spi_controller.map.v' [VDB-1030]
+INFO     : ... Post-Map Verilog Writer end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 302068KB)
+INFO     : The entire flow of EFX_MAP took 1.452986496 seconds [FlowMsg::StageDuration]
+INFO     :     The entire flow of EFX_MAP took 1.29 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : The entire flow of EFX_MAP virtual memory usage: begin = 94.476 MB, end = 253.344 MB, delta = 158.868 MB [FlowMsg::VMUsage]
+INFO     : The entire flow of EFX_MAP resident set memory usage: begin = 29.86 MB, end = 95.128 MB, delta = 65.268 MB [FlowMsg::RSSUsage]
+INFO     :     The entire flow of EFX_MAP peak resident set memory usage = 302.068 MB [FlowMsg::RSSUsage::Peak]

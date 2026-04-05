@@ -1,0 +1,26 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Apr 05, 2026 13:06:37
+///////////////////////////////////
+
+[EFX-0200 WARNING] Removing redundant signal : k[31]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:94)
+[EFX-0200 WARNING] Removing redundant signal : k[30]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:94)
+[EFX-0200 WARNING] Removing redundant signal : k[29]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:94)
+[EFX-0200 WARNING] Removing redundant signal : k[28]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:94)
+[EFX-0200 WARNING] Removing redundant signal : k[27]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:94)
+[EFX-0200 WARNING] Removing redundant signal : k[26]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:94)
+[EFX-0200 WARNING] Removing redundant signal : k[25]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:94)
+[EFX-0200 WARNING] Removing redundant signal : k[24]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:94)
+[EFX-0200 WARNING] Removing redundant signal : k[23]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:94)
+[EFX-0200 WARNING] Removing redundant signal : k[22]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:94)
+[EFX-0200 WARNING] Removing redundant signal : k[21]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:94)
+[EFX-0200 WARNING] Removing redundant signal : k[20]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:94)
+[EFX-0200 WARNING] Removing redundant signal : k[19]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:94)
+[EFX-0200 WARNING] Removing redundant signal : k[18]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:94)
+[EFX-0200 WARNING] Removing redundant signal : k[17]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:94)
+[EFX-0200 WARNING] Removing redundant signal : k[16]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:94)
+[EFX-0200 WARNING] Removing redundant signal : k[15]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:94)
+[EFX-0200 WARNING] Removing redundant signal : k[14]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:94)
+[EFX-0200 WARNING] Removing redundant signal : k[13]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:94)
+[EFX-0200 WARNING] Removing redundant signal : k[12]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:94)

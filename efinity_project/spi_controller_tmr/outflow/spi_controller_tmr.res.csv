@@ -1,0 +1,9 @@
+sep=\t
+Module Resource Usage Distribution Estimates
+Generated at: Apr 05, 2026 13:06:38
+
+Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module	       FFs	      SRLs	      ADDs	      LUTs	    COMB4s	      RAMs	 DSP/MULTs
+spi_controller_tmr:spi_controller_tmr  	    35(0)	     0(0)	     0(0)	    30(0)	     0(0)	     0(0)	     0(0)	
+ +gen_cores[0].u_spi:spi_controller    	   35(35)	     0(0)	     0(0)	   30(30)	     0(0)	     0(0)	     0(0)	

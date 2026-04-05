@@ -37,4 +37,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log down_counter.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source down_counter.tcl
+EAStep vivado -log spi_controller_tmr.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source spi_controller_tmr.tcl
