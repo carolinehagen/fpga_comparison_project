@@ -1,0 +1,92 @@
+INFO     : No SDC file found.  Using default timing constraint of 1 ns.
+INFO     : NOTE:  Use --sdc_file <SDC_FILE> to override this behavior.
+INFO     : Creating clock 'clk' with 1 sources
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Router Setup
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : [Setup Parallel Routing Scheduler]
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Route Circuit with 10 threads
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Beneficial skew enabled! Optimizing clock skews ... 
+INFO     : Non-legalized beneficial skew improved geomean CPD by 0.00% (from 523ps to 523ps)
+INFO     : CSS improved CPD of clock clk by 0.00% (from 523ps to 523ps)
+INFO     : Discretized beneficial skew improved geomean CPD by 0.00% (from 523ps to 523ps in 4 iterations and 0.0 sec)
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Overridding delay budgets for 0 synchronizer-related pins
+INFO     : [Rebuild Parallel Routing Scheduler]
+INFO     : Iter  1: overlap=5       heapops=3140       (0%) cpd=523   frr=1.00  msec=37
+INFO     : [Setup Delay Budgets | 5.0 ms]
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Hold Fixing
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Total min wire delay:      1534
+INFO     : Hold fix wire delay:          0
+INFO     : Hold fix delay ratio:     0.00%
+INFO     : Pins requiring hold fix:  0.00%
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Iter  2: overlap=2       heapops=357        (75%) cpd=523   frr=1.00  msec=43
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Beneficial skew enabled! Optimizing clock skews ... 
+INFO     : Non-legalized beneficial skew improved geomean CPD by 0.00% (from 523ps to 523ps)
+INFO     : CSS improved CPD of clock clk by 0.00% (from 523ps to 523ps)
+INFO     : Discretized beneficial skew improved geomean CPD by 0.00% (from 523ps to 523ps in 1 iterations and 0.0 sec)
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Iter  3: overlap=0       heapops=165        (81%) cpd=523   frr=1.00  msec=37
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Routing Result
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Routing Succeeded in 0.17 seconds taking 3 iterations! 
+INFO     : 
+INFO     : First iteration critical path delay = 0.523 ns 
+INFO     : Last iteration critical path delay  = 0.523 ns (ratio = 1.00)
+INFO     : Max Routing Heap Size = 121
+INFO     : Routing trace written to file '/home/hagen/school/fpga_comparison_project/efinity_project/up_counter/outflow/up_counter.troutingtraces' 
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Routing took 1.809427182 seconds [FlowMsg::StageDuration]
+INFO     :     Routing took 3.49 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Routing virtual memory usage: begin = 327.744 MB, end = 516.656 MB, delta = 188.912 MB [FlowMsg::VMUsage]
+INFO     : Routing resident set memory usage: begin = 177.036 MB, end = 222.976 MB, delta = 45.94 MB [FlowMsg::RSSUsage]
+INFO     :     Routing peak resident set memory usage = 304.36 MB [FlowMsg::RSSUsage::Peak]
+           ***** Beginning stage final timing analysis ... *****
+INFO     : No SDC file found.  Using default timing constraint of 1 ns.
+INFO     : NOTE:  Use --sdc_file <SDC_FILE> to override this behavior.
+INFO     : Creating clock 'clk' with 1 sources
+Maximum possible analyzed clocks frequency
+ Clock Name  Period (ns)  Frequency (MHz)     Edge
+    clk         0.633        1579.779*       (R-R)
+
+* CAUTION: Frequency is limited to 1000.000 MHz by global clock network
+
+Geomean max period: 0.633
+
+Setup (Max) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+      clk              clk             1.000            0.367            (R-R)
+
+Hold (Min) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+      clk              clk             0.000            0.097            (R-R)
+
+INFO     : Write Timing Report to "/home/hagen/school/fpga_comparison_project/efinity_project/up_counter/outflow/up_counter.timing.rpt" ...
+INFO     : final timing analysis took 0.17614211 seconds [FlowMsg::StageDuration]
+INFO     :     final timing analysis took 0.17 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : final timing analysis virtual memory usage: begin = 516.656 MB, end = 516.656 MB, delta = 0 MB [FlowMsg::VMUsage]
+INFO     : final timing analysis resident set memory usage: begin = 267.84 MB, end = 268.3 MB, delta = 0.46 MB [FlowMsg::RSSUsage]
+INFO     :     final timing analysis peak resident set memory usage = 304.36 MB [FlowMsg::RSSUsage::Peak]
+           ***** Ending stage final timing analysis *****
+           
+           ***** Beginning stage bitstream generation ... *****
+INFO     : Reading core interface constraints file "/home/hagen/school/fpga_comparison_project/efinity_project/up_counter/outflow/up_counter.interface.csv" [DBMsg::CoreInterfaceConstraintsFileReading]
+INFO     : Successfully read core interface constraints file "/home/hagen/school/fpga_comparison_project/efinity_project/up_counter/outflow/up_counter.interface.csv" [DBMsg::CoreInterfaceConstraintsFileLoadSuccess]
+INFO     : Finished writing bitstream file /home/hagen/school/fpga_comparison_project/efinity_project/up_counter/work_pnr/up_counter.lbf.
+INFO     : Bitstream generation took 2.82380621 seconds [FlowMsg::StageDuration]
+INFO     :     Bitstream generation took 2.76 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Bitstream generation virtual memory usage: begin = 516.656 MB, end = 516.656 MB, delta = 0 MB [FlowMsg::VMUsage]
+INFO     : Bitstream generation resident set memory usage: begin = 225.42 MB, end = 316.112 MB, delta = 90.692 MB [FlowMsg::RSSUsage]
+INFO     :     Bitstream generation peak resident set memory usage = 316.112 MB [FlowMsg::RSSUsage::Peak]
+INFO     : The entire flow of EFX_PNR took 10.596807847 seconds [FlowMsg::StageDuration]
+INFO     :     The entire flow of EFX_PNR took 12.71 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : The entire flow of EFX_PNR virtual memory usage: begin = 127.776 MB, end = 516.656 MB, delta = 388.88 MB [FlowMsg::VMUsage]
+INFO     : The entire flow of EFX_PNR resident set memory usage: begin = 39.644 MB, end = 316.112 MB, delta = 276.468 MB [FlowMsg::RSSUsage]
+INFO     :     The entire flow of EFX_PNR peak resident set memory usage = 316.112 MB [FlowMsg::RSSUsage::Peak]

@@ -1,0 +1,62 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2025.2.288.2.10 
+Date: Sun Apr 19 14:10:08 2026
+
+Copyright (C) 2013 - 2025 Efinix, Inc. All rights reserved.
+ 
+Family: Titanium 
+Device: Ti60F225
+Top-level Entity Name: up_counter
+
+---------- Module Resource Usage Distribution Estimates (begin) ----------
+
+'Module Resource Usage Distribution Estimates' table printed in: /home/hagen/school/fpga_comparison_project/efinity_project/up_counter/outflow/up_counter-hierarchical_stats.rpt
+
+----------- Module Resource Usage Distribution Estimates (end) ----------
+
+Elapsed time for packing: 0 hours 0 minutes 0 seconds
+
+---------- IO Placement Summary (begin) ----------
+
++----------------------+--------------+
+| Unassigned Core Pins | Input/Output |
++----------------------+--------------+
+|         clk          |    Input     |
+|         rst          |    Input     |
+|          en          |    Input     |
+|       count[7]       |    Output    |
+|       count[6]       |    Output    |
+|       count[5]       |    Output    |
+|       count[4]       |    Output    |
+|       count[3]       |    Output    |
+|       count[2]       |    Output    |
+|       count[1]       |    Output    |
+|       count[0]       |    Output    |
+|       count_up       |    Output    |
++----------------------+--------------+
+
+----------- IO Placement Summary (end) ----------
+
+---------- Resource Summary (begin) ----------
+Inputs: 3 / 1703 (0.18%)
+Outputs: 9 / 2267 (0.40%)
+Global Clocks (GBUF): 1 / 32 (3.12%)
+Regional Clocks (RBUF): 0 / 32 (0.00%)
+	RBUF: Core: 0 / 16 (0.00%)
+	RBUF: Periphery: 0 / 8 (0.00%)
+	RBUF: Multi-Region: 0 / 8 (0.00%)
+XLRs: 19 / 60800 (0.03%)
+	XLRs needed for Logic: 2 / 60800 (0.00%)
+	XLRs needed for Logic + FF: 2 / 60800 (0.00%)
+	XLRs needed for Adder: 0 / 60800 (0.00%)
+	XLRs needed for Adder + FF: 7 / 60800 (0.01%)
+	XLRs needed for FF: 8 / 60800 (0.01%)
+	XLRs needed for SRL8: 0 / 14720 (0.00%)
+	XLRs needed for SRL8 + FF: 0 / 14720 (0.00%)
+	XLRs needed for Routing: 0 / 60800 (0.00%)
+Memory Blocks: 0 / 256 (0.00%)
+DSP Blocks: 0 / 160 (0.00%)
+---------- Resource Summary (end) ----------
+
+Elapsed time for placement: 0 hours 0 minutes 2 seconds

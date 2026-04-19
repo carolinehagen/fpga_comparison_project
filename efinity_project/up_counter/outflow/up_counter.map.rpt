@@ -1,0 +1,81 @@
+Efinity Synthesis report for project up_counter
+Version: 2025.2.288.2.10
+Generated at: Apr 19, 2026 14:09:59
+Copyright (C) 2013 - 2025  All rights reserved.
+
+Top-level Entity Name : up_counter
+
+family : Titanium
+device : Ti60F225
+project : up_counter
+root : up_counter
+I,include : /home/hagen/school/fpga_comparison_project/efinity_project/up_counter
+binary-db : /home/hagen/school/fpga_comparison_project/efinity_project/up_counter/outflow/up_counter.vdb
+insert-ios : 0
+insert-gclk : 0
+max-carry-cascade : 320
+max-dsp-cascade : 16
+max_mult : -1
+max_ram : -1
+mode : speed
+num_srl : -1
+output-dir : /home/hagen/school/fpga_comparison_project/efinity_project/up_counter/outflow
+project : up_counter
+project-xml : /home/hagen/school/fpga_comparison_project/efinity_project/up_counter/up_counter.xml
+root : up_counter
+work-dir : /home/hagen/school/fpga_comparison_project/efinity_project/up_counter/work_syn
+write-efx-verilog : /home/hagen/school/fpga_comparison_project/efinity_project/up_counter/outflow/up_counter.map.v
+write-premap-module : /home/hagen/school/fpga_comparison_project/efinity_project/up_counter/outflow/up_counter.elab.vdb
+
+File List:
+
+/home/hagen/school/fpga_comparison_project/up_counter.sv
+
+### ### Report Section Start ### ###
+
+
+### ### EFX_FF CE enables (begin) ### ### ###
+Total number of enable signals: 1
+Total number of FFs with enable signals: 17
+CE signal <en>, number of controlling flip flops: 17
+### ### EFX_FF CE enables (end) ### ### ###
+
+### ### EFX_FF SR set/reset (begin) ### ### ###
+Total number of set/reset signals: 1
+Total number of FFs with set/reset signals: 17
+SR signal <rst>, number of controlling flip flops: 17
+### ### EFX_FF SR set/reset (end) ### ### ###
+
+### ### Module Resource Usage Distribution Estimates (begin) ### ###
+
+**Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module                        FFs      SRLs      ADDs      LUTs    COMB4s      RAMs DSP/MULTs
+-----------------------       ---      ----      ----      ----      ----      ---- ---------
+up_counter:up_counter      17(17)      0(0)      7(7)      3(3)      0(0)      0(0)      0(0)
+
+### ### Module Resource Usage Distribution Estimates (end) ### ###
+
+
+### ### Clock Load Distribution Report (begin) ### ###
+
+ Clock      Flip-Flops      Shift-Regs    Memory PortsMultipliers/DSPs
+ -----      ----------      ----------    ----------------------------
+   clk              17               0               0               0
+
+### ### Clock Load Distribution Report (end) ### ###
+
+### ### Resource Summary (begin) ### ### ### 
+INPUT  PORTS    : 	3
+OUTPUT PORTS    : 	9
+
+EFX_ADD         : 	7
+EFX_LUT4        : 	3
+   1-2  Inputs  : 	1
+   3    Inputs  : 	0
+   4    Inputs  : 	2
+EFX_FF          : 	17
+### ### Resource Summary (end) ### ### ###
+
+Plain synthesis (without verilog dump and post-map checks) time : 1s
+Elapsed synthesis time : 1s
