@@ -30,7 +30,7 @@ set_option -package CABGA256C
 set_option -speed_grade -9
 
 #compilation/mapping options
-set_option -top_module "spi_controller"
+set_option -top_module "down_counter"
 
 # hdl_compiler_options
 set_option -hdl_strict_syntax 0

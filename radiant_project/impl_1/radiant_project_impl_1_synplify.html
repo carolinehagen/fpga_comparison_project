@@ -46,7 +46,7 @@ if (a)
 #OS: Windows 10 or later
 #Hostname: DESKTOP-9LKF312
 
-# Sun Mar 22 10:38:14 2026
+# Sun Apr 19 14:35:56 2026
 
 #Implementation: impl_1
 
@@ -92,7 +92,7 @@ At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memor
 
 
 Process completed successfully.
-# Sun Mar 22 10:38:15 2026
+# Sun Apr 19 14:35:57 2026
 
 ###########################################################]
 ###########################################################[
@@ -253,7 +253,7 @@ At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 
 
 Process completed successfully.
-# Sun Mar 22 10:38:15 2026
+# Sun Apr 19 14:35:57 2026
 
 ###########################################################]
 ###########################################################[
@@ -394,18 +394,11 @@ Process completed successfully.
 @I::&quot;C:\Users\carol\repos\fpga_comparison_project\up_counter.sv&quot; (library work)
 Verilog syntax check successful!
 Options changed - recompiling
-@N: CG364 :&quot;C:\Users\carol\repos\fpga_comparison_project\spi_controller.sv&quot;:5:7:5:20|Synthesizing module spi_controller in library work.
-Running optimization stage 1 on spi_controller .......
-@A: CL282 :&quot;C:\Users\carol\repos\fpga_comparison_project\spi_controller.sv&quot;:74:4:74:12|Feedback mux created for signal rx_data[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
-Finished optimization stage 1 on spi_controller (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 195MB)
-Running optimization stage 2 on spi_controller .......
-@N: CL201 :&quot;C:\Users\carol\repos\fpga_comparison_project\spi_controller.sv&quot;:74:4:74:12|Trying to extract state machine for register state.
-Extracted state machine for register state
-State machine has 3 reachable states with original encodings of:
-   00
-   01
-   10
-Finished optimization stage 2 on spi_controller (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 196MB)
+@N: CG364 :&quot;C:\Users\carol\repos\fpga_comparison_project\down_counter.sv&quot;:1:7:1:18|Synthesizing module down_counter in library work.
+Running optimization stage 1 on down_counter .......
+Finished optimization stage 1 on down_counter (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+Running optimization stage 2 on down_counter .......
+Finished optimization stage 2 on down_counter (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 195MB)
 
 For a summary of runtime per design unit, please see file:
 ==========================================================
@@ -413,11 +406,11 @@ For a summary of runtime per design unit, please see file:
 
 
 
-At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 195MB peak: 196MB)
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 194MB peak: 195MB)
 
 
 Process completed successfully.
-# Sun Mar 22 10:38:16 2026
+# Sun Apr 19 14:35:59 2026
 
 ###########################################################]
 ###########################################################[
@@ -443,7 +436,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Mar 22 10:38:17 2026
+# Sun Apr 19 14:35:59 2026
 
 ###########################################################]
 
@@ -458,7 +451,7 @@ At c_hdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory
 Process took 0h:00m:02s realtime, 0h:00m:02s cputime
 
 Process completed successfully.
-# Sun Mar 22 10:38:17 2026
+# Sun Apr 19 14:35:59 2026
 
 ###########################################################]
 ###########################################################[
@@ -485,12 +478,12 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Mar 22 10:38:18 2026
+# Sun Apr 19 14:36:00 2026
 
 ###########################################################]
 Premap Report
 
-# Sun Mar 22 10:38:18 2026
+# Sun Apr 19 14:36:01 2026
 
 
 Copyright (C) 1994-2025 Synopsys, Inc.
@@ -545,44 +538,39 @@ Started DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00
 
 Finished DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 256MB peak: 257MB)
 
-Encoding state machine state[2:0] (in view: work.spi_controller(verilog))
-original code -&gt; new code
-   00 -&gt; 00
-   01 -&gt; 01
-   10 -&gt; 10
 
-Starting clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 259MB peak: 259MB)
+Starting clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 257MB peak: 257MB)
 
 
-Finished clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 259MB peak: 259MB)
+Finished clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 258MB peak: 258MB)
 
-@N: FX1184 |Applying syn_allowed_resources blockrams=80 on top level netlist spi_controller 
+@N: FX1184 |Applying syn_allowed_resources blockrams=80 on top level netlist down_counter 
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 259MB peak: 259MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 258MB peak: 258MB)
 
 
 
 Clock Summary
 ******************
 
-          Start                  Requested     Requested     Clock        Clock                                          Clock
-Level     Clock                  Frequency     Period        Type         Group                                          Load 
-------------------------------------------------------------------------------------------------------------------------------
-0 -       spi_controller|clk     200.0 MHz     5.000         inferred     Inferred_clkgroup_0, Inferred_clkgroup_0_1     35   
-==============================================================================================================================
+          Start                Requested     Requested     Clock        Clock                                          Clock
+Level     Clock                Frequency     Period        Type         Group                                          Load 
+----------------------------------------------------------------------------------------------------------------------------
+0 -       down_counter|clk     200.0 MHz     5.000         inferred     Inferred_clkgroup_0, Inferred_clkgroup_0_1     8    
+============================================================================================================================
 
 
 
 Clock Load Summary
 ***********************
 
-                       Clock     Source        Clock Pin       Non-clock Pin     Non-clock Pin
-Clock                  Load      Pin           Seq Example     Seq Example       Comb Example 
-----------------------------------------------------------------------------------------------
-spi_controller|clk     35        clk(port)     done.C          -                 -            
-==============================================================================================
+                     Clock     Source        Clock Pin        Non-clock Pin     Non-clock Pin
+Clock                Load      Pin           Seq Example      Seq Example       Comb Example 
+---------------------------------------------------------------------------------------------
+down_counter|clk     8         clk(port)     count[7:0].C     -                 -            
+=============================================================================================
 
-@W: MT530 :&quot;c:\users\carol\repos\fpga_comparison_project\spi_controller.sv&quot;:74:4:74:12|Found inferred clock spi_controller|clk which controls 35 sequential elements including state[1]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :&quot;c:\users\carol\repos\fpga_comparison_project\down_counter.sv&quot;:11:4:11:12|Found inferred clock down_counter|clk which controls 8 sequential elements including count[7:0]. This clock has no specified timing constraint which may adversely impact design performance. 
 
 ICG Latch Removal Summary:
 Number of ICG latches removed: 0
@@ -595,14 +583,14 @@ Number of ICG latches not removed:	0
 
 #### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
 
-1 non-gated/non-generated clock tree(s) driving 35 clock pin(s) of sequential element(s)
+1 non-gated/non-generated clock tree(s) driving 8 clock pin(s) of sequential element(s)
 0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
 0 instances converted, 0 sequential instances remain driven by gated/generated clocks
 
 =========================== Non-Gated/Non-Generated Clocks ============================
 Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
 ---------------------------------------------------------------------------------------
-@KP:ckid0_0       clk                 port                   35         state[1]       
+@KP:ckid0_0       clk                 port                   8          count[7:0]     
 =======================================================================================
 
 
@@ -615,25 +603,25 @@ Summary of user generated gated clocks:
 @N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
 Finished Pre Mapping Phase.
 
-Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 260MB peak: 260MB)
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 259MB peak: 259MB)
 
 
-Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 260MB peak: 261MB)
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 259MB peak: 259MB)
 
 
-Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 261MB peak: 261MB)
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 259MB peak: 259MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 262MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 261MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Sun Mar 22 10:38:20 2026
+# Sun Apr 19 14:36:02 2026
 
 ###########################################################]
 Map &amp; Optimize Report
 
-# Sun Mar 22 10:38:20 2026
+# Sun Apr 19 14:36:03 2026
 
 
 Copyright (C) 1994-2025 Synopsys, Inc.
@@ -674,19 +662,19 @@ Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h
 Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 256MB peak: 256MB)
 
 
-Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 260MB peak: 260MB)
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 259MB peak: 259MB)
 
 
-Starting area decomp  (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 260MB peak: 260MB)
+Starting area decomp  (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 259MB peak: 260MB)
 
 
-Finished area decomp  (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 261MB peak: 261MB)
+Finished area decomp  (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 260MB peak: 260MB)
 
 
-Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 261MB peak: 261MB)
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 260MB peak: 260MB)
 
 
-Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 261MB peak: 261MB)
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 260MB peak: 260MB)
 
 
 Available hyper_sources - for debug and ip models
@@ -694,41 +682,41 @@ Available hyper_sources - for debug and ip models
 
 NConnInternalConnection caching is on
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 261MB peak: 262MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 260MB peak: 260MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 262MB peak: 262MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 261MB peak: 261MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 262MB peak: 262MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 261MB peak: 261MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 262MB peak: 262MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 261MB peak: 261MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 262MB peak: 262MB)
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 261MB peak: 261MB)
 
 
 Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 262MB peak: 262MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:01s		     1.91ns		  28 /        35
+   1		0h:00m:01s		     3.07ns		   4 /         8
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 262MB peak: 263MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 262MB peak: 262MB)
 
 @N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 263MB peak: 263MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 262MB peak: 262MB)
 
 
 Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 263MB peak: 263MB)
 
 
-Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 263MB peak: 264MB)
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 263MB peak: 263MB)
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:02s; Memory used current: 208MB peak: 264MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 208MB peak: 263MB)
 
 Writing Analyst data base C:\Users\carol\repos\fpga_comparison_project\radiant_project\impl_1\synwork\radiant_project_impl_1_m.srm
 
@@ -747,17 +735,17 @@ Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:02s; CPU Tim
 Finished Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 266MB peak: 266MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 265MB peak: 266MB)
+Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 264MB peak: 266MB)
 
-@W: MT420 |Found inferred clock spi_controller|clk with period 5.00ns. Please declare a user-defined clock on port clk.
+@W: MT420 |Found inferred clock down_counter|clk with period 5.00ns. Please declare a user-defined clock on port clk.
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Sun Mar 22 10:38:24 2026
+# Timing report written on Sun Apr 19 14:36:06 2026
 #
 
 
-Top view:               spi_controller
+Top view:               down_counter
 Requested Frequency:    200.0 MHz
 Wire load mode:         top
 Paths requested:        5
@@ -773,14 +761,13 @@ Performance Summary
 *******************
 
 
-Worst slack in design: 2.340
+Worst slack in design: 2.713
 
-                       Requested     Estimated     Requested     Estimated               Clock        Clock                                     
-Starting Clock         Frequency     Frequency     Period        Period        Slack     Type         Group                                     
-------------------------------------------------------------------------------------------------------------------------------------------------
-spi_controller|clk     200.0 MHz     375.9 MHz     5.000         2.660         2.340     inferred     Inferred_clkgroup_0, Inferred_clkgroup_0_1
-System                 200.0 MHz     928.5 MHz     5.000         1.077         3.923     system       system_clkgroup                           
-================================================================================================================================================
+                     Requested     Estimated     Requested     Estimated               Clock        Clock                                     
+Starting Clock       Frequency     Frequency     Period        Period        Slack     Type         Group                                     
+----------------------------------------------------------------------------------------------------------------------------------------------
+down_counter|clk     200.0 MHz     437.3 MHz     5.000         2.287         2.713     inferred     Inferred_clkgroup_0, Inferred_clkgroup_0_1
+==============================================================================================================================================
 
 
 
@@ -789,14 +776,12 @@ System                 200.0 MHz     928.5 MHz     5.000         1.077         3
 Clock Relationships
 *******************
 
-Clocks                                  |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
-------------------------------------------------------------------------------------------------------------------------------
-Starting            Ending              |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
-------------------------------------------------------------------------------------------------------------------------------
-System              spi_controller|clk  |  5.000       3.923  |  No paths    -      |  No paths    -      |  No paths    -    
-spi_controller|clk  System              |  5.000       4.092  |  No paths    -      |  No paths    -      |  No paths    -    
-spi_controller|clk  spi_controller|clk  |  5.000       2.340  |  No paths    -      |  No paths    -      |  No paths    -    
-==============================================================================================================================
+Clocks                              |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------------------------
+Starting          Ending            |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------------------------
+down_counter|clk  down_counter|clk  |  5.000       2.714  |  No paths    -      |  No paths    -      |  No paths    -    
+==========================================================================================================================
  Note: &apos;No paths&apos; indicates there are no paths in the design for that pair of clock edges.
        &apos;Diff grp&apos; indicates that paths exist but the starting clock and ending clock are in different clock groups.
 
@@ -810,7 +795,7 @@ No IO constraint found
 
 
 ====================================
-Detailed Report for Clock: spi_controller|clk
+Detailed Report for Clock: down_counter|clk
 ====================================
 
 
@@ -818,111 +803,37 @@ Detailed Report for Clock: spi_controller|clk
 Starting Points with Worst Slack
 ********************************
 
-                    Starting                                                       Arrival          
-Instance            Reference              Type        Pin     Net                 Time        Slack
-                    Clock                                                                           
-----------------------------------------------------------------------------------------------------
-state[0]            spi_controller|clk     FD1P3DX     Q       state[0]            0.930       2.340
-clk_cnt[0]          spi_controller|clk     FD1P3DX     Q       CO0_0               0.888       2.382
-clk_cnt[1]          spi_controller|clk     FD1P3DX     Q       clk_cnt[1]          0.883       2.387
-sclk_r              spi_controller|clk     FD1P3DX     Q       sclk_c              0.883       2.387
-state[1]            spi_controller|clk     FD1P3DX     Q       state[1]            0.913       2.925
-bit_cnt[2]          spi_controller|clk     FD1P3DX     Q       bit_cnt[2]          0.908       2.970
-bit_cnt[1]          spi_controller|clk     FD1P3DX     Q       bit_cnt[1]          0.888       2.990
-bit_cnt[0]          spi_controller|clk     FD1P3DX     Q       bit_cnt[0]          0.863       3.015
-shift_reg_rx[0]     spi_controller|clk     FD1P3DX     Q       shift_reg_rx[0]     0.798       3.991
-shift_reg_rx[1]     spi_controller|clk     FD1P3DX     Q       shift_reg_rx[1]     0.798       3.991
-====================================================================================================
-
-
-Ending Points with Worst Slack
-******************************
-
-                    Starting                                                                     Required          
-Instance            Reference              Type        Pin     Net                               Time         Slack
-                    Clock                                                                                          
--------------------------------------------------------------------------------------------------------------------
-bit_cnt[1]          spi_controller|clk     FD1P3DX     D       bit_cnt_5[1]                      4.789        2.340
-bit_cnt[2]          spi_controller|clk     FD1P3DX     D       bit_cnt_5[2]                      4.789        2.340
-state[0]            spi_controller|clk     FD1P3DX     D       N_23_i                            4.789        2.340
-state[1]            spi_controller|clk     FD1P3DX     D       state_ns[1]                       4.789        2.683
-bit_cnt[0]          spi_controller|clk     FD1P3DX     D       bit_cnt_5[0]                      4.789        2.908
-mosi                spi_controller|clk     FD1P3DX     SP      un1_shift_reg_tx_1_sqmuxa_i_0     4.817        3.021
-mosi                spi_controller|clk     FD1P3DX     D       mosi_6                            4.789        3.060
-shift_reg_rx[0]     spi_controller|clk     FD1P3DX     SP      N_96_i                            4.817        3.208
-shift_reg_rx[1]     spi_controller|clk     FD1P3DX     SP      N_96_i                            4.817        3.208
-shift_reg_rx[2]     spi_controller|clk     FD1P3DX     SP      N_96_i                            4.817        3.208
-===================================================================================================================
-
-
-
-Worst Path Information
-***********************
-
-
-Path information for path number 1: 
-      Requested Period:                      5.000
-    - Setup time:                            0.211
-    + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         4.789
-
-    - Propagation time:                      2.450
-    - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     2.339
-
-    Number of logic level(s):                3
-    Starting point:                          state[0] / Q
-    Ending point:                            bit_cnt[1] / D
-    The start point is clocked by            spi_controller|clk [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
-    The end   point is clocked by            spi_controller|clk [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
-
-Instance / Net                       Pin      Pin               Arrival     No. of    
-Name                     Type        Name     Dir     Delay     Time        Fan Out(s)
+             Starting                                                Arrival          
+Instance     Reference            Type        Pin     Net            Time        Slack
+             Clock                                                                    
 --------------------------------------------------------------------------------------
-state[0]                 FD1P3DX     Q        Out     0.930     0.930 r     -         
-state[0]                 Net         -        -       -         -           14        
-clk_cnt_RNIKAHRN[1]      LUT4        D        In      0.000     0.930 r     -         
-clk_cnt_RNIKAHRN[1]      LUT4        Z        Out     0.608     1.538 f     -         
-clk_cnt_RNIKAHRN[1]      Net         -        -       -         -           3         
-bit_cnt_5_f1_0_o2[1]     LUT4        A        In      0.000     1.538 f     -         
-bit_cnt_5_f1_0_o2[1]     LUT4        Z        Out     0.568     2.107 f     -         
-bit_cnt_5_f1_0_o2[1]     Net         -        -       -         -           2         
-bit_cnt_5_f1_0[1]        LUT4        A        In      0.000     2.107 f     -         
-bit_cnt_5_f1_0[1]        LUT4        Z        Out     0.343     2.450 r     -         
-bit_cnt_5[1]             Net         -        -       -         -           1         
-bit_cnt[1]               FD1P3DX     D        In      0.000     2.450 r     -         
+count[0]     down_counter|clk     FD1P3IX     Q       count_c[0]     0.863       2.713
+count[1]     down_counter|clk     FD1P3IX     Q       count_c[1]     0.838       2.797
+count[2]     down_counter|clk     FD1P3IX     Q       count_c[2]     0.838       2.797
+count[3]     down_counter|clk     FD1P3IX     Q       count_c[3]     0.838       2.857
+count[4]     down_counter|clk     FD1P3IX     Q       count_c[4]     0.838       2.857
+count[5]     down_counter|clk     FD1P3IX     Q       count_c[5]     0.838       2.916
+count[6]     down_counter|clk     FD1P3IX     Q       count_c[6]     0.838       2.916
+count[7]     down_counter|clk     FD1P3IX     Q       count_c[7]     0.838       3.630
 ======================================================================================
 
 
-
-
-====================================
-Detailed Report for Clock: System
-====================================
-
-
-
-Starting Points with Worst Slack
-********************************
-
-                        Starting                                   Arrival          
-Instance                Reference     Type        Pin     Net      Time        Slack
-                        Clock                                                       
-------------------------------------------------------------------------------------
-mosi_4_7_i_m2_RNO       System        WIDEFN9     Z       N_89     0.000       3.923
-mosi_4_7_i_m2_RNO_0     System        WIDEFN9     Z       N_92     0.000       3.923
-====================================================================================
-
-
 Ending Points with Worst Slack
 ******************************
 
-             Starting                                     Required          
-Instance     Reference     Type        Pin     Net        Time         Slack
-             Clock                                                          
-----------------------------------------------------------------------------
-mosi         System        FD1P3DX     D       mosi_6     4.789        3.923
-============================================================================
+             Starting                                                          Required          
+Instance     Reference            Type        Pin     Net                      Time         Slack
+             Clock                                                                               
+-------------------------------------------------------------------------------------------------
+count[7]     down_counter|clk     FD1P3IX     D       un1_count_s_7_0_S0       5.144        2.713
+count[5]     down_counter|clk     FD1P3IX     D       un1_count_cry_5_0_S0     5.144        2.772
+count[6]     down_counter|clk     FD1P3IX     D       un1_count_cry_5_0_S1     5.144        2.772
+count[3]     down_counter|clk     FD1P3IX     D       un1_count_cry_3_0_S0     5.144        2.832
+count[4]     down_counter|clk     FD1P3IX     D       un1_count_cry_3_0_S1     5.144        2.832
+count[1]     down_counter|clk     FD1P3IX     D       un1_count_cry_1_0_S0     5.144        2.890
+count[2]     down_counter|clk     FD1P3IX     D       un1_count_cry_1_0_S1     5.144        2.890
+count[0]     down_counter|clk     FD1P3IX     D       un1_count_axb_0          4.789        3.583
+=================================================================================================
 
 
 
@@ -932,34 +843,42 @@ Worst Path Information
 
 Path information for path number 1: 
       Requested Period:                      5.000
-    - Setup time:                            0.211
+    - Setup time:                            -0.144
     + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         4.789
+    = Required time:                         5.144
 
-    - Propagation time:                      0.866
+    - Propagation time:                      2.430
     - Clock delay at starting point:         0.000 (ideal)
-    - Estimated clock delay at start point:  -0.000
-    = Slack (non-critical) :                 3.923
+    = Slack (critical) :                     2.714
 
-    Number of logic level(s):                2
-    Starting point:                          mosi_4_7_i_m2_RNO / Z
-    Ending point:                            mosi / D
-    The start point is clocked by            System [rising]
-    The end   point is clocked by            spi_controller|clk [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    Number of logic level(s):                5
+    Starting point:                          count[0] / Q
+    Ending point:                            count[7] / D
+    The start point is clocked by            down_counter|clk [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            down_counter|clk [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
 
-Instance / Net                    Pin      Pin               Arrival     No. of    
-Name                  Type        Name     Dir     Delay     Time        Fan Out(s)
------------------------------------------------------------------------------------
-mosi_4_7_i_m2_RNO     WIDEFN9     Z        Out     0.000     0.000 r     -         
-N_89                  Net         -        -       -         -           1         
-mosi_4_7_i_m2         LUT4        A        In      0.000     0.000 r     -         
-mosi_4_7_i_m2         LUT4        Z        Out     0.523     0.523 r     -         
-mosi_4                Net         -        -       -         -           1         
-mosi_6_u_0_a2         LUT4        A        In      0.000     0.523 r     -         
-mosi_6_u_0_a2         LUT4        Z        Out     0.343     0.866 r     -         
-mosi_6                Net         -        -       -         -           1         
-mosi                  FD1P3DX     D        In      0.000     0.866 r     -         
-===================================================================================
+Instance / Net                     Pin      Pin               Arrival     No. of    
+Name                   Type        Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------
+count[0]               FD1P3IX     Q        Out     0.863     0.863 r     -         
+count_c[0]             Net         -        -       -         -           4         
+un1_count_cry_0_0      CCU2        A1       In      0.000     0.863 r     -         
+un1_count_cry_0_0      CCU2        COUT     Out     0.784     1.647 r     -         
+un1_count_cry_0        Net         -        -       -         -           1         
+un1_count_cry_1_0      CCU2        CIN      In      0.000     1.647 r     -         
+un1_count_cry_1_0      CCU2        COUT     Out     0.059     1.706 r     -         
+un1_count_cry_2        Net         -        -       -         -           1         
+un1_count_cry_3_0      CCU2        CIN      In      0.000     1.706 r     -         
+un1_count_cry_3_0      CCU2        COUT     Out     0.059     1.765 r     -         
+un1_count_cry_4        Net         -        -       -         -           1         
+un1_count_cry_5_0      CCU2        CIN      In      0.000     1.765 r     -         
+un1_count_cry_5_0      CCU2        COUT     Out     0.059     1.824 r     -         
+un1_count_cry_6        Net         -        -       -         -           1         
+un1_count_s_7_0        CCU2        CIN      In      0.000     1.824 r     -         
+un1_count_s_7_0        CCU2        S0       Out     0.607     2.430 r     -         
+un1_count_s_7_0_S0     Net         -        -       -         -           1         
+count[7]               FD1P3IX     D        In      0.000     2.430 r     -         
+====================================================================================
 
 
 
@@ -967,32 +886,29 @@ mosi                  FD1P3DX     D        In      0.000     0.866 r     -
 
 Timing exceptions that could not be applied
 
-Finished final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 266MB peak: 266MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 265MB peak: 266MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 266MB peak: 266MB)
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:03s; Memory used current: 265MB peak: 266MB)
 
 ---------------------------------------
 Resource Usage Report
 Part: lfd2nx_25-9
 
-Register bits: 35 of 23040 (0%)
+Register bits: 8 of 23040 (0%)
 PIC Latch:       0
-I/O cells:       25
+I/O cells:       12
 
 
 Details:
-FD1P3BX:        1
-FD1P3DX:        26
+CCU2:           5
 FD1P3IX:        8
 GSR:            1
-IB:             12
-INV:            2
-LUT4:           22
-OB:             13
+IB:             3
+LUT4:           4
+OB:             9
 VHI:            1
 VLO:            1
-WIDEFN9:        2
 
 Resource Usage inside macros:
 Registers: 0
@@ -1005,20 +921,20 @@ Carry Chains: 0
 Blackboxes: 0
 
 Mapping Summary:
-Total number of registers: 35 + 0 = 35 of 23040 (0.15%)
-Total number of LUTs: 22 + 0 = 22 
+Total number of registers: 8 + 0 = 8 of 23040 (0.03%)
+Total number of LUTs: 4 + 0 = 4 
 Total number of EBRs: 0 + 0 = 0 of 80 (0.00%)
 Total number of LRAMs: 0 + 0 = 0 of 1 (0.00%)
 Total number of DSPs: 0 + 0 = 0 of 20 (0.00%)
 Total number of Distributed RAMs: 0 + 0 = 0 
-Total number of Carry Chains: 0 + 0 = 0 
+Total number of Carry Chains: 5 + 0 = 5 
 Total number of BlackBoxes: 3 + 0 = 3 
 Mapper successful!
 
 At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 126MB peak: 266MB)
 
 Process took 0h:00m:03s realtime, 0h:00m:03s cputime
-# Sun Mar 22 10:38:24 2026
+# Sun Apr 19 14:36:06 2026
 
 ###########################################################]
 

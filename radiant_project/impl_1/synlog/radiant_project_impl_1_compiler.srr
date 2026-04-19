@@ -40,7 +40,7 @@ At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memor
 
 
 Process completed successfully.
-# Sun Mar 22 10:38:15 2026
+# Sun Apr 19 14:35:57 2026
 
 ###########################################################]
 ###########################################################[
@@ -201,7 +201,7 @@ At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 
 
 Process completed successfully.
-# Sun Mar 22 10:38:15 2026
+# Sun Apr 19 14:35:57 2026
 
 ###########################################################]
 ###########################################################[
@@ -342,18 +342,11 @@ Process completed successfully.
 @I::"C:\Users\carol\repos\fpga_comparison_project\up_counter.sv" (library work)
 Verilog syntax check successful!
 Options changed - recompiling
-@N: CG364 :"C:\Users\carol\repos\fpga_comparison_project\spi_controller.sv":5:7:5:20|Synthesizing module spi_controller in library work.
-Running optimization stage 1 on spi_controller .......
-@A: CL282 :"C:\Users\carol\repos\fpga_comparison_project\spi_controller.sv":74:4:74:12|Feedback mux created for signal rx_data[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
-Finished optimization stage 1 on spi_controller (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 195MB)
-Running optimization stage 2 on spi_controller .......
-@N: CL201 :"C:\Users\carol\repos\fpga_comparison_project\spi_controller.sv":74:4:74:12|Trying to extract state machine for register state.
-Extracted state machine for register state
-State machine has 3 reachable states with original encodings of:
-   00
-   01
-   10
-Finished optimization stage 2 on spi_controller (CPU Time 0h:00m:00s, Memory Used current: 195MB peak: 196MB)
+@N: CG364 :"C:\Users\carol\repos\fpga_comparison_project\down_counter.sv":1:7:1:18|Synthesizing module down_counter in library work.
+Running optimization stage 1 on down_counter .......
+Finished optimization stage 1 on down_counter (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+Running optimization stage 2 on down_counter .......
+Finished optimization stage 2 on down_counter (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 195MB)
 
 For a summary of runtime per design unit, please see file:
 ==========================================================
@@ -361,11 +354,11 @@ For a summary of runtime per design unit, please see file:
 
 
 
-At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 195MB peak: 196MB)
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 194MB peak: 195MB)
 
 
 Process completed successfully.
-# Sun Mar 22 10:38:16 2026
+# Sun Apr 19 14:35:59 2026
 
 ###########################################################]
 ###########################################################[
@@ -391,7 +384,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Mar 22 10:38:17 2026
+# Sun Apr 19 14:35:59 2026
 
 ###########################################################]
 
@@ -406,6 +399,6 @@ At c_hdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory
 Process took 0h:00m:02s realtime, 0h:00m:02s cputime
 
 Process completed successfully.
-# Sun Mar 22 10:38:17 2026
+# Sun Apr 19 14:35:59 2026
 
 ###########################################################]

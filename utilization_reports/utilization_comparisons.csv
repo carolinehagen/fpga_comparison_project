@@ -1,27 +1,23 @@
 Down Counter ,LUTs,LUTs (adjusted),FFs,Max Clock Frequency
 Artix 7,7,,8,
-Max 10,12,,8,
 RTG4,13,,8,260.0 MHz
 Efinix ,3,,10,1383.1 MHz
-CertusPro-NX,4,,8,
+CertusPro-NX,4,,8,437.3 MHz
 ,,,,
 Up Counter ,LUTs,LUTs (adjusted),FFs,Max Clock Frequency
 Artix 7,7,,8,
-Max 10,12,,8,
 RTG4,13,,8,272.5 MHz
-Efinix ,3,,17,
-CertusPro-NX,3,,8,
+Efinix ,3,,17,1579.8 MHz
+CertusPro-NX,3,,8,442.2 MHz
 ,,,,
 SPI Controller,LUTs,LUTs (adjusted),FFs,Max Clock Frequency
 Artix 7,19,,36,
-Max 10,,,,
 RTG4,39,,38,199.8 MHz
 Efinix ,38,,35,889.7 MHz
 CertusPro-NX,26,,35,375.9 MHz
 ,,,,
 TMR SPI Controller,LUTs,LUTs (adjusted),FFs,Max Clock Frequency
 Artix 7,20,,36,
-Max 10,,,,
 RTG4,39,,38,199.8 MHz
 Efinix ,30,,35,966.2 MHz
-CertusPro-NX,,,,
+CertusPro-NX,123,,105,304.8 MHz

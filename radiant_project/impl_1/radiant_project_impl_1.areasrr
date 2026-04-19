@@ -16,55 +16,53 @@ Implementation : impl_1
 
 Part:			LFD2NX_25-9 (Lattice)
 
-------------------------------------------------------------------------------
-########   Utilization report for  Top level view:   spi_controller   ########
-==============================================================================
+----------------------------------------------------------------------------
+########   Utilization report for  Top level view:   down_counter   ########
+============================================================================
 
 SEQUENTIAL ELEMENTS
 Name            Total elements     Utilization     Notes
 --------------------------------------------------------
-FD1P3DX         26                                      
 FD1P3IX         8                                       
-FD1P3BX         1                                       
                                                         
-Total FLOPS     35                 100 %                
+Total FLOPS     8                  100 %                
 ========================================================
-Total SEQUENTIAL ELEMENTS in the block spi_controller:	35 (39.33 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block down_counter:	8 (25.00 % Utilization)
 
 
 COMBINATIONAL LOGIC
-Name           Total elements     Utilization     Notes
--------------------------------------------------------
-INV            2                                       
-LUT4           22                                      
-WIDEFN9        2                                       
-                                                       
-Total LUTS     26                 100 %                
-=======================================================
-Total COMBINATIONAL LOGIC in the block spi_controller:	26 (29.21 % Utilization)
+Name                   Total elements     Utilization     Notes
+---------------------------------------------------------------
+LUT4                   4                                       
+CCU2                   5                                       
+                                                               
+Total LUTS             4                  100 %                
+Total CARRY CHAINS     5                  100 %                
+===============================================================
+Total COMBINATIONAL LOGIC in the block down_counter:	9 (28.12 % Utilization)
 
 
 IO PADS
 Name         Total elements     Utilization     Notes
 -----------------------------------------------------
-OB           13                                      
-IB           12                                      
+OB           9                                       
+IB           3                                       
                                                      
-Total IO     25                 100 %                
+Total IO     12                 100 %                
 =====================================================
-Total IO PADS in the block spi_controller:	25 (28.09 % Utilization)
+Total IO PADS in the block down_counter:	12 (37.50 % Utilization)
 
 
 BLACKBOX
 Name                Total elements     Utilization     Notes
 ------------------------------------------------------------
-VHI                 1                                       
 VLO                 1                                       
+VHI                 1                                       
 GSR                 1                                       
                                                             
 Total BLACK BOX     3                  100 %                
 ============================================================
-Total BLACKBOX in the block spi_controller:	3 (3.37 % Utilization)
+Total BLACKBOX in the block down_counter:	3 (9.38 % Utilization)
 
 
 ##### END OF AREA REPORT #####]

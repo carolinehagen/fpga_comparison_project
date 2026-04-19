@@ -25,7 +25,7 @@ Unmodified files: 53
 FID:  path (timestamp)
 0        C:\Users\carol\repos\fpga_comparison_project\down_counter.sv (2026-03-22 10:18:37)
 1        C:\Users\carol\repos\fpga_comparison_project\spi_controller.sv (2026-03-22 10:18:37)
-2        C:\Users\carol\repos\fpga_comparison_project\spi_controller_tmr.sv (2026-03-22 10:18:37)
+2        C:\Users\carol\repos\fpga_comparison_project\spi_controller_tmr.sv (2026-04-19 14:14:54)
 3        C:\Users\carol\repos\fpga_comparison_project\up_counter.sv (2026-03-22 10:18:37)
 4        C:\lscc\radiant\2025.2\ip\pmi\../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v (2025-11-12 07:20:48)
 5        C:\lscc\radiant\2025.2\ip\pmi\../LFMXO4/ram_dp_true/rtl/lscc_lfmxo4_ram_dp_true.v (2025-10-17 21:21:40)
@@ -78,7 +78,7 @@ FID:  path (timestamp)
 52       C:\lscc\radiant\2025.2\synpbase\lib\vlog\scemi_pipes.svh (2025-11-11 09:28:53)
 
 *******************************************************************
-Unchanged modules: 86
+Unchanged modules: 87
 MID:  lib.cell.view
 0        work.down_counter.verilog
 1        work.ebr_addr_pipe.verilog
@@ -165,4 +165,5 @@ MID:  lib.cell.view
 82       work.pmi_rom.verilog
 83       work.pmi_sub.verilog
 84       work.spi_controller.verilog
+86       work.spi_controller_tmr.verilog
 85       work.up_counter.verilog
