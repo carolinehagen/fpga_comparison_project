@@ -21,8 +21,8 @@ INFO     : 	seu_wait_interval                        = 0xFFFFFF
 INFO     : 	jtag_usercode                            = 0xFFFFFFFF
 INFO     : 	io_weak_pullup                           = on
 INFO     : Finished generating "/home/hagen/school/fpga_comparison_project/efinity_project/spi_controller_tmr/outflow/spi_controller_tmr.hex"
-INFO     : Efinix Bitstream Generator took 1.32198785 seconds [FlowMsg::StageDuration]
-INFO     :     Efinix Bitstream Generator took 1.24 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
-INFO     : Efinix Bitstream Generator virtual memory usage: begin = 35.72 MB, end = 165.904 MB, delta = 130.184 MB [FlowMsg::VMUsage]
-INFO     : Efinix Bitstream Generator resident set memory usage: begin = 15.296 MB, end = 150.44 MB, delta = 135.144 MB [FlowMsg::RSSUsage]
-INFO     :     Efinix Bitstream Generator peak resident set memory usage = 339.288 MB [FlowMsg::RSSUsage::Peak]
+INFO     : Efinix Bitstream Generator took 1.567757784 seconds [FlowMsg::StageDuration]
+INFO     :     Efinix Bitstream Generator took 1.48 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Efinix Bitstream Generator virtual memory usage: begin = 35.716 MB, end = 165.9 MB, delta = 130.184 MB [FlowMsg::VMUsage]
+INFO     : Efinix Bitstream Generator resident set memory usage: begin = 15.296 MB, end = 150.064 MB, delta = 134.768 MB [FlowMsg::RSSUsage]
+INFO     :     Efinix Bitstream Generator peak resident set memory usage = 296.284 MB [FlowMsg::RSSUsage::Peak]

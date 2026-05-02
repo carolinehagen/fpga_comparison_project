@@ -1,7 +1,7 @@
 
 Efinix FPGA Placement and Routing.
 Version: 2025.2.288.2.10 
-Date: Sun Apr  5 13:06:45 2026
+Date: Sat May  2 10:33:44 2026
 
 Copyright (C) 2013 - 2025 Efinix, Inc. All rights reserved.
  
@@ -62,12 +62,12 @@ Regional Clocks (RBUF): 0 / 32 (0.00%)
 	RBUF: Core: 0 / 16 (0.00%)
 	RBUF: Periphery: 0 / 8 (0.00%)
 	RBUF: Multi-Region: 0 / 8 (0.00%)
-XLRs: 56 / 60800 (0.09%)
-	XLRs needed for Logic: 21 / 60800 (0.03%)
-	XLRs needed for Logic + FF: 11 / 60800 (0.02%)
+XLRs: 225 / 60800 (0.37%)
+	XLRs needed for Logic: 120 / 60800 (0.20%)
+	XLRs needed for Logic + FF: 33 / 60800 (0.05%)
 	XLRs needed for Adder: 0 / 60800 (0.00%)
 	XLRs needed for Adder + FF: 0 / 60800 (0.00%)
-	XLRs needed for FF: 24 / 60800 (0.04%)
+	XLRs needed for FF: 72 / 60800 (0.12%)
 	XLRs needed for SRL8: 0 / 14720 (0.00%)
 	XLRs needed for SRL8 + FF: 0 / 14720 (0.00%)
 	XLRs needed for Routing: 0 / 60800 (0.00%)

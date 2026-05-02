@@ -9,9 +9,9 @@ Tool: Synplify Pro (R)
 Build: W-2025.03M-SP1-1
 Install: /home/hagen/microchip/Libero_SoC_2025.2/Libero_SoC/Synplify_Pro
 OS: Ubuntu 24.04.4 LTS
-Hostname: 9YN89W3
+Hostname: 9yn89w3.freeipa.astranis.corp
 max virtual memory: unlimited (bytes)
-max user processes: 125189
+max user processes: 125188
 max stack size: 8388608 (bytes)
 
 
@@ -25,6 +25,6 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Mar 22 11:13:13 2026
+# Sat May  2 10:36:45 2026
 
 ###########################################################]

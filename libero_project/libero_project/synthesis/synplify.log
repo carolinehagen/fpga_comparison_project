@@ -22,8 +22,8 @@ Option definition override for: enable_hydra_infer_clocks_from_latch_data
 
 Starting:    /home/hagen/microchip/Libero_SoC_2025.2/Libero_SoC/Synplify_Pro/linux_a_64/mbin/synbatch
 Install:     /home/hagen/microchip/Libero_SoC_2025.2/Libero_SoC/Synplify_Pro
-Hostname:    9YN89W3
-Date:        Sun Mar 22 11:13:11 2026
+Hostname:    9yn89w3.freeipa.astranis.corp
+Date:        Sat May  2 10:36:43 2026
 Version:     W-2025.03M-SP1-1
 
 Arguments:   -product synplify_base -licensetype synplifypro_actel -batch -log synplify.log spi_controller_tmr_syn.tcl
@@ -39,36 +39,34 @@ Running in Vendor Mode
 
 
 
-"automatic_compile_point" is unrecognized option for current device
-Implementation not found: synthesis
 log file: "/home/hagen/school/fpga_comparison_project/libero_project/libero_project/synthesis/spi_controller_tmr.srr"
 Running: synthesis in foreground
 
 Running spi_controller_tmr_syn|synthesis
 
 Running Flow: compile (Compile) on spi_controller_tmr_syn|synthesis
-# Sun Mar 22 11:13:11 2026
+# Sat May  2 10:36:43 2026
 
 Running Flow: compile_flow (Compile Process) on spi_controller_tmr_syn|synthesis
-# Sun Mar 22 11:13:11 2026
+# Sat May  2 10:36:43 2026
 
 Running: compiler (Compile Input) on spi_controller_tmr_syn|synthesis
-# Sun Mar 22 11:13:11 2026
-Process ID: 74549
+# Sat May  2 10:36:43 2026
+Process ID: 90243
 Copied /home/hagen/school/fpga_comparison_project/libero_project/libero_project/synthesis/synwork/spi_controller_tmr_comp.srs to /home/hagen/school/fpga_comparison_project/libero_project/libero_project/synthesis/spi_controller_tmr.srs
 
 compiler completed
-# Sun Mar 22 11:13:13 2026
+# Sat May  2 10:36:45 2026
 
 Return Code: 0
 Run Time:00h:00m:01s
 
 Running: multi_srs_gen (Multi-srs Generator) on spi_controller_tmr_syn|synthesis
-# Sun Mar 22 11:13:13 2026
-Process ID: 74627
+# Sat May  2 10:36:45 2026
+Process ID: 90330
 
 multi_srs_gen completed
-# Sun Mar 22 11:13:13 2026
+# Sat May  2 10:36:45 2026
 
 Return Code: 0
 Run Time:00h:00m:00s
@@ -76,33 +74,32 @@ Copied /home/hagen/school/fpga_comparison_project/libero_project/libero_project/
 Complete: Compile Process on spi_controller_tmr_syn|synthesis
 
 Running: premap (Premap) on spi_controller_tmr_syn|synthesis
-# Sun Mar 22 11:13:13 2026
-Process ID: 74644
+# Sat May  2 10:36:45 2026
+Process ID: 90346
 
 premap completed with warnings
-# Sun Mar 22 11:13:13 2026
+# Sat May  2 10:36:47 2026
 
 Return Code: 1
-Run Time:00h:00m:00s
+Run Time:00h:00m:02s
 Complete: Compile on spi_controller_tmr_syn|synthesis
 
 Running Flow: map (Map) on spi_controller_tmr_syn|synthesis
-# Sun Mar 22 11:13:14 2026
+# Sat May  2 10:36:47 2026
 License granted for 4 parallel jobs
 
 Running: fpga_mapper (Map & Optimize) on spi_controller_tmr_syn|synthesis
-# Sun Mar 22 11:13:14 2026
-Process ID: 74659
+# Sat May  2 10:36:47 2026
+Process ID: 90362
 Copied /home/hagen/school/fpga_comparison_project/libero_project/libero_project/synthesis/synwork/spi_controller_tmr_m.srm to /home/hagen/school/fpga_comparison_project/libero_project/libero_project/synthesis/spi_controller_tmr.srm
 
 fpga_mapper completed with warnings
-# Sun Mar 22 11:13:15 2026
+# Sat May  2 10:36:50 2026
 
 Return Code: 1
-Run Time:00h:00m:01s
+Run Time:00h:00m:03s
 Complete: Map on spi_controller_tmr_syn|synthesis
 Complete: Logic Synthesis on spi_controller_tmr_syn|synthesis
-Copied /home/hagen/school/fpga_comparison_project/libero_project/libero_project/synthesis/spi_controller_tmr.srr to /home/hagen/school/fpga_comparison_project/libero_project/libero_project/synthesis/backup/spi_controller_tmr.srr
 TCL script complete: "spi_controller_tmr_syn.tcl"
 exit status=0
 exit status=0

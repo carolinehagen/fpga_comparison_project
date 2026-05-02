@@ -1,27 +1,27 @@
-Down Counter ,LUTs,LUTs (adjusted),FFs,Max Clock Frequency
-Artix 7,7,,8,
-Max 10,12,,8,
-RTG4,13,,8,260.0 MHz
-Efinix ,3,,10,1383.1 MHz
-CertusPro-NX,4,,8,
-,,,,
-Up Counter ,LUTs,LUTs (adjusted),FFs,Max Clock Frequency
-Artix 7,7,,8,
-Max 10,12,,8,
-RTG4,13,,8,272.5 MHz
-Efinix ,3,,17,
-CertusPro-NX,3,,8,
-,,,,
-SPI Controller,LUTs,LUTs (adjusted),FFs,Max Clock Frequency
-Artix 7,19,,36,
-Max 10,,,,
-RTG4,39,,38,199.8 MHz
-Efinix ,38,,35,889.7 MHz
-CertusPro-NX,26,,35,375.9 MHz
-,,,,
-TMR SPI Controller,LUTs,LUTs (adjusted),FFs,Max Clock Frequency
-Artix 7,20,,36,
-Max 10,,,,
-RTG4,39,,38,199.8 MHz
-Efinix ,30,,35,966.2 MHz
-CertusPro-NX,,,,
+Down Counter,LUTs,LUTs (adjusted),FFs,Max Clock Frequency,Notes
+Artix 7,7,11.2,8,N/A (synth only),6-LUT arch; LUT6×1.6 multiplier applied
+Max 10,12,12,8,N/A (not measured),4-LUT LE; 7 in arith mode + 5 normal
+RTG4,13,13,8,260.0 MHz,4-input cells (CFG/ARI1)
+Efinix,3,12,10,1383.1 MHz (limited 1000 by GCLK),3 LUT4 + 9 EFX_ADD carry; adjusted = LUT4 + ADD
+CertusPro-NX,4,14,8,N/A (not measured),4 LUT4 + 5 CCU2 (CCU2 = 2 LUTs + carry); adjusted = LUT4 + 2*CCU2
+,,,,,
+Up Counter,LUTs,LUTs (adjusted),FFs,Max Clock Frequency,Notes
+Artix 7,7,11.2,8,N/A (synth only),6-LUT arch
+Max 10,12,12,8,N/A (not measured),4-LUT LE
+RTG4,13,13,8,272.5 MHz,
+Efinix,3,10,17,1579.8 MHz (limited 1000 by GCLK),3 LUT4 + 7 EFX_ADD; 17 FFs (extra register duplication)
+CertusPro-NX,3,13,8,442.2 MHz,3 LUT4 + 5 CCU2
+,,,,,
+SPI Controller,LUTs,LUTs (adjusted),FFs,Max Clock Frequency,Notes
+Artix 7,19,30.4,36,N/A (synth only),Post-LUT-combine; primitives: 10 LUT6 + 4 LUT2 + 3 LUT4 + 3 LUT3 + 2 LUT1
+Max 10,N/A,N/A,N/A,N/A,Not synthesized
+RTG4,39,39,38,199.8 MHz,34 CFG + 5 ARI1
+Efinix,38,38,35,889.7 MHz,
+CertusPro-NX,26,26,35,375.9 MHz,
+,,,,,
+TMR SPI Controller,LUTs,LUTs (adjusted),FFs,Max Clock Frequency,Notes
+Artix 7,91,145.6,108,N/A (synth only),"TMR PRESERVED after adding DONT_TOUCH/syn_keep attributes; FFs exactly 3x non-TMR (FDCE 78, FDRE 24, FDPE 6); LUTs include MAJ3 voters and fault detectors"
+Max 10,N/A,N/A,N/A,N/A,Not synthesized
+RTG4,153,153,114,199.8 MHz,"TMR PRESERVED after adding syn_keep/syn_preserve; three SPI cores in netlist (spi_controller_8s_4s_0_0, _2, _3 each 38 FFs / 37 LUTs); SET mitigation report lists 38 registers per gen_cores[0/1/2]; fmax unchanged (critical path is within a single core)"
+Efinix,151,151,105,819.7 MHz,"TMR PRESERVED after adding keep/syn_keep attributes; all three cores in module hierarchy (gen_cores[0/1/2] each with 35 FFs and 29 LUTs); no OPT-0673 merge warnings"
+CertusPro-NX,N/A,N/A,N/A,N/A,Not synthesized

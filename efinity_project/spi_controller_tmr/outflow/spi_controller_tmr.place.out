@@ -9,19 +9,26 @@
            The Tool Is Based on VPR of University of Toronto,
            a free open source code under MIT license.
            
+WARNING  : Found 3 warnings in the post-synthesis netlist.
 INFO     : Reading core interface constraints file "/home/hagen/school/fpga_comparison_project/efinity_project/spi_controller_tmr/outflow/spi_controller_tmr.interface.csv" [DBMsg::CoreInterfaceConstraintsFileReading]
 INFO     : Successfully read core interface constraints file "/home/hagen/school/fpga_comparison_project/efinity_project/spi_controller_tmr/outflow/spi_controller_tmr.interface.csv" [DBMsg::CoreInterfaceConstraintsFileLoadSuccess]
-INFO     : Packed 11 lut->ffs and 0 ff->luts out of 35 (24 were lonely) [PackerMsg::CellPackingStatistics]
-INFO     : XLR count after merging: 56
-INFO     : Netlist has 32 luts, 35 ffs and 0 adders [PackerMsg::NetlistStatistics]
-INFO     : Packed into 56 clusters with 1.9642857(1.0535715) inputs(outputs) per cluster for a total of 110(59) inputs(outputs) [PackerMsg::ClusterPackingStatistics]
-INFO     : Packed into 56 xlrs with 1.9642857(1.0535715) inputs(outputs) per xlr for a total of 110(59) inputs(outputs) [PackerMsg::XLRPackingStatistics]
+WARNING  : logical_block LUT__611 #282 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block LUT__612 #284 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block LUT__613 #285 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block LUT__611 #282 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block LUT__612 #284 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block LUT__613 #285 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+INFO     : Packed 33 lut->ffs and 0 ff->luts out of 105 (72 were lonely) [PackerMsg::CellPackingStatistics]
+INFO     : XLR count after merging: 225
+INFO     : Netlist has 153 luts, 105 ffs and 0 adders [PackerMsg::NetlistStatistics]
+INFO     : Packed into 225 clusters with 2.4(1.0355556) inputs(outputs) per cluster for a total of 540(233) inputs(outputs) [PackerMsg::ClusterPackingStatistics]
+INFO     : Packed into 225 xlrs with 2.4(1.0355556) inputs(outputs) per xlr for a total of 540(233) inputs(outputs) [PackerMsg::XLRPackingStatistics]
 INFO     : Packed 0 fracturable DSPs into 0 clusters [PackerMsg::DSPPackingStatistics]
-INFO     : Packing took 0.168824322 seconds [FlowMsg::StageDuration]
-INFO     :     Packing took 0.17 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Packing took 0.251762298 seconds [FlowMsg::StageDuration]
+INFO     :     Packing took 0.22 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
 INFO     : Packing virtual memory usage: begin = 191.436 MB, end = 234.936 MB, delta = 43.5 MB [FlowMsg::VMUsage]
-INFO     : Packing resident set memory usage: begin = 109.052 MB, end = 117.364 MB, delta = 8.312 MB [FlowMsg::RSSUsage]
-INFO     :     Packing peak resident set memory usage = 339.288 MB [FlowMsg::RSSUsage::Peak]
+INFO     : Packing resident set memory usage: begin = 108.344 MB, end = 115.956 MB, delta = 7.612 MB [FlowMsg::RSSUsage]
+INFO     :     Packing peak resident set memory usage = 295.32 MB [FlowMsg::RSSUsage::Peak]
 INFO     : No SDC file found.  Using default timing constraint of 1 ns.
 INFO     : NOTE:  Use --sdc_file <SDC_FILE> to override this behavior.
 INFO     : Creating clock 'clk' with 1 sources
@@ -31,30 +38,30 @@ WARNING  : IO cell "start" has no assigned placement; it will be placed randomly
 WARNING  : IO cell "tx_data[6]" has no assigned placement; it will be placed randomly
 WARNING  : IO cell "rx_data[1]" has no assigned placement; it will be placed randomly
 WARNING  : IO cell "miso" has no assigned placement; it will be placed randomly
-WARNING  : IO cell "tx_data[5]" has no assigned placement; it will be placed randomly
 WARNING  : IO cell "tx_data[1]" has no assigned placement; it will be placed randomly
 WARNING  : IO cell "rx_data[7]" has no assigned placement; it will be placed randomly
+WARNING  : IO cell "tx_data[5]" has no assigned placement; it will be placed randomly
 WARNING  : IO cell "rx_data[3]" has no assigned placement; it will be placed randomly
 WARNING  : IO cell "busy" has no assigned placement; it will be placed randomly
 WARNING  : IO cell "mosi" has no assigned placement; it will be placed randomly
 WARNING  : IO cell "clk" has no assigned placement; it will be placed randomly
 WARNING  : IO cell "cs_n" has no assigned placement; it will be placed randomly
-WARNING  : IO cell "tx_data[7]" has no assigned placement; it will be placed randomly
-WARNING  : IO cell "tx_data[0]" has no assigned placement; it will be placed randomly
-WARNING  : IO cell "rx_data[6]" has no assigned placement; it will be placed randomly
-WARNING  : IO cell "rx_data[5]" has no assigned placement; it will be placed randomly
-WARNING  : IO cell "rx_data[2]" has no assigned placement; it will be placed randomly
 WARNING  : IO cell "rx_data[0]" has no assigned placement; it will be placed randomly
+WARNING  : IO cell "tx_data[7]" has no assigned placement; it will be placed randomly
+WARNING  : IO cell "rx_data[6]" has no assigned placement; it will be placed randomly
+WARNING  : IO cell "rx_data[2]" has no assigned placement; it will be placed randomly
 WARNING  : IO cell "done" has no assigned placement; it will be placed randomly
 WARNING  : IO cell "sclk" has no assigned placement; it will be placed randomly
-WARNING  : IO cell "rst_n" has no assigned placement; it will be placed randomly
-WARNING  : IO cell "tx_data[4]" has no assigned placement; it will be placed randomly
-WARNING  : IO cell "tx_data[3]" has no assigned placement; it will be placed randomly
-WARNING  : IO cell "tx_data[2]" has no assigned placement; it will be placed randomly
-WARNING  : IO cell "rx_data[4]" has no assigned placement; it will be placed randomly
 WARNING  : IO cell "fault[2]" has no assigned placement; it will be placed randomly
+WARNING  : IO cell "tx_data[0]" has no assigned placement; it will be placed randomly
+WARNING  : IO cell "rx_data[5]" has no assigned placement; it will be placed randomly
+WARNING  : IO cell "tx_data[3]" has no assigned placement; it will be placed randomly
 WARNING  : IO cell "fault[1]" has no assigned placement; it will be placed randomly
 WARNING  : IO cell "fault[0]" has no assigned placement; it will be placed randomly
+WARNING  : IO cell "tx_data[4]" has no assigned placement; it will be placed randomly
+WARNING  : IO cell "tx_data[2]" has no assigned placement; it will be placed randomly
+WARNING  : IO cell "rx_data[4]" has no assigned placement; it will be placed randomly
+WARNING  : IO cell "rst_n" has no assigned placement; it will be placed randomly
 INFO     : 28 IO cells will have random placement
 INFO     : Counting 1 clocks that are not assigned to clock resources as global clocks.
 INFO     : Reading core interface constraints file "/home/hagen/school/fpga_comparison_project/efinity_project/spi_controller_tmr/outflow/spi_controller_tmr.interface.csv" [DBMsg::CoreInterfaceConstraintsFileReading]
@@ -64,60 +71,64 @@ INFO     : Starting Global Placer with 10 threads ...
             ----------     -------  --------------     -------
              Iteration       WHPWL Worst Slack (ps) Convergence
             ----------     -------  --------------     -------
-INFO     :           1        3660             -80        77.2%
-INFO     :           2        3432             -80        84.0%
-INFO     :           3        3233             -80        88.1%
-INFO     :           4        3042            -120        91.2%
-INFO     :           5        3018             -80        92.6%
-INFO     :           6        2922             -80        93.8%
-INFO     :           7        2894             -80        93.8%
-INFO     :           8        2888             -80        94.7%
-INFO     :           9        2835             -80        95.7%
-INFO     :          10        2845            -123        97.0%
-INFO     :          11        2824            -257        98.1%
-INFO     :          12        2821            -272        99.0%
-INFO     :          13        2821            -323        99.5%
-INFO     :          14        2817            -367        99.9%
-INFO     :          15        2820            -509        99.9%
-INFO     :          16        2821            -424        99.9%
+INFO     :           1       16115             -80        24.4%
+INFO     :           2       13455             -80        31.3%
+INFO     :           3       11219             -80        41.6%
+INFO     :           4       11008             -80        46.6%
+INFO     :           5        9719             -80        53.3%
+INFO     :           6        7819             -80        64.4%
+INFO     :           7        7515             -80        66.8%
+INFO     :           8        7122             -80        71.3%
+INFO     :           9        6959            -130        78.3%
+INFO     :          10        6364            -344        87.7%
+INFO     :          11        6072            -575        93.4%
+INFO     :          12        6123            -556        94.6%
+INFO     :          13        6013            -551        95.1%
+INFO     :          14        5965            -551        96.2%
+INFO     :          15        5998            -558        96.3%
+INFO     :          16        5997            -534        96.3%
+INFO     :          17        5974            -534        97.7%
+INFO     :          18        6021            -638        98.5%
+INFO     :          19        6079            -488        98.5%
+INFO     :          20        6111            -506        98.5%
 INFO     : Starting Annealer
             ----------     -------  --------------     -------
              Iteration       WHPWL  Delay Max (ps)     R Limit
             ----------     -------  --------------     -------
-INFO     :           0         192            1387        30.0
-INFO     :           1         179            1109        28.1
-INFO     :           2         188            1099        26.0
-INFO     :           3         189            1088        24.1
-INFO     :           4         213            1088        22.4
-INFO     :           5         210            1084        20.6
-INFO     :           6         191            1055        19.1
-INFO     :           7         174            1055        17.7
-INFO     :           8         182            1055        16.3
-INFO     :           9         188            1045        15.1
-INFO     :          10         173            1051        13.9
-INFO     :          11         163            1010        12.8
-INFO     :          12         162            1010        11.8
-INFO     :          13         155             995        10.8
-INFO     :          14         150            1010        10.0
-INFO     :          15         155            1010         9.2
-INFO     :          16         155            1010         8.4
-INFO     :          17         154            1010         7.8
-INFO     :          18         155            1010         7.1
-INFO     :          19         159            1010         6.6
-INFO     :          20         160            1010         6.0
-INFO     :          21         161            1010         5.5
-INFO     :          22         159            1005         5.1
-INFO     :          23         153             918         4.7
-INFO     :          24         148             912         4.3
-INFO     : Placement successful: 56 cells are placed
-INFO     : Peak congestion smeared over 4x4 of the chip is 0.299756 at 139,98
-INFO     : Peak congestion smeared over 1/16 of the chip is 0.0586321 at 148,99
-INFO     : Peak congestion smeared over 1/4 of the chip is 0.00814651 at 190,141
-INFO     : Congestion-weighted HPWL per net: 37.622
-INFO     : Placement took 5.201501225 seconds [FlowMsg::StageDuration]
-INFO     :     Placement took 6.04 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
-INFO     : Placement virtual memory usage: begin = 307.952 MB, end = 327.412 MB, delta = 19.46 MB [FlowMsg::VMUsage]
-INFO     : Placement resident set memory usage: begin = 181.468 MB, end = 154.616 MB, delta = -26.852 MB [FlowMsg::RSSUsage]
-INFO     :     Placement peak resident set memory usage = 339.288 MB [FlowMsg::RSSUsage::Peak]
+INFO     :           0        1430            1483        30.0
+INFO     :           1        1477            1322        28.2
+INFO     :           2        1541            1194        26.2
+INFO     :           3        1492            1194        24.0
+INFO     :           4        1520            1144        21.9
+INFO     :           5        1525            1156        20.0
+INFO     :           6        1482            1136        18.3
+INFO     :           7        1428            1136        16.6
+INFO     :           8        1415            1136        15.1
+INFO     :           9        1400            1135        13.6
+INFO     :          10        1369            1135        12.3
+INFO     :          11        1342            1135        11.2
+INFO     :          12        1340            1144        10.1
+INFO     :          13        1319            1135         9.1
+INFO     :          14        1293            1129         8.2
+INFO     :          15        1290            1144         7.4
+INFO     :          16        1279            1108         6.8
+INFO     :          17        1264            1108         6.1
+INFO     :          18        1263            1139         5.5
+INFO     :          19        1254            1113         5.0
+INFO     :          20        1268            1098         4.5
+INFO     :          21        1305            1096         4.1
+INFO     :          22        1329            1124         3.7
+INFO     :          23        1289            1104         3.3
+INFO     :          24        1263            1068         3.0
+INFO     : Placement successful: 225 cells are placed
+INFO     : Peak congestion smeared over 4x4 of the chip is 0.602076 at 144,128
+INFO     : Peak congestion smeared over 1/16 of the chip is 0.217498 at 146,132
+INFO     : Peak congestion smeared over 1/4 of the chip is 0.0189351 at 191,146
+INFO     : Congestion-weighted HPWL per net: 18.6072
+INFO     : Placement took 5.324126387 seconds [FlowMsg::StageDuration]
+INFO     :     Placement took 6.91 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Placement virtual memory usage: begin = 314.832 MB, end = 329.172 MB, delta = 14.34 MB [FlowMsg::VMUsage]
+INFO     : Placement resident set memory usage: begin = 185.108 MB, end = 155.188 MB, delta = -29.92 MB [FlowMsg::RSSUsage]
+INFO     :     Placement peak resident set memory usage = 295.32 MB [FlowMsg::RSSUsage::Peak]
 INFO     : Post-placement cluster-level checks is successful
 INFO     : Post-placement primitive-level checks is successful

@@ -1,4 +1,6 @@
 
 . Module name, SLE, CFG, ARI1, BUFFER, MACC, RAM1K18_RT, RAM64X18_RT, GLOBAL, IO
-. spi_controller_tmr, 38, 34, 5, 0, 0, 0, 0, 2, 28
-.	. spi_controller_8s_4s_0_0, 38, 34, 5, 0, 0, 0, 0, 0, 0
+. spi_controller_tmr, 114, 138, 15, 0, 0, 0, 0, 2, 28
+.	. spi_controller_8s_4s_0_0, 38, 32, 5, 0, 0, 0, 0, 0, 0
+.	. spi_controller_8s_4s_0_0_2, 38, 32, 5, 0, 0, 0, 0, 0, 0
+.	. spi_controller_8s_4s_0_0_3, 38, 34, 5, 0, 0, 0, 0, 0, 0

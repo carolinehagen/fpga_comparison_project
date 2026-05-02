@@ -5,9 +5,9 @@
 #CUR:"/home/hagen/microchip/Libero_SoC_2025.2/Libero_SoC/Synplify_Pro/lib/vlog/umr_capim.v":1763484211
 #CUR:"/home/hagen/microchip/Libero_SoC_2025.2/Libero_SoC/Synplify_Pro/lib/vlog/scemi_objects.v":1763484211
 #CUR:"/home/hagen/microchip/Libero_SoC_2025.2/Libero_SoC/Synplify_Pro/lib/vlog/scemi_pipes.svh":1763484211
-#CUR:"/home/hagen/school/fpga_comparison_project/libero_project/libero_project/component/syn_comps.v":1774203191
+#CUR:"/home/hagen/school/fpga_comparison_project/libero_project/libero_project/component/syn_comps.v":1777743402
 #CUR:"/home/hagen/school/fpga_comparison_project/libero_project/libero_project/hdl/spi_controller.sv":1774202100
-#CUR:"/home/hagen/school/fpga_comparison_project/libero_project/libero_project/hdl/spi_controller_tmr.sv":1774202100
+#CUR:"/home/hagen/school/fpga_comparison_project/libero_project/libero_project/hdl/spi_controller_tmr.sv":1777743307
 0			"/home/hagen/school/fpga_comparison_project/libero_project/libero_project/component/syn_comps.v" verilog
 1			"/home/hagen/school/fpga_comparison_project/libero_project/libero_project/hdl/spi_controller.sv" verilog
 2			"/home/hagen/school/fpga_comparison_project/libero_project/libero_project/hdl/spi_controller_tmr.sv" verilog

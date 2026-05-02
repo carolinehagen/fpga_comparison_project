@@ -1,6 +1,6 @@
 Resource Report
 Microchip Technology Inc. - Microchip Libero Software Release 2025.2 (Version 2025.2.0.14)
-Date: Sun Mar 22 11:13:18 2026
+Date: Sat May  2 10:36:54 2026
 
 Device Selection
 +------------------------+----------------+
@@ -35,8 +35,8 @@ Resource Usage
 +---------------------------+------+--------+------------+
 | Type                      | Used | Total  | Percentage |
 +---------------------------+------+--------+------------+
-| 4LUT                      | 41   | 151824 | 0.03       |
-| DFF                       | 38   | 151824 | 0.03       |
+| 4LUT                      | 155  | 151824 | 0.10       |
+| DFF                       | 114  | 151824 | 0.08       |
 | I/O Register              | 0    | 2160   | 0.00       |
 | User I/O                  | 28   | 720    | 3.89       |
 | -- Single-ended I/O       | 28   | 720    | 3.89       |
@@ -56,18 +56,18 @@ Detailed Logic Resource Usage
 +--------------------------+------+-----+
 | Type                     | 4LUT | DFF |
 +--------------------------+------+-----+
-| Fabric Logic             | 41   | 38  |
+| Fabric Logic             | 155  | 114 |
 | RAM64x18 Interface Logic | 0    | 0   |
 | RAM1K18 Interface Logic  | 0    | 0   |
 | MACC Interface Logic     | 0    | 0   |
-| Total Used               | 41   | 38  |
+| Total Used               | 155  | 114 |
 +--------------------------+------+-----+
 
 Detailed Carry Chains Resource Usage
 +--------+------+
 | Length | Used |
-| 5      | 1    |
-| Total  | 1    |
+| 5      | 3    |
+| Total  | 3    |
 +--------+------+
 
 I/O Function
@@ -92,7 +92,7 @@ Nets assigned to chip global resources
 +--------+---------+-----------------------------------+
 | Fanout | Type    | Name                              |
 +--------+---------+-----------------------------------+
-| 38     | INT_NET | Net   : clk_c                     |
+| 114    | INT_NET | Net   : clk_c                     |
 |        |         | Driver: clk_ibuf_RNIVTI21/U0_RGB1 |
 |        |         | Source: NETLIST                   |
 +--------+---------+-----------------------------------+
@@ -104,62 +104,62 @@ Nets assigned to row global resources
 +--------+------+------+
 
 High fanout nets
-+--------+---------+-------------------------------------------------------+
-| Fanout | Type    | Name                                                  |
-+--------+---------+-------------------------------------------------------+
-| 12     | INT_NET | Net   : gen_cores[0].u_spi/N_48_i                     |
-|        |         | Driver: gen_cores[0].u_spi/shift_reg_rx_0_RNID8Q7B[2] |
-| 8      | INT_NET | Net   : gen_cores[0].u_spi/rx_data_1_sqmuxa_Z         |
-|        |         | Driver: gen_cores[0].u_spi/rx_data_1_sqmuxa           |
-| 8      | INT_NET | Net   : gen_cores[0].u_spi/cs_n_1_i                   |
-|        |         | Driver: gen_cores[0].u_spi/cs_n_1_0_0_0_i             |
-| 7      | INT_NET | Net   : N_53_i                                        |
-|        |         | Driver: gen_cores[0].u_spi/bit_cnt_5_0_o2[1]          |
-| 7      | INT_NET | Net   : gen_cores[0].u_spi/bit_cnt_Z[1]               |
-|        |         | Driver: gen_cores[0].u_spi/bit_cnt[1]                 |
-| 7      | INT_NET | Net   : gen_cores[0].u_spi/N_96_i                     |
-|        |         | Driver: gen_cores[0].u_spi/sclk_r_RNI397ME            |
-| 7      | INT_NET | Net   : gen_cores[0].u_spi/CO0_0                      |
-|        |         | Driver: gen_cores[0].u_spi/clk_cnt[0]                 |
-| 6      | INT_NET | Net   : start_c                                       |
-|        |         | Driver: start_ibuf                                    |
-| 6      | INT_NET | Net   : gen_cores[0].u_spi/shift_reg_rx_0_Z[1]        |
-|        |         | Driver: gen_cores[0].u_spi/shift_reg_rx_0[1]          |
-| 6      | INT_NET | Net   : gen_cores[0].u_spi/clk_cnt_Z[1]               |
-|        |         | Driver: gen_cores[0].u_spi/clk_cnt[1]                 |
-+--------+---------+-------------------------------------------------------+
++--------+---------+-------------------------------------------------------------+
+| Fanout | Type    | Name                                                        |
++--------+---------+-------------------------------------------------------------+
+| 20     | INT_NET | Net   : start_c                                             |
+|        |         | Driver: start_ibuf                                          |
+| 12     | INT_NET | Net   : miso_c                                              |
+|        |         | Driver: miso_ibuf                                           |
+| 12     | INT_NET | Net   : gen_cores[2].u_spi/N_50_i                           |
+|        |         | Driver: gen_cores[2].u_spi/shift_reg_rx_0_sqmuxa_0_0_i_0_o3 |
+| 12     | INT_NET | Net   : gen_cores[0].u_spi/N_36_i                           |
+|        |         | Driver: gen_cores[0].u_spi/shift_reg_rx_0_sqmuxa_0_0_i_0_o3 |
+| 12     | INT_NET | Net   : gen_cores[1].u_spi/N_81_i                           |
+|        |         | Driver: gen_cores[1].u_spi/shift_reg_rx_0_RNIFQJIF[2]       |
+| 8      | INT_NET | Net   : busy_v[0]                                           |
+|        |         | Driver: gen_cores[0].u_spi/bit_cnt_5_o2[0]                  |
+| 8      | INT_NET | Net   : un1_u_spi_2[1]                                      |
+|        |         | Driver: gen_cores[1].u_spi/bit_cnt_5_0_o2[1]                |
+| 8      | INT_NET | Net   : un1_u_spi_5[2]                                      |
+|        |         | Driver: gen_cores[2].u_spi/bit_cnt_5_o2[0]                  |
+| 8      | INT_NET | Net   : gen_cores[2].u_spi/N_59_i                           |
+|        |         | Driver: gen_cores[2].u_spi/shift_reg_rx_0_RNI08R99[4]       |
+| 8      | INT_NET | Net   : gen_cores[2].u_spi/N_77                             |
+|        |         | Driver: gen_cores[2].u_spi/cs_n_1_0_i_a2                    |
++--------+---------+-------------------------------------------------------------+
 
 High fanout nets (through buffer trees)
-+--------+---------+-------------------------------------------------------+
-| Fanout | Type    | Name                                                  |
-+--------+---------+-------------------------------------------------------+
-| 12     | INT_NET | Net   : gen_cores[0].u_spi/N_48_i                     |
-|        |         | Driver: gen_cores[0].u_spi/shift_reg_rx_0_RNID8Q7B[2] |
-| 8      | INT_NET | Net   : gen_cores[0].u_spi/rx_data_1_sqmuxa_Z         |
-|        |         | Driver: gen_cores[0].u_spi/rx_data_1_sqmuxa           |
-| 8      | INT_NET | Net   : gen_cores[0].u_spi/cs_n_1_i                   |
-|        |         | Driver: gen_cores[0].u_spi/cs_n_1_0_0_0_i             |
-| 7      | INT_NET | Net   : N_53_i                                        |
-|        |         | Driver: gen_cores[0].u_spi/bit_cnt_5_0_o2[1]          |
-| 7      | INT_NET | Net   : gen_cores[0].u_spi/bit_cnt_Z[1]               |
-|        |         | Driver: gen_cores[0].u_spi/bit_cnt[1]                 |
-| 7      | INT_NET | Net   : gen_cores[0].u_spi/N_96_i                     |
-|        |         | Driver: gen_cores[0].u_spi/sclk_r_RNI397ME            |
-| 7      | INT_NET | Net   : gen_cores[0].u_spi/CO0_0                      |
-|        |         | Driver: gen_cores[0].u_spi/clk_cnt[0]                 |
-| 6      | INT_NET | Net   : start_c                                       |
-|        |         | Driver: start_ibuf                                    |
-| 6      | INT_NET | Net   : gen_cores[0].u_spi/shift_reg_rx_0_Z[1]        |
-|        |         | Driver: gen_cores[0].u_spi/shift_reg_rx_0[1]          |
-| 6      | INT_NET | Net   : gen_cores[0].u_spi/clk_cnt_Z[1]               |
-|        |         | Driver: gen_cores[0].u_spi/clk_cnt[1]                 |
-+--------+---------+-------------------------------------------------------+
++--------+---------+-------------------------------------------------------------+
+| Fanout | Type    | Name                                                        |
++--------+---------+-------------------------------------------------------------+
+| 20     | INT_NET | Net   : start_c                                             |
+|        |         | Driver: start_ibuf                                          |
+| 12     | INT_NET | Net   : miso_c                                              |
+|        |         | Driver: miso_ibuf                                           |
+| 12     | INT_NET | Net   : gen_cores[2].u_spi/N_50_i                           |
+|        |         | Driver: gen_cores[2].u_spi/shift_reg_rx_0_sqmuxa_0_0_i_0_o3 |
+| 12     | INT_NET | Net   : gen_cores[0].u_spi/N_36_i                           |
+|        |         | Driver: gen_cores[0].u_spi/shift_reg_rx_0_sqmuxa_0_0_i_0_o3 |
+| 12     | INT_NET | Net   : gen_cores[1].u_spi/N_81_i                           |
+|        |         | Driver: gen_cores[1].u_spi/shift_reg_rx_0_RNIFQJIF[2]       |
+| 8      | INT_NET | Net   : busy_v[0]                                           |
+|        |         | Driver: gen_cores[0].u_spi/bit_cnt_5_o2[0]                  |
+| 8      | INT_NET | Net   : un1_u_spi_2[1]                                      |
+|        |         | Driver: gen_cores[1].u_spi/bit_cnt_5_0_o2[1]                |
+| 8      | INT_NET | Net   : un1_u_spi_5[2]                                      |
+|        |         | Driver: gen_cores[2].u_spi/bit_cnt_5_o2[0]                  |
+| 8      | INT_NET | Net   : gen_cores[2].u_spi/N_59_i                           |
+|        |         | Driver: gen_cores[2].u_spi/shift_reg_rx_0_RNI08R99[4]       |
+| 8      | INT_NET | Net   : gen_cores[2].u_spi/N_77                             |
+|        |         | Driver: gen_cores[2].u_spi/cs_n_1_0_i_a2                    |
++--------+---------+-------------------------------------------------------------+
 
 Async Global Reset net fanout
 +--------+-----------+-------------------------------------+
 | Fanout | Type      | Name                                |
 +--------+-----------+-------------------------------------+
-| 30     | RESET_NET | Net   : rst_n_c                     |
+| 90     | RESET_NET | Net   : rst_n_c                     |
 |        |           | Driver: rst_n_ibuf/U0/U_IOIN_greset |
 +--------+-----------+-------------------------------------+
 

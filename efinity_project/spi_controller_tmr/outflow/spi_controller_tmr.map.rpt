@@ -1,6 +1,6 @@
 Efinity Synthesis report for project spi_controller_tmr
 Version: 2025.2.288.2.10
-Generated at: Apr 05, 2026 13:06:38
+Generated at: May 02, 2026 10:33:34
 Copyright (C) 2013 - 2025  All rights reserved.
 
 Top-level Entity Name : spi_controller_tmr
@@ -34,26 +34,40 @@ File List:
 
 ### ### Report Section Start ### ###
 
-"MOD|OPT-0673" : Instance 'gen_cores[1].u_spi' is equivalent to 'gen_cores[0].u_spi', it will be optimized. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:49)
-"MOD|OPT-0673" : Instance 'gen_cores[2].u_spi' is equivalent to 'gen_cores[0].u_spi', it will be optimized. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:49)
 
 ### ### EFX_FF CE enables (begin) ### ### ###
-Total number of enable signals: 8
-Total number of FFs with enable signals: 32
-CE signal <ceg_net10>, number of controlling flip flops: 3
-CE signal <ceg_net21>, number of controlling flip flops: 1
-CE signal <gen_cores[0].u_spi/state[0]>, number of controlling flip flops: 1
+Total number of enable signals: 24
+Total number of FFs with enable signals: 96
 CE signal <~gen_cores[0].u_spi/n405>, number of controlling flip flops: 8
 CE signal <gen_cores[0].u_spi/n431>, number of controlling flip flops: 8
-CE signal <ceg_net20>, number of controlling flip flops: 2
+CE signal <ceg_net52>, number of controlling flip flops: 2
 CE signal <gen_cores[0].u_spi/n385>, number of controlling flip flops: 8
+CE signal <ceg_net28>, number of controlling flip flops: 3
+CE signal <ceg_net61>, number of controlling flip flops: 1
+CE signal <gen_cores[0].u_spi/state[0]>, number of controlling flip flops: 1
 CE signal <~gen_cores[0].u_spi/n211>, number of controlling flip flops: 1
+CE signal <~gen_cores[1].u_spi/n211>, number of controlling flip flops: 1
+CE signal <ceg_net55>, number of controlling flip flops: 2
+CE signal <ceg_net29>, number of controlling flip flops: 3
+CE signal <gen_cores[1].u_spi/n385>, number of controlling flip flops: 8
+CE signal <gen_cores[1].u_spi/n431>, number of controlling flip flops: 8
+CE signal <~gen_cores[1].u_spi/n405>, number of controlling flip flops: 8
+CE signal <ceg_net62>, number of controlling flip flops: 1
+CE signal <gen_cores[1].u_spi/state[0]>, number of controlling flip flops: 1
+CE signal <~gen_cores[2].u_spi/n211>, number of controlling flip flops: 1
+CE signal <ceg_net58>, number of controlling flip flops: 2
+CE signal <ceg_net30>, number of controlling flip flops: 3
+CE signal <gen_cores[2].u_spi/n385>, number of controlling flip flops: 8
+CE signal <gen_cores[2].u_spi/n336>, number of controlling flip flops: 8
+CE signal <~gen_cores[2].u_spi/n405>, number of controlling flip flops: 8
+CE signal <ceg_net63>, number of controlling flip flops: 1
+CE signal <gen_cores[2].u_spi/state[0]>, number of controlling flip flops: 1
 ### ### EFX_FF CE enables (end) ### ### ###
 
 ### ### EFX_FF SR set/reset (begin) ### ### ###
 Total number of set/reset signals: 1
-Total number of FFs with set/reset signals: 27
-SR signal <rst_n>, number of controlling flip flops: 27
+Total number of FFs with set/reset signals: 81
+SR signal <rst_n>, number of controlling flip flops: 81
 ### ### EFX_FF SR set/reset (end) ### ### ###
 
 ### ### Module Resource Usage Distribution Estimates (begin) ### ###
@@ -62,8 +76,10 @@ SR signal <rst_n>, number of controlling flip flops: 27
 
 Module                                        FFs      SRLs      ADDs      LUTs    COMB4s      RAMs DSP/MULTs
 ---------------------------------------       ---      ----      ----      ----      ----      ---- ---------
-spi_controller_tmr:spi_controller_tmr       35(0)      0(0)      0(0)     30(0)      0(0)      0(0)      0(0)
- +gen_cores[0].u_spi:spi_controller        35(35)      0(0)      0(0)    30(30)      0(0)      0(0)      0(0)
+spi_controller_tmr:spi_controller_tmr      105(0)      0(0)      0(0)   151(64)      0(0)      0(0)      0(0)
+ +gen_cores[0].u_spi:spi_controller        35(35)      0(0)      0(0)    29(29)      0(0)      0(0)      0(0)
+ +gen_cores[1].u_spi:spi_controller        35(35)      0(0)      0(0)    29(29)      0(0)      0(0)      0(0)
+ +gen_cores[2].u_spi:spi_controller        35(35)      0(0)      0(0)    29(29)      0(0)      0(0)      0(0)
 
 ### ### Module Resource Usage Distribution Estimates (end) ### ###
 
@@ -72,7 +88,7 @@ spi_controller_tmr:spi_controller_tmr       35(0)      0(0)      0(0)     30(0) 
 
  Clock      Flip-Flops      Shift-Regs    Memory PortsMultipliers/DSPs
  -----      ----------      ----------    ----------------------------
-   clk              35               0               0               0
+   clk             105               0               0               0
 
 ### ### Clock Load Distribution Report (end) ### ###
 
@@ -80,12 +96,12 @@ spi_controller_tmr:spi_controller_tmr       35(0)      0(0)      0(0)     30(0) 
 INPUT  PORTS    : 	12
 OUTPUT PORTS    : 	16
 
-EFX_LUT4        : 	30
-   1-2  Inputs  : 	10
-   3    Inputs  : 	13
-   4    Inputs  : 	7
-EFX_FF          : 	35
+EFX_LUT4        : 	151
+   1-2  Inputs  : 	29
+   3    Inputs  : 	75
+   4    Inputs  : 	47
+EFX_FF          : 	105
 ### ### Resource Summary (end) ### ### ###
 
-Plain synthesis (without verilog dump and post-map checks) time : 0s
+Plain synthesis (without verilog dump and post-map checks) time : 1s
 Elapsed synthesis time : 1s

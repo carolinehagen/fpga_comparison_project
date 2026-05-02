@@ -5,7 +5,7 @@
 @P:  spi_controller_tmr|clk - Requested Period : 10.000
 @P:  spi_controller_tmr|clk - Slack : 4.994
 @P: spi_controller_tmr Part : rt4g150cg1657std
-@P: spi_controller_tmr Register bits  : 38 
+@P: spi_controller_tmr Register bits  : 114 
 @P: spi_controller_tmr DSP Blocks  : 0
 @P: spi_controller_tmr I/O primitives : 28
-@P:  CPU Time : 0h:00m:01s
+@P:  CPU Time : 0h:00m:03s

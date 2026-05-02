@@ -31,8 +31,12 @@ module spi_controller_tmr #(
 
     // ---------------------------------------------------------------------------
     // Per-core output buses
+    // Attributes prevent synthesis from merging the three cores via structural
+    // equivalence: Vivado=DONT_TOUCH, Synplify=syn_keep, Efinity/Quartus=keep.
     // ---------------------------------------------------------------------------
+    (* DONT_TOUCH = "true", syn_keep = 1, keep = 1 *)
     logic [2:0]                  sclk_v, mosi_v, cs_n_v, busy_v, done_v;
+    (* DONT_TOUCH = "true", syn_keep = 1, keep = 1 *)
     logic [DATA_WIDTH-1:0]       rx_data_v [3];
 
     // ---------------------------------------------------------------------------
@@ -41,6 +45,7 @@ module spi_controller_tmr #(
     genvar i;
     generate
         for (i = 0; i < 3; i++) begin : gen_cores
+            (* DONT_TOUCH = "true", syn_keep = 1, syn_preserve = 1, syn_noprune = 1, keep = 1 *)
             spi_controller #(
                 .DATA_WIDTH (DATA_WIDTH),
                 .CLK_DIV    (CLK_DIV),

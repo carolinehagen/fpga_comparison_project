@@ -3,7 +3,7 @@
 <doc>
 <title>Resource Report</title>
 <text>Microchip Technology Inc. - Microchip Libero Software Release 2025.2 (Version 2025.2.0.14)</text>
-<text>Date: Sun Mar 22 11:13:18 2026
+<text>Date: Sat May  2 10:36:54 2026
 </text>
 <section><name>Device Selection</name></section>
 <table>
@@ -98,15 +98,15 @@
 </header>
 <row>
  <cell>4LUT</cell>
- <cell>41</cell>
+ <cell>155</cell>
  <cell>151824</cell>
- <cell>0.03</cell>
+ <cell>0.10</cell>
 </row>
 <row>
  <cell>DFF</cell>
- <cell>38</cell>
+ <cell>114</cell>
  <cell>151824</cell>
- <cell>0.03</cell>
+ <cell>0.08</cell>
 </row>
 <row>
  <cell>I/O Register</cell>
@@ -196,8 +196,8 @@
 </header>
 <row>
  <cell>Fabric Logic</cell>
- <cell>41</cell>
- <cell>38</cell>
+ <cell>155</cell>
+ <cell>114</cell>
 </row>
 <row>
  <cell>RAM64x18 Interface Logic</cell>
@@ -216,8 +216,8 @@
 </row>
 <row>
  <cell>Total Used</cell>
- <cell>41</cell>
- <cell>38</cell>
+ <cell>155</cell>
+ <cell>114</cell>
 </row>
 </table>
 <section><name>Detailed Carry Chains Resource Usage</name></section>
@@ -230,11 +230,11 @@
 </row>
 <row>
  <cell>5</cell>
- <cell>1</cell>
+ <cell>3</cell>
 </row>
 <row>
  <cell>Total</cell>
- <cell>1</cell>
+ <cell>3</cell>
 </row>
 </table>
 <section><name>I/O Function</name></section>
@@ -303,7 +303,7 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>38</cell>
+ <cell>114</cell>
  <cell>INT_NET</cell>
  <cell>Net   : clk_c</cell>
 </row>
@@ -334,77 +334,7 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>12</cell>
- <cell>INT_NET</cell>
- <cell>Net   : gen_cores[0].u_spi/N_48_i</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: gen_cores[0].u_spi/shift_reg_rx_0_RNID8Q7B[2]</cell>
-</row>
-<row>
- <cell>8</cell>
- <cell>INT_NET</cell>
- <cell>Net   : gen_cores[0].u_spi/rx_data_1_sqmuxa_Z</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: gen_cores[0].u_spi/rx_data_1_sqmuxa</cell>
-</row>
-<row>
- <cell>8</cell>
- <cell>INT_NET</cell>
- <cell>Net   : gen_cores[0].u_spi/cs_n_1_i</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: gen_cores[0].u_spi/cs_n_1_0_0_0_i</cell>
-</row>
-<row>
- <cell>7</cell>
- <cell>INT_NET</cell>
- <cell>Net   : N_53_i</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: gen_cores[0].u_spi/bit_cnt_5_0_o2[1]</cell>
-</row>
-<row>
- <cell>7</cell>
- <cell>INT_NET</cell>
- <cell>Net   : gen_cores[0].u_spi/bit_cnt_Z[1]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: gen_cores[0].u_spi/bit_cnt[1]</cell>
-</row>
-<row>
- <cell>7</cell>
- <cell>INT_NET</cell>
- <cell>Net   : gen_cores[0].u_spi/N_96_i</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: gen_cores[0].u_spi/sclk_r_RNI397ME</cell>
-</row>
-<row>
- <cell>7</cell>
- <cell>INT_NET</cell>
- <cell>Net   : gen_cores[0].u_spi/CO0_0</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: gen_cores[0].u_spi/clk_cnt[0]</cell>
-</row>
-<row>
- <cell>6</cell>
+ <cell>20</cell>
  <cell>INT_NET</cell>
  <cell>Net   : start_c</cell>
 </row>
@@ -414,24 +344,94 @@
  <cell>Driver: start_ibuf</cell>
 </row>
 <row>
- <cell>6</cell>
+ <cell>12</cell>
  <cell>INT_NET</cell>
- <cell>Net   : gen_cores[0].u_spi/shift_reg_rx_0_Z[1]</cell>
+ <cell>Net   : miso_c</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: gen_cores[0].u_spi/shift_reg_rx_0[1]</cell>
+ <cell>Driver: miso_ibuf</cell>
 </row>
 <row>
- <cell>6</cell>
+ <cell>12</cell>
  <cell>INT_NET</cell>
- <cell>Net   : gen_cores[0].u_spi/clk_cnt_Z[1]</cell>
+ <cell>Net   : gen_cores[2].u_spi/N_50_i</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: gen_cores[0].u_spi/clk_cnt[1]</cell>
+ <cell>Driver: gen_cores[2].u_spi/shift_reg_rx_0_sqmuxa_0_0_i_0_o3</cell>
+</row>
+<row>
+ <cell>12</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : gen_cores[0].u_spi/N_36_i</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: gen_cores[0].u_spi/shift_reg_rx_0_sqmuxa_0_0_i_0_o3</cell>
+</row>
+<row>
+ <cell>12</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : gen_cores[1].u_spi/N_81_i</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: gen_cores[1].u_spi/shift_reg_rx_0_RNIFQJIF[2]</cell>
+</row>
+<row>
+ <cell>8</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : busy_v[0]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: gen_cores[0].u_spi/bit_cnt_5_o2[0]</cell>
+</row>
+<row>
+ <cell>8</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : un1_u_spi_2[1]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: gen_cores[1].u_spi/bit_cnt_5_0_o2[1]</cell>
+</row>
+<row>
+ <cell>8</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : un1_u_spi_5[2]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: gen_cores[2].u_spi/bit_cnt_5_o2[0]</cell>
+</row>
+<row>
+ <cell>8</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : gen_cores[2].u_spi/N_59_i</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: gen_cores[2].u_spi/shift_reg_rx_0_RNI08R99[4]</cell>
+</row>
+<row>
+ <cell>8</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : gen_cores[2].u_spi/N_77</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: gen_cores[2].u_spi/cs_n_1_0_i_a2</cell>
 </row>
 </table>
 <section><name>High fanout nets (through buffer trees)</name></section>
@@ -442,77 +442,7 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>12</cell>
- <cell>INT_NET</cell>
- <cell>Net   : gen_cores[0].u_spi/N_48_i</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: gen_cores[0].u_spi/shift_reg_rx_0_RNID8Q7B[2]</cell>
-</row>
-<row>
- <cell>8</cell>
- <cell>INT_NET</cell>
- <cell>Net   : gen_cores[0].u_spi/rx_data_1_sqmuxa_Z</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: gen_cores[0].u_spi/rx_data_1_sqmuxa</cell>
-</row>
-<row>
- <cell>8</cell>
- <cell>INT_NET</cell>
- <cell>Net   : gen_cores[0].u_spi/cs_n_1_i</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: gen_cores[0].u_spi/cs_n_1_0_0_0_i</cell>
-</row>
-<row>
- <cell>7</cell>
- <cell>INT_NET</cell>
- <cell>Net   : N_53_i</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: gen_cores[0].u_spi/bit_cnt_5_0_o2[1]</cell>
-</row>
-<row>
- <cell>7</cell>
- <cell>INT_NET</cell>
- <cell>Net   : gen_cores[0].u_spi/bit_cnt_Z[1]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: gen_cores[0].u_spi/bit_cnt[1]</cell>
-</row>
-<row>
- <cell>7</cell>
- <cell>INT_NET</cell>
- <cell>Net   : gen_cores[0].u_spi/N_96_i</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: gen_cores[0].u_spi/sclk_r_RNI397ME</cell>
-</row>
-<row>
- <cell>7</cell>
- <cell>INT_NET</cell>
- <cell>Net   : gen_cores[0].u_spi/CO0_0</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: gen_cores[0].u_spi/clk_cnt[0]</cell>
-</row>
-<row>
- <cell>6</cell>
+ <cell>20</cell>
  <cell>INT_NET</cell>
  <cell>Net   : start_c</cell>
 </row>
@@ -522,24 +452,94 @@
  <cell>Driver: start_ibuf</cell>
 </row>
 <row>
- <cell>6</cell>
+ <cell>12</cell>
  <cell>INT_NET</cell>
- <cell>Net   : gen_cores[0].u_spi/shift_reg_rx_0_Z[1]</cell>
+ <cell>Net   : miso_c</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: gen_cores[0].u_spi/shift_reg_rx_0[1]</cell>
+ <cell>Driver: miso_ibuf</cell>
 </row>
 <row>
- <cell>6</cell>
+ <cell>12</cell>
  <cell>INT_NET</cell>
- <cell>Net   : gen_cores[0].u_spi/clk_cnt_Z[1]</cell>
+ <cell>Net   : gen_cores[2].u_spi/N_50_i</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: gen_cores[0].u_spi/clk_cnt[1]</cell>
+ <cell>Driver: gen_cores[2].u_spi/shift_reg_rx_0_sqmuxa_0_0_i_0_o3</cell>
+</row>
+<row>
+ <cell>12</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : gen_cores[0].u_spi/N_36_i</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: gen_cores[0].u_spi/shift_reg_rx_0_sqmuxa_0_0_i_0_o3</cell>
+</row>
+<row>
+ <cell>12</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : gen_cores[1].u_spi/N_81_i</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: gen_cores[1].u_spi/shift_reg_rx_0_RNIFQJIF[2]</cell>
+</row>
+<row>
+ <cell>8</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : busy_v[0]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: gen_cores[0].u_spi/bit_cnt_5_o2[0]</cell>
+</row>
+<row>
+ <cell>8</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : un1_u_spi_2[1]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: gen_cores[1].u_spi/bit_cnt_5_0_o2[1]</cell>
+</row>
+<row>
+ <cell>8</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : un1_u_spi_5[2]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: gen_cores[2].u_spi/bit_cnt_5_o2[0]</cell>
+</row>
+<row>
+ <cell>8</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : gen_cores[2].u_spi/N_59_i</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: gen_cores[2].u_spi/shift_reg_rx_0_RNI08R99[4]</cell>
+</row>
+<row>
+ <cell>8</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : gen_cores[2].u_spi/N_77</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: gen_cores[2].u_spi/cs_n_1_0_i_a2</cell>
 </row>
 </table>
 <section><name>Async Global Reset net fanout</name></section>
@@ -550,7 +550,7 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>30</cell>
+ <cell>90</cell>
  <cell>RESET_NET</cell>
  <cell>Net   : rst_n_c</cell>
 </row>

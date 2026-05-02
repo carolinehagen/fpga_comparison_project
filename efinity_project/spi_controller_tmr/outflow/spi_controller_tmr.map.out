@@ -43,20 +43,20 @@ INFO     : Analyzing Verilog file '/home/hagen/Downloads/efinity-2025.2.288.2.10
 INFO     : Analyzing Verilog file '/home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_peri_lib.v' [VERI-1482]
 INFO     : Analyzing Verilog file '/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv' [VERI-1482]
 INFO     : Analyzing Verilog file '/home/hagen/school/fpga_comparison_project/spi_controller.sv' [VERI-1482]
-INFO     : Analysis took 0.018528112 seconds [FlowMsg::StageDuration]
-INFO     :     Analysis took 0.01 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Analysis took 0.017318889 seconds [FlowMsg::StageDuration]
+INFO     :     Analysis took 0.02 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
 INFO     : Analysis virtual memory usage: begin = 130.636 MB, end = 131.66 MB, delta = 1.024 MB [FlowMsg::VMUsage]
-INFO     : Analysis resident set memory usage: begin = 74.172 MB, end = 75.552 MB, delta = 1.38 MB [FlowMsg::RSSUsage]
-INFO     :     Analysis peak resident set memory usage = 339.288 MB [FlowMsg::RSSUsage::Peak]
+INFO     : Analysis resident set memory usage: begin = 73.312 MB, end = 74.656 MB, delta = 1.344 MB [FlowMsg::RSSUsage]
+INFO     :     Analysis peak resident set memory usage = 295.32 MB [FlowMsg::RSSUsage::Peak]
 INFO     : ***** Ending Analysis ... *****
 INFO     : ***** Beginning Elaboration ... *****
 INFO     : /home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv(6): compiling module 'spi_controller_tmr' [VERI-1018]
 INFO     : /home/hagen/school/fpga_comparison_project/spi_controller.sv(5): compiling module 'spi_controller' [VERI-1018]
-INFO     : Elaboration took 0.005503265 seconds [FlowMsg::StageDuration]
+INFO     : Elaboration took 0.010362562 seconds [FlowMsg::StageDuration]
 INFO     :     Elaboration took 0.01 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
 INFO     : Elaboration virtual memory usage: begin = 131.66 MB, end = 132.684 MB, delta = 1.024 MB [FlowMsg::VMUsage]
-INFO     : Elaboration resident set memory usage: begin = 75.68 MB, end = 76.576 MB, delta = 0.896 MB [FlowMsg::RSSUsage]
-INFO     :     Elaboration peak resident set memory usage = 339.288 MB [FlowMsg::RSSUsage::Peak]
+INFO     : Elaboration resident set memory usage: begin = 74.804 MB, end = 75.884 MB, delta = 1.08 MB [FlowMsg::RSSUsage]
+INFO     :     Elaboration peak resident set memory usage = 295.32 MB [FlowMsg::RSSUsage::Peak]
 INFO     : ***** Ending Elaboration ... *****
 INFO     : ... Setting Synthesis Option: mode=speed
 INFO     : ***** Beginning Reading Mapping Library ... *****
@@ -78,85 +78,87 @@ INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.
 INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_maplib.v(653): compiling module 'EFX_RAM10' [VERI-1018]
 INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_maplib.v(754): compiling module 'EFX_DPRAM10' [VERI-1018]
 INFO     : /home/hagen/Downloads/efinity-2025.2.288.2.10-linux-x64/efinity/2025.2/sim_models/maplib/efinix_maplib.v(884): compiling module 'EFX_SRL8' [VERI-1018]
-INFO     : Reading Mapping Library took 0.011804757 seconds [FlowMsg::StageDuration]
+INFO     : Reading Mapping Library took 0.011481373 seconds [FlowMsg::StageDuration]
 INFO     :     Reading Mapping Library took 0.01 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
 INFO     : Reading Mapping Library virtual memory usage: begin = 136.26 MB, end = 136.26 MB, delta = 0 MB [FlowMsg::VMUsage]
-INFO     : Reading Mapping Library resident set memory usage: begin = 78.988 MB, end = 78.988 MB, delta = 0 MB [FlowMsg::RSSUsage]
-INFO     :     Reading Mapping Library peak resident set memory usage = 339.288 MB [FlowMsg::RSSUsage::Peak]
+INFO     : Reading Mapping Library resident set memory usage: begin = 78.436 MB, end = 78.436 MB, delta = 0 MB [FlowMsg::RSSUsage]
+INFO     :     Reading Mapping Library peak resident set memory usage = 295.32 MB [FlowMsg::RSSUsage::Peak]
 INFO     : ***** Ending Reading Mapping Library ... *****
 INFO     : ... Pre-synthesis checks begin
-WARNING  : Removing redundant signal : k[31]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:94) [EFX-0200]
-WARNING  : Removing redundant signal : k[30]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:94) [EFX-0200]
-WARNING  : Removing redundant signal : k[29]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:94) [EFX-0200]
-WARNING  : Removing redundant signal : k[28]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:94) [EFX-0200]
-WARNING  : Removing redundant signal : k[27]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:94) [EFX-0200]
-WARNING  : Removing redundant signal : k[26]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:94) [EFX-0200]
-WARNING  : Removing redundant signal : k[25]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:94) [EFX-0200]
-WARNING  : Removing redundant signal : k[24]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:94) [EFX-0200]
-WARNING  : Removing redundant signal : k[23]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:94) [EFX-0200]
-WARNING  : Removing redundant signal : k[22]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:94) [EFX-0200]
-WARNING  : Removing redundant signal : k[21]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:94) [EFX-0200]
-WARNING  : Removing redundant signal : k[20]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:94) [EFX-0200]
-WARNING  : Removing redundant signal : k[19]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:94) [EFX-0200]
-WARNING  : Removing redundant signal : k[18]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:94) [EFX-0200]
-WARNING  : Removing redundant signal : k[17]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:94) [EFX-0200]
-WARNING  : Removing redundant signal : k[16]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:94) [EFX-0200]
-WARNING  : Removing redundant signal : k[15]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:94) [EFX-0200]
-WARNING  : Removing redundant signal : k[14]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:94) [EFX-0200]
-WARNING  : Removing redundant signal : k[13]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:94) [EFX-0200]
-WARNING  : Removing redundant signal : k[12]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:94) [EFX-0200]
+WARNING  : Removing redundant signal : k[31]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:99) [EFX-0200]
+WARNING  : Removing redundant signal : k[30]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:99) [EFX-0200]
+WARNING  : Removing redundant signal : k[29]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:99) [EFX-0200]
+WARNING  : Removing redundant signal : k[28]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:99) [EFX-0200]
+WARNING  : Removing redundant signal : k[27]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:99) [EFX-0200]
+WARNING  : Removing redundant signal : k[26]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:99) [EFX-0200]
+WARNING  : Removing redundant signal : k[25]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:99) [EFX-0200]
+WARNING  : Removing redundant signal : k[24]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:99) [EFX-0200]
+WARNING  : Removing redundant signal : k[23]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:99) [EFX-0200]
+WARNING  : Removing redundant signal : k[22]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:99) [EFX-0200]
+WARNING  : Removing redundant signal : k[21]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:99) [EFX-0200]
+WARNING  : Removing redundant signal : k[20]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:99) [EFX-0200]
+WARNING  : Removing redundant signal : k[19]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:99) [EFX-0200]
+WARNING  : Removing redundant signal : k[18]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:99) [EFX-0200]
+WARNING  : Removing redundant signal : k[17]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:99) [EFX-0200]
+WARNING  : Removing redundant signal : k[16]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:99) [EFX-0200]
+WARNING  : Removing redundant signal : k[15]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:99) [EFX-0200]
+WARNING  : Removing redundant signal : k[14]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:99) [EFX-0200]
+WARNING  : Removing redundant signal : k[13]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:99) [EFX-0200]
+WARNING  : Removing redundant signal : k[12]. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:99) [EFX-0200]
 WARNING  : (The above message was generated too many times, subsequent similar messages will be muted.) [EFX-0200]
-INFO     : ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 339288KB)
+INFO     : ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 295320KB)
 INFO     : ... NameSpace init begin
-INFO     : ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 339288KB)
+INFO     : ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 295320KB)
 INFO     : ... Mapping design "spi_controller_tmr"
 INFO     : ... Hierarchical pre-synthesis "spi_controller" begin
-INFO     : ... Hierarchical pre-synthesis "spi_controller" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 339288KB)
+INFO     : ... Hierarchical pre-synthesis "spi_controller" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 295320KB)
 INFO     : ... Hierarchical pre-synthesis "spi_controller_tmr" begin
-INFO     : Instance 'gen_cores[1].u_spi' is equivalent to 'gen_cores[0].u_spi', it will be optimized. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:49) [EFX-0673]
-INFO     : Instance 'gen_cores[2].u_spi' is equivalent to 'gen_cores[0].u_spi', it will be optimized. (/home/hagen/school/fpga_comparison_project/spi_controller_tmr.sv:49) [EFX-0673]
-INFO     : ... Clock Enable Synthesis Performed on 13 flops.
-INFO     : ... Hierarchical pre-synthesis "spi_controller_tmr" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 339288KB)
+INFO     : ... Clock Enable Synthesis Performed on 39 flops.
+INFO     : ... Hierarchical pre-synthesis "spi_controller_tmr" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 295320KB)
 INFO     : ... Flat optimizations begin
-INFO     : ... Flat optimizations end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 339288KB)
+INFO     : ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 295320KB)
 INFO     : ... Flat synthesis begin
-INFO     : ... Flat synthesis end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 339288KB)
+INFO     : ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 295320KB)
 INFO     : ... Flat optimizations begin
-INFO     : ... Flat optimizations end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 339288KB)
+INFO     : ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 295320KB)
 INFO     : ... Check and break combinational loops begin
-INFO     : ... Check and break combinational loops end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 339288KB)
+INFO     : ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 295320KB)
 INFO     : ... Sequential Optimization begin
-INFO     : ... Clock Network 'clk' with 35 loads will be considered for sequential optimization.
-INFO     : ... Sequential Optimization deduced 5 equivalent points.
-INFO     : ... Sequential Optimization end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 339288KB)
+INFO     : ... Clock Network 'clk' with 105 loads will be considered for sequential optimization.
+INFO     : ... Sequential Optimization deduced 16 equivalent points.
+INFO     : ... Sequential Optimization end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 295320KB)
 INFO     : ... Setup for logic synthesis begin
-INFO     : ... Setup for logic synthesis end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 339288KB)
+INFO     : ... Setup for logic synthesis end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 295320KB)
 INFO     : ... LUT mapping begin
-INFO     : ... LS, strategy: 3, nd: 29, ed: 85, lv: 3, pw: 77.62
-INFO     : ... LUT mapping end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 339288KB)
+INFO     : ... LS, strategy: 3, nd: 148, ed: 465, lv: 3, pw: 300.73
+INFO     : ... LUT mapping end (Real time : 1s CPU user time : 1s CPU sys time : 0s MEM : 295320KB)
 INFO     : ... Post-synthesis Verific netlist creation begin
-INFO     : ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 339288KB)
+INFO     : ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 295320KB)
 INFO     : ... Postmap Retiming Optimization begin
-INFO     : ... Clock Network 'clk~clk' with 35 loads will be considered for retiming optimization.
+INFO     : ... Clock Network 'clk~clk' with 105 loads will be considered for retiming optimization.
 INFO     : ... Performed 0 retime moves.
-INFO     : ... Postmap Retiming Optimization end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 339288KB)
+INFO     : ... Postmap Retiming Optimization end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 295320KB)
 INFO     : ***** Beginning VDB Netlist Checker ... *****
-INFO     : VDB Netlist Checker took 0.000294465 seconds [FlowMsg::StageDuration]
+WARNING  : Net busy_v[2] is dangling. [VDB-8009]
+WARNING  : Net busy_v[1] is dangling. [VDB-8009]
+WARNING  : Net busy_v[0] is dangling. [VDB-8009]
+WARNING  : Found 3 warnings in the post-synthesis netlist.
+INFO     : VDB Netlist Checker took 0.001451452 seconds [FlowMsg::StageDuration]
 INFO     :     VDB Netlist Checker took 0 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
-INFO     : VDB Netlist Checker virtual memory usage: begin = 257.444 MB, end = 257.444 MB, delta = 0 MB [FlowMsg::VMUsage]
-INFO     : VDB Netlist Checker resident set memory usage: begin = 93.132 MB, end = 93.132 MB, delta = 0 MB [FlowMsg::RSSUsage]
-INFO     :     VDB Netlist Checker peak resident set memory usage = 339.288 MB [FlowMsg::RSSUsage::Peak]
+INFO     : VDB Netlist Checker virtual memory usage: begin = 257.436 MB, end = 257.436 MB, delta = 0 MB [FlowMsg::VMUsage]
+INFO     : VDB Netlist Checker resident set memory usage: begin = 94.044 MB, end = 94.044 MB, delta = 0 MB [FlowMsg::RSSUsage]
+INFO     :     VDB Netlist Checker peak resident set memory usage = 295.32 MB [FlowMsg::RSSUsage::Peak]
 INFO     : ***** Ending VDB Netlist Checker ... *****
 INFO     : Resource Summary 
 INFO     : =============================== 
-INFO     : EFX_LUT4        : 	30
-INFO     : EFX_FF          : 	35
+INFO     : EFX_LUT4        : 	151
+INFO     : EFX_FF          : 	105
 INFO     : =============================== 
 INFO     : ... Post-Map Verilog Writer begin
 INFO     : Writing netlist 'spi_controller_tmr' to Verilog file '/home/hagen/school/fpga_comparison_project/efinity_project/spi_controller_tmr/outflow/spi_controller_tmr.map.v' [VDB-1030]
-INFO     : ... Post-Map Verilog Writer end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 339288KB)
-INFO     : The entire flow of EFX_MAP took 1.698650945 seconds [FlowMsg::StageDuration]
-INFO     :     The entire flow of EFX_MAP took 1.53 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
-INFO     : The entire flow of EFX_MAP virtual memory usage: begin = 94.476 MB, end = 257.444 MB, delta = 162.968 MB [FlowMsg::VMUsage]
-INFO     : The entire flow of EFX_MAP resident set memory usage: begin = 29.8 MB, end = 95.224 MB, delta = 65.424 MB [FlowMsg::RSSUsage]
-INFO     :     The entire flow of EFX_MAP peak resident set memory usage = 339.288 MB [FlowMsg::RSSUsage::Peak]
+INFO     : ... Post-Map Verilog Writer end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 295320KB)
+INFO     : The entire flow of EFX_MAP took 2.156445979 seconds [FlowMsg::StageDuration]
+INFO     :     The entire flow of EFX_MAP took 1.97 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : The entire flow of EFX_MAP virtual memory usage: begin = 94.476 MB, end = 257.436 MB, delta = 162.96 MB [FlowMsg::VMUsage]
+INFO     : The entire flow of EFX_MAP resident set memory usage: begin = 29.476 MB, end = 95.896 MB, delta = 66.42 MB [FlowMsg::RSSUsage]
+INFO     :     The entire flow of EFX_MAP peak resident set memory usage = 295.32 MB [FlowMsg::RSSUsage::Peak]

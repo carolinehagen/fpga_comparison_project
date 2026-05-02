@@ -8,9 +8,9 @@ Tool: Synplify Pro (R)
 Build: W-2025.03M-SP1-1
 Install: /home/hagen/microchip/Libero_SoC_2025.2/Libero_SoC/Synplify_Pro
 OS: Ubuntu 24.04.4 LTS
-Hostname: 9YN89W3
+Hostname: 9yn89w3.freeipa.astranis.corp
 max virtual memory: unlimited (bytes)
-max user processes: 125189
+max user processes: 125188
 max stack size: 8388608 (bytes)
 
 
@@ -27,18 +27,18 @@ Part:			RT4G150CG1657STD (Microchip)
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      38                 100 %                
+SLE      114                100 %                
 =================================================
-Total SEQUENTIAL ELEMENTS in the block spi_controller_tmr:	38 (34.23 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block spi_controller_tmr:	114 (37.38 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      34                 100 %                
-ARI1     5                  100 %                
+CFG      138                100 %                
+ARI1     15                 100 %                
 =================================================
-Total COMBINATIONAL LOGIC in the block spi_controller_tmr:	39 (35.14 % Utilization)
+Total COMBINATIONAL LOGIC in the block spi_controller_tmr:	153 (50.16 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -46,7 +46,7 @@ Name       Total elements     Utilization     Notes
 ---------------------------------------------------
 GLOBAL     2                  100 %                
 ===================================================
-Total GLOBAL BUFFERS in the block spi_controller_tmr:	2 (1.80 % Utilization)
+Total GLOBAL BUFFERS in the block spi_controller_tmr:	2 (0.66 % Utilization)
 
 
 IO PADS
@@ -54,7 +54,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 IO       28                 100 %                
 =================================================
-Total IO PADS in the block spi_controller_tmr:	28 (25.23 % Utilization)
+Total IO PADS in the block spi_controller_tmr:	28 (9.18 % Utilization)
 
 ------------------------------------------------------------------------------
 ########   Utilization report for  cell:   spi_controller_8s_4s_0_0   ########
@@ -64,18 +64,60 @@ Instance path:   spi_controller_tmr.spi_controller_8s_4s_0_0
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      38                 100 %                
+SLE      38                 33.3 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block spi_controller_tmr.spi_controller_8s_4s_0_0:	38 (34.23 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block spi_controller_tmr.spi_controller_8s_4s_0_0:	38 (12.46 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      34                 100 %                
-ARI1     5                  100 %                
+CFG      32                 23.2 %               
+ARI1     5                  33.3 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block spi_controller_tmr.spi_controller_8s_4s_0_0:	39 (35.14 % Utilization)
+Total COMBINATIONAL LOGIC in the block spi_controller_tmr.spi_controller_8s_4s_0_0:	37 (12.13 % Utilization)
+
+--------------------------------------------------------------------------------
+########   Utilization report for  cell:   spi_controller_8s_4s_0_0_2   ########
+Instance path:   spi_controller_tmr.spi_controller_8s_4s_0_0_2                  
+================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      38                 33.3 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block spi_controller_tmr.spi_controller_8s_4s_0_0_2:	38 (12.46 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      32                 23.2 %               
+ARI1     5                  33.3 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block spi_controller_tmr.spi_controller_8s_4s_0_0_2:	37 (12.13 % Utilization)
+
+--------------------------------------------------------------------------------
+########   Utilization report for  cell:   spi_controller_8s_4s_0_0_3   ########
+Instance path:   spi_controller_tmr.spi_controller_8s_4s_0_0_3                  
+================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      38                 33.3 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block spi_controller_tmr.spi_controller_8s_4s_0_0_3:	38 (12.46 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      34                 24.6 %               
+ARI1     5                  33.3 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block spi_controller_tmr.spi_controller_8s_4s_0_0_3:	39 (12.79 % Utilization)
 
 
 ##### END OF AREA REPORT #####]
