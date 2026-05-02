@@ -53,7 +53,7 @@ add_file -verilog -vlog_std sysv {C:/Users/carol/repos/fpga_comparison_project/s
 add_file -verilog -vlog_std sysv {C:/Users/carol/repos/fpga_comparison_project/spi_controller_tmr.sv}
 add_file -verilog -vlog_std sysv {C:/Users/carol/repos/fpga_comparison_project/up_counter.sv}
 #-- top module name
-set_option -top_module spi_controller
+set_option -top_module down_counter
 set_option -include_path {C:/Users/carol/repos/fpga_comparison_project/radiant_project}
 
 #-- set result format/file last

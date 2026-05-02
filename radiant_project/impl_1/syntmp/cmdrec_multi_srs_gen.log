@@ -1,7 +1,7 @@
-C:\lscc\radiant\2025.2\synpbase\bin64\syn_nfilter.exe  -link  -top  spi_controller  -multisrs  C:\Users\carol\repos\fpga_comparison_project\radiant_project\impl_1\synwork\radiant_project_impl_1_comp.srs  -osyn  C:\Users\carol\repos\fpga_comparison_project\radiant_project\impl_1\synwork\radiant_project_impl_1_mult.srs  -log  C:\Users\carol\repos\fpga_comparison_project\radiant_project\impl_1\synlog\radiant_project_impl_1_multi_srs_gen.srr 
-relcom:..\..\..\..\..\..\..\lscc\radiant\2025.2\synpbase\bin64\syn_nfilter.exe -link -top spi_controller -multisrs ..\synwork\radiant_project_impl_1_comp.srs -osyn ..\synwork\radiant_project_impl_1_mult.srs -log ..\synlog\radiant_project_impl_1_multi_srs_gen.srr
+C:\lscc\radiant\2025.2\synpbase\bin64\syn_nfilter.exe  -link  -top  down_counter  -multisrs  C:\Users\carol\repos\fpga_comparison_project\radiant_project\impl_1\synwork\radiant_project_impl_1_comp.srs  -osyn  C:\Users\carol\repos\fpga_comparison_project\radiant_project\impl_1\synwork\radiant_project_impl_1_mult.srs  -log  C:\Users\carol\repos\fpga_comparison_project\radiant_project\impl_1\synlog\radiant_project_impl_1_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\lscc\radiant\2025.2\synpbase\bin64\syn_nfilter.exe -link -top down_counter -multisrs ..\synwork\radiant_project_impl_1_comp.srs -osyn ..\synwork\radiant_project_impl_1_mult.srs -log ..\synlog\radiant_project_impl_1_multi_srs_gen.srr
 rc:0 success:1 runtime:0
-file:..\synwork\radiant_project_impl_1_comp.srs|io:i|time:1774201097|size:5014|exec:0|csum:17E63548706D23E3B5351DA68B5ABB1C
-file:..\synwork\radiant_project_impl_1_mult.srs|io:o|time:1774201098|size:3895|exec:0|csum:
-file:..\synlog\radiant_project_impl_1_multi_srs_gen.srr|io:o|time:1774201098|size:1189|exec:0|csum:
+file:..\synwork\radiant_project_impl_1_comp.srs|io:i|time:1776634559|size:2596|exec:0|csum:7DEE0BF5C0115B63C1C164A6DA7666AA
+file:..\synwork\radiant_project_impl_1_mult.srs|io:o|time:1776634560|size:1486|exec:0|csum:
+file:..\synlog\radiant_project_impl_1_multi_srs_gen.srr|io:o|time:1776634560|size:1189|exec:0|csum:
 file:..\..\..\..\..\..\..\lscc\radiant\2025.2\synpbase\bin64\syn_nfilter.exe|io:i|time:1762883177|size:10805248|exec:1|csum:852D19A9663831A0E2C4EB49CF2B6DEC

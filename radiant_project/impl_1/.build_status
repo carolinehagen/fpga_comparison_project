@@ -16,16 +16,16 @@
             <Task name="PARTrace" build_result="0" update_result="3" update_time="0"/>
             <Task name="IOTiming" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="Synthesis" build_result="1" build_time="1774201108">
-            <Task name="Synplify_Synthesis" build_result="1" update_result="2" update_time="1774201108"/>
-            <Task name="Synplify_Lint" build_result="0" update_result="2" update_time="1774201087"/>
-            <Task name="SynTrace" build_result="0" update_result="2" update_time="1774201087"/>
-            <Task name="SynVerilogSimFile" build_result="0" update_result="2" update_time="1774201087"/>
-            <Task name="LSE_Compile" build_result="0" update_result="2" update_time="1774201087"/>
+        <Milestone name="Synthesis" build_result="1" build_time="1776634569">
+            <Task name="Synplify_Synthesis" build_result="1" update_result="2" update_time="1776634569"/>
+            <Task name="Synplify_Lint" build_result="0" update_result="2" update_time="1776634549"/>
+            <Task name="SynTrace" build_result="0" update_result="2" update_time="1776634549"/>
+            <Task name="SynVerilogSimFile" build_result="0" update_result="2" update_time="1776634549"/>
+            <Task name="LSE_Compile" build_result="0" update_result="2" update_time="1776634549"/>
         </Milestone>
         <Milestone name="TOOL_Report" build_result="0" build_time="0">
-            <Task name="HDLE" build_result="0" update_result="2" update_time="1774201087"/>
-            <Task name="BKM" build_result="0" update_result="2" update_time="1774201087"/>
+            <Task name="HDLE" build_result="0" update_result="2" update_time="1776634549"/>
+            <Task name="BKM" build_result="0" update_result="2" update_time="1776634549"/>
             <Task name="SSO" build_result="0" update_result="3" update_time="0"/>
             <Task name="PIODRC" build_result="0" update_result="3" update_time="0"/>
             <Task name="DEC" build_result="0" update_result="3" update_time="0"/>

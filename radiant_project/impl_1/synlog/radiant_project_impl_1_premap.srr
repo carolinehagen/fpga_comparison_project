@@ -1,4 +1,4 @@
-# Sun Mar 22 10:38:18 2026
+# Sun Apr 19 14:36:01 2026
 
 
 Copyright (C) 1994-2025 Synopsys, Inc.
@@ -53,44 +53,39 @@ Started DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00
 
 Finished DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 256MB peak: 257MB)
 
-Encoding state machine state[2:0] (in view: work.spi_controller(verilog))
-original code -> new code
-   00 -> 00
-   01 -> 01
-   10 -> 10
 
-Starting clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 259MB peak: 259MB)
+Starting clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 257MB peak: 257MB)
 
 
-Finished clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 259MB peak: 259MB)
+Finished clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 258MB peak: 258MB)
 
-@N: FX1184 |Applying syn_allowed_resources blockrams=80 on top level netlist spi_controller 
+@N: FX1184 |Applying syn_allowed_resources blockrams=80 on top level netlist down_counter 
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 259MB peak: 259MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 258MB peak: 258MB)
 
 
 
 Clock Summary
 ******************
 
-          Start                  Requested     Requested     Clock        Clock                                          Clock
-Level     Clock                  Frequency     Period        Type         Group                                          Load 
-------------------------------------------------------------------------------------------------------------------------------
-0 -       spi_controller|clk     200.0 MHz     5.000         inferred     Inferred_clkgroup_0, Inferred_clkgroup_0_1     35   
-==============================================================================================================================
+          Start                Requested     Requested     Clock        Clock                                          Clock
+Level     Clock                Frequency     Period        Type         Group                                          Load 
+----------------------------------------------------------------------------------------------------------------------------
+0 -       down_counter|clk     200.0 MHz     5.000         inferred     Inferred_clkgroup_0, Inferred_clkgroup_0_1     8    
+============================================================================================================================
 
 
 
 Clock Load Summary
 ***********************
 
-                       Clock     Source        Clock Pin       Non-clock Pin     Non-clock Pin
-Clock                  Load      Pin           Seq Example     Seq Example       Comb Example 
-----------------------------------------------------------------------------------------------
-spi_controller|clk     35        clk(port)     done.C          -                 -            
-==============================================================================================
+                     Clock     Source        Clock Pin        Non-clock Pin     Non-clock Pin
+Clock                Load      Pin           Seq Example      Seq Example       Comb Example 
+---------------------------------------------------------------------------------------------
+down_counter|clk     8         clk(port)     count[7:0].C     -                 -            
+=============================================================================================
 
-@W: MT530 :"c:\users\carol\repos\fpga_comparison_project\spi_controller.sv":74:4:74:12|Found inferred clock spi_controller|clk which controls 35 sequential elements including state[1]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\carol\repos\fpga_comparison_project\down_counter.sv":11:4:11:12|Found inferred clock down_counter|clk which controls 8 sequential elements including count[7:0]. This clock has no specified timing constraint which may adversely impact design performance. 
 
 ICG Latch Removal Summary:
 Number of ICG latches removed: 0
@@ -103,14 +98,14 @@ Number of ICG latches not removed:	0
 
 #### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
 
-1 non-gated/non-generated clock tree(s) driving 35 clock pin(s) of sequential element(s)
+1 non-gated/non-generated clock tree(s) driving 8 clock pin(s) of sequential element(s)
 0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
 0 instances converted, 0 sequential instances remain driven by gated/generated clocks
 
 =========================== Non-Gated/Non-Generated Clocks ============================
 Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
 ---------------------------------------------------------------------------------------
-@KP:ckid0_0       clk                 port                   35         state[1]       
+@KP:ckid0_0       clk                 port                   8          count[7:0]     
 =======================================================================================
 
 
@@ -123,19 +118,19 @@ Summary of user generated gated clocks:
 @N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
 Finished Pre Mapping Phase.
 
-Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 260MB peak: 260MB)
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 259MB peak: 259MB)
 
 
-Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 260MB peak: 261MB)
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 259MB peak: 259MB)
 
 
-Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 261MB peak: 261MB)
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 259MB peak: 259MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 262MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 261MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Sun Mar 22 10:38:20 2026
+# Sun Apr 19 14:36:02 2026
 
 ###########################################################]

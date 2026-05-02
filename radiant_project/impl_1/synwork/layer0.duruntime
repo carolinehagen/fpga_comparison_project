@@ -3,5 +3,5 @@ Runtime Summary:
 
 	The following design units have negligible CPU times:
 	=====================================================
-		* Library: work, DesignUnit: spi_controller
+		* Library: work, DesignUnit: down_counter
 			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time

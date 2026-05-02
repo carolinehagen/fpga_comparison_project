@@ -3,7 +3,7 @@
   Synopsys, Inc.
   Version W-2025.03LR-SP1
   Project file C:\Users\carol\repos\fpga_comparison_project\radiant_project\impl_1\syntmp\run_option.xml
-  Written on Sun Mar 22 10:38:14 2026
+  Written on Sun Apr 19 14:35:56 2026
 
 
 --> 
@@ -11,7 +11,7 @@
      <option name="project_name" display_name="Project Name">proj_1</option>
      <option name="device_name" display_name="Device Name">impl_1: Lattice LFD2NX : LFD2NX_25</option>
      <option name="impl_name" display_name="Implementation Name">impl_1</option>
-     <option name="top_module" display_name="Top Module">spi_controller</option>
+     <option name="top_module" display_name="Top Module">down_counter</option>
      <option name="pipe" display_name="Pipelining">1</option>
      <option name="retiming" display_name="Retiming">0</option>
      <option name="resource_sharing" display_name="Resource Sharing">1</option>

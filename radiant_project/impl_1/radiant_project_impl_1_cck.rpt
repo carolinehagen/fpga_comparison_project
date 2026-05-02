@@ -12,11 +12,11 @@ Hostname: DESKTOP-9LKF312
 
 Implementation : impl_1
 
-# Written on Sun Mar 22 10:38:20 2026
+# Written on Sun Apr 19 14:36:02 2026
 
 ##### DESIGN INFO #######################################################
 
-Top View:                "spi_controller"
+Top View:                "down_counter"
 Constraint File(s):      "C:\lscc\radiant\2025.2\scripts\tcl\flow\radiant_synplify_vars.tcl"
 
 
@@ -33,31 +33,31 @@ Found 0 issues in 0 out of 0 constraints
 Clock Summary
 *************
 
-          Start                  Requested     Requested     Clock        Clock                                          Clock
-Level     Clock                  Frequency     Period        Type         Group                                          Load 
-------------------------------------------------------------------------------------------------------------------------------
-0 -       spi_controller|clk     200.0 MHz     5.000         inferred     Inferred_clkgroup_0, Inferred_clkgroup_0_1     35   
-==============================================================================================================================
+          Start                Requested     Requested     Clock        Clock                                          Clock
+Level     Clock                Frequency     Period        Type         Group                                          Load 
+----------------------------------------------------------------------------------------------------------------------------
+0 -       down_counter|clk     200.0 MHz     5.000         inferred     Inferred_clkgroup_0, Inferred_clkgroup_0_1     8    
+============================================================================================================================
 
 
 Clock Load Summary
 ******************
 
-                       Clock     Source        Clock Pin       Non-clock Pin     Non-clock Pin
-Clock                  Load      Pin           Seq Example     Seq Example       Comb Example 
-----------------------------------------------------------------------------------------------
-spi_controller|clk     35        clk(port)     done.C          -                 -            
-==============================================================================================
+                     Clock     Source        Clock Pin       Non-clock Pin     Non-clock Pin
+Clock                Load      Pin           Seq Example     Seq Example       Comb Example 
+--------------------------------------------------------------------------------------------
+down_counter|clk     8         clk(port)     count[0].C      -                 -            
+============================================================================================
 
 
 
 Clock Relationships
 *******************
 
-Starting               Ending                 |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
----------------------------------------------------------------------------------------------------------------------------------------------------------
-spi_controller|clk     spi_controller|clk     |     5.000            |     No paths         |     No paths         |     No paths                         
-=========================================================================================================================================================
+Starting             Ending               |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+down_counter|clk     down_counter|clk     |     5.000            |     No paths         |     No paths         |     No paths                         
+=====================================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
 
@@ -65,30 +65,17 @@ spi_controller|clk     spi_controller|clk     |     5.000            |     No pa
 Unconstrained Start/End Points
 ******************************
 
-p:busy
-p:cs_n
-p:done
-p:miso
-p:mosi
-p:rst_n
-p:rx_data[0]
-p:rx_data[1]
-p:rx_data[2]
-p:rx_data[3]
-p:rx_data[4]
-p:rx_data[5]
-p:rx_data[6]
-p:rx_data[7]
-p:sclk
-p:start
-p:tx_data[0]
-p:tx_data[1]
-p:tx_data[2]
-p:tx_data[3]
-p:tx_data[4]
-p:tx_data[5]
-p:tx_data[6]
-p:tx_data[7]
+p:count[0]
+p:count[1]
+p:count[2]
+p:count[3]
+p:count[4]
+p:count[5]
+p:count[6]
+p:count[7]
+p:count_up
+p:en
+p:rst
 
 
 Inapplicable constraints

@@ -4,21 +4,21 @@
         <Message>
             <ID>2013202</ID>
             <Severity>16</Severity>
-            <Dynamic>MT530 :&quot;c:\users\carol\repos\fpga_comparison_project\spi_controller.sv&quot;:74:4:74:12|Found inferred clock spi_controller|clk which controls 35 sequential elements including state[1]. This clock has no specified timing constraint which may adversely impact design performance.</Dynamic>
+            <Dynamic>MT530 :&quot;c:\users\carol\repos\fpga_comparison_project\down_counter.sv&quot;:11:4:11:12|Found inferred clock down_counter|clk which controls 8 sequential elements including count[7:0]. This clock has no specified timing constraint which may adversely impact design performance.</Dynamic>
             <Navigation>MT530</Navigation>
-            <Navigation>c:\users\carol\repos\fpga_comparison_project\spi_controller.sv</Navigation>
-            <Navigation>74</Navigation>
+            <Navigation>c:\users\carol\repos\fpga_comparison_project\down_counter.sv</Navigation>
+            <Navigation>11</Navigation>
             <Navigation>4</Navigation>
-            <Navigation>74</Navigation>
+            <Navigation>11</Navigation>
             <Navigation>12</Navigation>
-            <Navigation>Found inferred clock spi_controller|clk which controls 35 sequential elements including state[1]. This clock has no specified timing constraint which may adversely impact design performance. </Navigation>
+            <Navigation>Found inferred clock down_counter|clk which controls 8 sequential elements including count[7:0]. This clock has no specified timing constraint which may adversely impact design performance. </Navigation>
         </Message>
         <Message>
             <ID>2013187</ID>
             <Severity>16</Severity>
-            <Dynamic>MT420 |Found inferred clock spi_controller|clk with period 5.00ns. Please declare a user-defined clock on port clk.</Dynamic>
+            <Dynamic>MT420 |Found inferred clock down_counter|clk with period 5.00ns. Please declare a user-defined clock on port clk.</Dynamic>
             <Navigation>MT420</Navigation>
-            <Navigation>Found inferred clock spi_controller|clk with period 5.00ns. Please declare a user-defined clock on port clk.</Navigation>
+            <Navigation>Found inferred clock down_counter|clk with period 5.00ns. Please declare a user-defined clock on port clk.</Navigation>
         </Message>
     </Task>
 </BaliMessageLog>

@@ -1,8 +1,8 @@
 i clk
 m 0 0
-u 11 35
-p {p:clk}{t:state[1].C}
-e ckid0_0 {t:state[1].C} dffr
+u 1 8
+p {p:clk}{t:count[7:0].C}
+e ckid0_0 {t:count[7:0].C} sdffr
 c ckid0_0 {p:clk} port Unsupported/too complex instance on clock path
 l 0 0 0 0 0 0
 r 0 0 0 0 0 0 0 0
